@@ -2,12 +2,11 @@
 import React, { useState } from "react";
 import { BiMenuAltRight } from "react-icons/bi";
 import { MdClose } from "react-icons/md";
+import Link from "next/link";
 
 import Image from "next/image";
 
 
-
-import Link from "next/link";
 
 
 export default function Navbar() {
@@ -35,7 +34,7 @@ export default function Navbar() {
                     height={100}
                     priority
                   />
-           
+          
          
           <button className="md:hidden focus:outline-none" onClick={toggleMenu}>
             {isMenuOpen ? <MdClose size={30} /> : <BiMenuAltRight size={30} />}
@@ -58,8 +57,9 @@ export default function Navbar() {
               </Link>
             </li>
             <li >
+            
               <Link
-                href="/Business"
+               href="#aboutus"
                 className="focus:outline-none text-base border-transparent font-bold  cursor-pointer h-full flex items-center hover:text-[#DE466C]  text-[#004281] tracking-normal border-b-2"
               >
                 About Us
@@ -67,7 +67,7 @@ export default function Navbar() {
             </li>
             <li >
               <Link
-                href="/Offers"
+                href="#services"
                 className="focus:outline-none text-base border-transparent font-bold  cursor-pointer h-full flex items-center hover:text-[#DE466C]  text-[#004281] tracking-normal border-b-2"
               >
                 {" "}
@@ -76,10 +76,10 @@ export default function Navbar() {
             </li>
             <li >
               <Link
-                href="/FAQs"
+                href={"https://website.rbi.org.in/web/rbi/notifications/rbi-circulars"}
                 className="focus:outline-none text-base border-transparent font-bold  cursor-pointer h-full flex items-center hover:text-[#DE466C]  text-[#004281] tracking-normal border-b-2"
               >
-               Gallery
+               Regulatory Updates
               </Link>
             </li>
            
@@ -93,7 +93,7 @@ export default function Navbar() {
             </li> */}
             <li >
               <Link
-                href={"https://my.ultranet.co.in/enquiry?src=website"}
+                href="#contactus"
                 // activeClass="active"
                 // offset={-20}
                 // duration={1500}
@@ -105,9 +105,9 @@ export default function Navbar() {
             </li>
           </ul>
           <div className="md:flex items-center mt-4 md:mt-0">
-            <Link href={"https://my.ultranet.co.in/customer_portal"}>
+            <Link href={"https://forms.gle/ExCvt9jbBhp7tzg68"}>
               <button className="hover:bg-gradient-to-r from-[#DE466C] to-[#004281] bg-[#004281] px-5 text-lg py-2  text-white font-medium rounded-full transition duration-300">
-                Regulatory Updates
+                Nominations
               </button>
             </Link>
           </div>

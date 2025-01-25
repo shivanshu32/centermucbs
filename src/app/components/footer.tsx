@@ -1,6 +1,6 @@
 import React from 'react'
 
-
+import Link from "next/link";
 import { FaInstagramSquare } from "react-icons/fa";
 import { ImLinkedin2, ImFacebook } from "react-icons/im";
 import { BsYoutube, } from "react-icons/bs";// BsTwitter
@@ -111,23 +111,24 @@ export default function Footer() {
                   <p className="text-lg font-semibold e ">Quick Links</p>
                   <ul className="pt-3">
                     <li className="pt-4">
-                     
-                        Home
+                      <Link
+                href="/" >Home</Link>
+                       
                       
                     </li>
                     <li className="pt-4">
-                     
-                        About Us
+                     <Link href="#aboutus">About Us</Link>
+                       
                     
                     </li>
                     <li className="pt-4">
-                    
-                        Regulatory Updates
+                    <Link  href={"https://website.rbi.org.in/web/rbi/notifications/rbi-circulars"} >Regulatory Updates</Link>
+                        
                       
                     </li>
                     <li className="pt-4">
-                   
-                        Contact Us
+                   <Link  href="#contactus">Contact Us</Link>
+                     
                      
                     </li>
                    
@@ -142,13 +143,13 @@ export default function Footer() {
                   <p className="text-lg font-semibold e text-white ">Legal</p>
                   <ul className="pt-3">
                     <li className="pt-4">
-                     
-                        Privacy Policy
+                     <Link href="/privacypolicy"> Privacy Policy</Link>
+                       
                       
                     </li>
                     <li className="pt-4">
-                      
-                        Terms & Conditions
+                    <Link href="/termsandconditions"> Terms & Conditions</Link>
+                        
                      
                     </li>
                    
@@ -163,11 +164,12 @@ export default function Footer() {
                     </p>
                     <div className="flex gap-3 pt-4 cursor-pointer">
                       <FaRegLifeRing />
-                      <p className="text-base e text-white">Upcoming Training Programs</p>
+                      
+                      <p className="text-base e text-white"><Link href="#upcomingtraining" >Upcoming Training Programs</Link></p>
                     </div>
                     <div className="flex gap-3 pt-4 cursor-pointer">
                       <FaRegLifeRing />
-                      <p className="text-base e text-white">Previous Training Programs</p>
+                      <p className="text-base e text-white"><Link href="#previoustraining" >Previous Training Programs</Link></p>
                     </div>
                    
                     

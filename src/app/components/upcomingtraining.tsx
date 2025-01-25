@@ -3,7 +3,7 @@ import React from 'react'
 export default function Upcomingtraining() {
   return (
    
-    <div>
+    <div id="upcomingtraining">
         <div className="text-5xl mt-16 leading-[60px] text-[#004281] tracking-[-0.04em]  font-[800] text-center mx-1 md:mx-0  ">
               Upcoming Training Programs
         </div>

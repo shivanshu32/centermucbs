@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Services() {
   return (
-    <div>
+    <div id="services">
            
 
             <div className="relative h-full" style={{ background: "linear-gradient(0deg, rgba(243, 243, 245, 1) 0%, rgba(215, 219, 255, 1) 99%)" }}>

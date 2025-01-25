@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Contact() {
   return (
-    <div>
+    <div id="contactus">
     <div className="xl:container xl:mx-auto py-12 lg:py-0">
         <div className="flex flex-col lg:flex-row justify-center items-center items-strech h-full mx-4">
             <div className="lg:w-full 2xl:w-3/5">
