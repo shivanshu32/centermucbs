@@ -39,7 +39,7 @@ export default function Hero() {
                Driving Excellence in Cooperative Banking
                </h1>
               
-               <p className="md:text-xl text-base font-semibold">
+               <p className="md:text-xl text-base font-semibold hidden lg:block w-full">
                From Compliance to Customer Service – We&apos;ve Got You Covered
                </p>
              </div>
