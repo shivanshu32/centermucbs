@@ -18,7 +18,7 @@ export default function Hero() {
                </h1>
               
                <p className="md:text-xl text-base font-semibold">
-               From Compliance to Customer Service – We've Got You Covered
+               From Compliance to Customer Service – We&apos;ve Got You Covered
                </p>
              </div>
 
