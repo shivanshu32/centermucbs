@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 
 export default function Hero() {
@@ -6,9 +7,30 @@ export default function Hero() {
 
     <div className="overflow-y-hidden">
     <div className="relative flex justify-start items-end md:justify-start md:items-end">
-      <img className="hidden lg:block w-full" src="/b13.jpg" alt="christmas tree" />
+    <Image
+      src="/b13.jpg"
+      width={500}
+      height={500}
+      alt="background"
+      className="hidden lg:block w-full"
+    />
+    <Image
+      src="/b13.jpg"
+      width={500}
+      height={500}
+      alt="background"
+      className="md:block lg:hidden hidden w-full"
+    />
+    <Image
+      src="/b13.jpg"
+      width={500}
+      height={500}
+      alt="background"
+      className="md:hidden w-full"
+    />
+      {/* <img className="hidden lg:block w-full" src="/b13.jpg" alt="christmas tree" />
       <img className="md:block lg:hidden hidden w-full " src="/b13.jpg" alt="christmas tree" />
-      <img className="md:hidden w-full " src="/b13.jpg" alt="christmas tree" />
+      <img className="md:hidden w-full " src="/b13.jpg" alt="christmas tree" /> */}
       {/* <div className="w-40 md:w-48 lg:w-72 flex absolute justify-start flex-col md:flex-row items-center mx-4 py-8 sm:py-10 md:py-10 xl:py-20 md:mx-8 lg:mx-20 xl:mx-20"> */}
         
 
