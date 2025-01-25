@@ -5,7 +5,6 @@ import { FaInstagramSquare } from "react-icons/fa";
 import { ImLinkedin2, ImFacebook } from "react-icons/im";
 import { BsYoutube, } from "react-icons/bs";// BsTwitter
 import {FaRegCopyright} from "react-icons/fa"
-import {SiHandshake} from "react-icons/si"
 import {FaRegLifeRing} from "react-icons/fa"
 
 export default function Footer() {
