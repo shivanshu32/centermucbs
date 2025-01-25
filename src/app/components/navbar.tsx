@@ -26,7 +26,7 @@ export default function Navbar() {
     <nav className="bg-white shadow  z-50 w-full ">
       <div className="container mx-auto px-4 py-2 md:flex md:items-center md:justify-between ">
         <div className="flex justify-between items-center md:ml-[3%]">
-          <Link onClick={() => scroll.scrollToTop()} href="/">
+         
           <Image
                     className="dark:invert"
                     src="/cmucblogo.jpg"
@@ -36,7 +36,7 @@ export default function Navbar() {
                     priority
                   />
            
-          </Link>
+         
           <button className="md:hidden focus:outline-none" onClick={toggleMenu}>
             {isMenuOpen ? <MdClose size={30} /> : <BiMenuAltRight size={30} />}
           </button>
@@ -49,7 +49,7 @@ export default function Navbar() {
           } md:block`}
         >
           <ul className="md:flex gap-10 mt-[5%] md:mt-0 md:justify-end">
-            <li onClick={() => scroll.scrollToTop()}>
+            <li >
               <Link
                 href="/"
                 className="focus:outline-none text-base border-transparent font-bold  cursor-pointer h-full flex items-center hover:text-[#DE466C]  text-[#004281] tracking-normal border-b-2"
@@ -57,7 +57,7 @@ export default function Navbar() {
                 Home
               </Link>
             </li>
-            <li onClick={() => scroll.scrollToTop()}>
+            <li >
               <Link
                 href="/Business"
                 className="focus:outline-none text-base border-transparent font-bold  cursor-pointer h-full flex items-center hover:text-[#DE466C]  text-[#004281] tracking-normal border-b-2"
@@ -65,7 +65,7 @@ export default function Navbar() {
                 About Us
               </Link>
             </li>
-            <li onClick={() => scroll.scrollToTop()}>
+            <li >
               <Link
                 href="/Offers"
                 className="focus:outline-none text-base border-transparent font-bold  cursor-pointer h-full flex items-center hover:text-[#DE466C]  text-[#004281] tracking-normal border-b-2"
@@ -74,7 +74,7 @@ export default function Navbar() {
                 Activities
               </Link>
             </li>
-            <li onClick={() => scroll.scrollToTop()}>
+            <li >
               <Link
                 href="/FAQs"
                 className="focus:outline-none text-base border-transparent font-bold  cursor-pointer h-full flex items-center hover:text-[#DE466C]  text-[#004281] tracking-normal border-b-2"
@@ -91,7 +91,7 @@ export default function Navbar() {
                 Regulatory Updates
               </Link>
             </li> */}
-            <li onClick={() => scroll.scrollToTop()}>
+            <li >
               <Link
                 href={"https://my.ultranet.co.in/enquiry?src=website"}
                 // activeClass="active"
