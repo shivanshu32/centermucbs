@@ -87,7 +87,7 @@ You agree that the original English text shall prevail in the case of a dispute.
 <h2>Contact Us</h2>
 <p>If you have any questions about these Terms and Conditions, You can contact us:</p>
 <ul>
-<li>By email: info@cmucbs.com</li>
+<li>By email: cmucbs@gmail.com</li>
 </ul>
        
 
