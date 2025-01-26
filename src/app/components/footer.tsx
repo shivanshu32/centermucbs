@@ -3,7 +3,7 @@ import React from 'react'
 import Link from "next/link";
 import { FaInstagramSquare } from "react-icons/fa";
 import { ImLinkedin2, ImFacebook } from "react-icons/im";
-import { BsYoutube, } from "react-icons/bs";// BsTwitter
+// import { BsYoutube, } from "react-icons/bs";// BsTwitter
 import {FaRegCopyright} from "react-icons/fa"
 import {FaRegLifeRing} from "react-icons/fa"
 
@@ -169,7 +169,7 @@ export default function Footer() {
                     </div>
                     <div className="flex gap-3 pt-4 cursor-pointer">
                       <FaRegLifeRing />
-                      <p className="text-base e text-white"><Link href="#previoustraining" >Previous Training Programs</Link></p>
+                      <p className="text-base e text-white"><Link href="/archive" >Previous Training Programs</Link></p>
                     </div>
                    
                     

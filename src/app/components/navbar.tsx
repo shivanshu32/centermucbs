@@ -82,6 +82,15 @@ export default function Navbar() {
                Regulatory Updates
               </Link>
             </li>
+
+            <li >
+              <Link
+                href="/archive"
+                className="focus:outline-none text-base border-transparent font-bold  cursor-pointer h-full flex items-center hover:text-[#DE466C]  text-[#004281] tracking-normal border-b-2"
+              >
+               Archive
+              </Link>
+            </li>
            
             {/* <li onClick={() => scroll.scrollToTop()}>
               <Link
