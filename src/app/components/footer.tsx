@@ -197,7 +197,7 @@ export default function Footer() {
                       <div className="my-auto ">
                         <ul className="flex gap-4 ">
                           <li className="w-10 hover:scale-[1.55]  duration-500 h-10 rounded-full bg-[#0077B5]  flex justify-center content-center items-center text-white ">
-                          <Link href={"https://www.linkedin.com/in/centre-for-management-of-ucbs-undefined-a19b79347/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BPa7ECdq7S%2F6jaMoJ6Frc5g%3D%3D"}>
+                          <Link href={"www.linkedin.com/in/centre-for-management-of-ucbs-cmucbs-a19b79347"}>
                               <ImLinkedin2 className="" />
                           </Link>
                            
