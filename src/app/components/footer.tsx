@@ -186,20 +186,21 @@ export default function Footer() {
                       <div className="my-auto ">
                         <ul className="flex gap-4 ">
                           <li className="w-10 hover:scale-[1.55]  duration-500 h-10 rounded-full bg-[#0077B5]  flex justify-center content-center items-center text-white ">
-                          
+                          <Link href={"https://www.linkedin.com/in/centre-for-management-of-ucbs-undefined-a19b79347/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BPa7ECdq7S%2F6jaMoJ6Frc5g%3D%3D"}>
                               <ImLinkedin2 className="" />
+                          </Link>
                            
                           </li>
                           <li className="hover:scale-[1.55]  duration-500 w-10 h-10 rounded-full bg-[#3b5998]  flex justify-center items-center text-white ">
-                         
+                         <Link href={"https://www.facebook.com/61572386815695/posts/pfbid0iegLkDyrxoDyHh39Qu2ky1g9kWHi33L6UJMcrnbwghmSSjCmvjNq9WEmFCiYfMw4l/?app=fbl"}></Link>
                               <ImFacebook className="" />
                            
                           </li>
-                          <li className="hover:scale-[1.55]  duration-500 w-10 h-10 rounded-full bg-[#c4302b]  flex justify-center items-center text-white ">
+                          {/* <li className="hover:scale-[1.55]  duration-500 w-10 h-10 rounded-full bg-[#c4302b]  flex justify-center items-center text-white ">
                            
                               <BsYoutube className="text-white" />
                           
-                          </li>
+                          </li> */}
                           <li
                             className="hover:scale-[1.55]  duration-500 w-10 h-10 rounded-full   flex justify-center items-center text-white"
                             style={{
@@ -207,8 +208,9 @@ export default function Footer() {
                                 "radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%)",
                             }}
                           >
-                           
+                           <Link href={"https://www.instagram.com/centreformanagementof/"}>
                               <FaInstagramSquare className="text-white" />
+                            </Link>
                          
                           </li>
                         </ul>
