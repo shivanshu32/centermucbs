@@ -62,7 +62,7 @@ export default function Navbar() {
                href="#aboutus"
                 className="focus:outline-none text-base border-transparent font-bold  cursor-pointer h-full flex items-center hover:text-[#DE466C]  text-[#004281] tracking-normal border-b-2"
               >
-                About Us
+                About
               </Link>
             </li>
             <li >
@@ -109,7 +109,7 @@ export default function Navbar() {
                 // smooth={true}
                 className="hidden sm:block focus:outline-none text-base border-transparent font-bold  cursor-pointer h-full md:flex items-center hover:text-[#DE466C]  text-[#004281] tracking-normal border-b-2"
               >
-                Contact Us
+                Contact
               </Link>
             </li>
           </ul>
