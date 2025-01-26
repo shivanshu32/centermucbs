@@ -898,6 +898,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$components$2f$
 ;
 function Trainingprograms() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        id: "trainingprogram",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "flex justify-center items-center flex-col relative",
@@ -1088,7 +1089,7 @@ function Whychooseus() {
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         className: "xl:text-xl text-base font-semibold leading-7 text-gray-300 lg:mt-6 mt-4",
-                        children: "We prioritize governance and sustained compliance, ensuring your business operates within the highest regulatory standards.  With a focus on driving business growth and meeting customer expectations, we offer well-defined SOPs for business acquisition, fund management, credit administration, and recovery processes. "
+                        children: "We prioritize governance and sustained compliance, ensuring your bank operates within the regulatory framework,  with a focus on driving business growth and meeting customer expectations, we offer well-defined SOPs for business acquisition, fund management, credit administration, and recovery processes. Our objective is to provide expert training to Staff, Management development programmes for top management and providing technical and advisory services to UCBs through management consultancy. "
                     }, void 0, false, {
                         fileName: "[project]/src/app/components/whychooseus.tsx",
                         lineNumber: 11,
@@ -1210,7 +1211,7 @@ function Whychooseus() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "xl:text-base text-sm font-medium leading-4 text-gray-300 ml-4",
-                                        children: "Updated policies as per revised guidelines of Reserve Bank of India."
+                                        children: "Updated policies as per guidelines of Reserve Bank of India."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/whychooseus.tsx",
                                         lineNumber: 36,
@@ -1269,7 +1270,7 @@ function Contact() {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                 className: "text-3xl lg:text-5xl font-bold text-gray-800 w-11/12",
-                                children: "Get in touch"
+                                children: "Get in touch with Us"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/contact.tsx",
                                 lineNumber: 9,
@@ -1326,6 +1327,26 @@ function Contact() {
                                         lineNumber: 16,
                                         columnNumber: 17
                                     }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                        className: "rounded-md border border-gray-300 mt-4 md:mt-6 p-4 text-base text-gray-600 focus:outline-none focus:border-gray-700",
+                                        type: "text",
+                                        "aria-label": "orgname",
+                                        placeholder: "Organization Name"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/components/contact.tsx",
+                                        lineNumber: 17,
+                                        columnNumber: 17
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                        className: "rounded-md border border-gray-300 mt-4 p-4 text-base text-gray-600 focus:outline-none focus:border-gray-700",
+                                        type: "number",
+                                        "aria-label": "Contact",
+                                        placeholder: "Contact Number"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/components/contact.tsx",
+                                        lineNumber: 18,
+                                        columnNumber: 17
+                                    }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
                                         name: "",
                                         id: "",
@@ -1334,7 +1355,7 @@ function Contact() {
                                         className: "w-full h-48 lg:h-36 xl:h-48 2xl:h-56 mt-4 md:mt-6 p-4 rounded-md border border-gray-300 resize-none text-base text-gray-600 focus:outline-none focus:border-gray-700"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/contact.tsx",
-                                        lineNumber: 17,
+                                        lineNumber: 19,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1343,7 +1364,7 @@ function Contact() {
                                         children: "Send"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/contact.tsx",
-                                        lineNumber: 18,
+                                        lineNumber: 20,
                                         columnNumber: 17
                                     }, this)
                                 ]

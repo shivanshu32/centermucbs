@@ -8,7 +8,7 @@ export default function Whychooseus() {
       <div className="text-5xl leading-[60px] text-[#ffffff] tracking-[-0.04em]  font-[800] text-center mx-1 md:mx-0  ">
      Why Choose Us
     </div>
-        <p className="xl:text-xl text-base font-semibold leading-7 text-gray-300 lg:mt-6 mt-4">We prioritize governance and sustained compliance, ensuring your business operates within the highest regulatory standards.  With a focus on driving business growth and meeting customer expectations, we offer well-defined SOPs for business acquisition, fund management, credit administration, and recovery processes. </p>
+        <p className="xl:text-xl text-base font-semibold leading-7 text-gray-300 lg:mt-6 mt-4">We prioritize governance and sustained compliance, ensuring your bank operates within the regulatory framework,  with a focus on driving business growth and meeting customer expectations, we offer well-defined SOPs for business acquisition, fund management, credit administration, and recovery processes. Our objective is to provide expert training to Staff, Management development programmes for top management and providing technical and advisory services to UCBs through management consultancy. </p>
         <div className="mt-10">
           <div className="flex items-center">
             <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/arrow.svg" alt="arrow right" />
@@ -33,7 +33,7 @@ export default function Whychooseus() {
           </div>
           <div className="flex items-center md:mt-6 mt-4">
             <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/arrow.svg" alt="arrow right" />
-            <p className="xl:text-base text-sm font-medium leading-4 text-gray-300 ml-4">Updated policies as per revised guidelines of Reserve Bank of India.  
+            <p className="xl:text-base text-sm font-medium leading-4 text-gray-300 ml-4">Updated policies as per guidelines of Reserve Bank of India.  
 
             </p>
           </div>

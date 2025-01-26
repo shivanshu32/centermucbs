@@ -3,7 +3,7 @@ import Upcomingtraining from './upcomingtraining'
 
 export default function Trainingprograms() {
   return (
-    <div >
+    <div id="trainingprogram" >
     <div className="flex justify-center items-center flex-col relative">
       <img className="absolute object-cover z-0 top-0 w-full h-full hidden lg:block" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/feature_11_desktop.png" alt="bg-desktop" />
       <img className="absolute object-cover z-0 top-0 w-full h-full md:block lg:hidden " src="https://tuk-cdn.s3.amazonaws.com/can-uploader/feature_11_ipad.png" alt="bg-ipad" />

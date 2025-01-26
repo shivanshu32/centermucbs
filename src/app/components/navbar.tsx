@@ -4,6 +4,7 @@ import { BiMenuAltRight } from "react-icons/bi";
 import { MdClose } from "react-icons/md";
 import Link from "next/link";
 
+
 import Image from "next/image";
 
 
@@ -12,6 +13,7 @@ import Image from "next/image";
 export default function Navbar() {
 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [show, setshow] = useState(false);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -66,13 +68,37 @@ export default function Navbar() {
               </Link>
             </li>
             <li >
-              <Link
+              {/* <Link
                 href="#services"
                 className="focus:outline-none text-base border-transparent font-bold  cursor-pointer h-full flex items-center hover:text-[#DE466C]  text-[#004281] tracking-normal border-b-2"
-              >
-                {" "}
+              > */}
+               <div className="flex items-start relative focus:outline-none text-base border-transparent font-bold  cursor-pointer h-full flex items-center hover:text-[#DE466C]  text-[#004281] tracking-normal border-b-2">
                 Activities
-              </Link>
+
+                <span className="py-3 bg-white text-gray-500 rounded-r px-2" onClick={() => setshow(!show)}>
+                            <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" />
+                                <polyline points="6 9 12 15 18 9" />
+                            </svg>
+                </span>
+
+                {show && (
+                        <ul className="bg-white shadow rounded z-50 py-1 w-24 absolute right-0 left-0 top-0 mt-12 dropdown-content">
+                            <li className="cursor-pointer text-gray-600 text-sm leading-3 tracking-normal py-3 px-5 hover:bg-indigo-700 hover:text-white px-3 font-normal">
+                             <Link className="text-md" href="#trainingprogram"> Training</Link>
+                             
+                              </li>
+                            <li className="cursor-pointer text-gray-600 text-sm leading-3 tracking-normal py-3 px-5 hover:bg-indigo-700 hover:text-white px-3 font-normal">
+                            <Link href="#services">  Consultancy</Link>
+                             
+                              </li>
+
+                        </ul>
+                    )}
+
+</div>
+
+              {/* </Link> */}
             </li>
             <li >
               <Link
