@@ -101,7 +101,18 @@ export default function Footer() {
                   <p className="text-base pt-7 pr-4">
                     Plot 2/25, Block B, Sector 132 Noida, Uttar Pradesh 201304
                   </p>
+                  <br />
+                    Contact Number: +91 9870265838, 0120-3551050
+
+
+                  <br />
+                  Email: cmucbs@gmail.com
+
+                  <br />
+                  Whatsapp : <Link href="whatsapp://send?phone=+919870265838">+91 9870265838 </Link>
                 </div>
+
+
                 <div
                   data-aos="fade-down"
                   data-aos-easing="linear"
@@ -117,7 +128,7 @@ export default function Footer() {
                       
                     </li>
                     <li className="pt-4">
-                     <Link href="#aboutus">About Us</Link>
+                     <Link href="/#aboutus">About Us</Link>
                        
                     
                     </li>
@@ -127,7 +138,7 @@ export default function Footer() {
                       
                     </li>
                     <li className="pt-4">
-                   <Link  href="#contactus">Contact Us</Link>
+                   <Link  href="/#contactus">Contact Us</Link>
                      
                      
                     </li>

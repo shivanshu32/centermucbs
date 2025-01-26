@@ -61,7 +61,7 @@ export default function Navbar() {
             <li >
             
               <Link
-               href="#aboutus"
+               href="/#aboutus"
                 className="focus:outline-none text-base border-transparent font-bold  cursor-pointer h-full flex items-center hover:text-[#DE466C]  text-[#004281] tracking-normal border-b-2"
               >
                 About
@@ -85,11 +85,11 @@ export default function Navbar() {
                 {show && (
                         <ul className="bg-white shadow rounded z-50 py-1 w-24 absolute right-0 left-0 top-0 mt-12 dropdown-content">
                             <li className="cursor-pointer text-gray-600 text-sm leading-3 tracking-normal py-3 px-5 hover:bg-indigo-700 hover:text-white px-3 font-normal">
-                             <Link className="text-md" href="#trainingprogram"> Training</Link>
+                             <Link className="text-md" href="/#trainingprogram"> Training</Link>
                              
                               </li>
                             <li className="cursor-pointer text-gray-600 text-sm leading-3 tracking-normal py-3 px-5 hover:bg-indigo-700 hover:text-white px-3 font-normal">
-                            <Link href="#services">  Consultancy</Link>
+                            <Link href="/#services">  Consultancy</Link>
                              
                               </li>
 
@@ -128,14 +128,14 @@ export default function Navbar() {
             </li> */}
             <li >
               <Link
-                href="#contactus"
+                href="/#contactus"
                 // activeClass="active"
                 // offset={-20}
                 // duration={1500}
                 // smooth={true}
                 className="hidden sm:block focus:outline-none text-base border-transparent font-bold  cursor-pointer h-full md:flex items-center hover:text-[#DE466C]  text-[#004281] tracking-normal border-b-2"
               >
-                Contact
+                Contact Us
               </Link>
             </li>
           </ul>
