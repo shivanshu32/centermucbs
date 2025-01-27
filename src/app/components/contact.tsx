@@ -11,12 +11,12 @@ export default function Contact() {
             </div>
             <div className="lg:w-full 2xl:w-2/5 flex w-full bg-gray-50 flex flex-col justify-center px-5 py-5 md:px-7 md:py-7 lg:py-12 lg:px-20 mt-2 md:mt-6 lg:mt-0">
                 <h2 className="text-lg font-semibold text-gray-800">Send us a message</h2>
-                <form name="contact" method="post"  action="/">
-                <input className="rounded-md border border-gray-300 mt-4 md:mt-6 p-4 text-base text-gray-600 focus:outline-none focus:border-gray-700" type="text" aria-label="Name" placeholder="Enter your Name" />
-                <input className="rounded-md border border-gray-300 mt-4 p-4 text-base text-gray-600 focus:outline-none focus:border-gray-700" type="email" aria-label="Email" placeholder="Enter your email" />
-                <input className="rounded-md border border-gray-300 mt-4 md:mt-6 p-4 text-base text-gray-600 focus:outline-none focus:border-gray-700" type="text" aria-label="orgname" placeholder="Organization Name" />
-                <input className="rounded-md border border-gray-300 mt-4 p-4 text-base text-gray-600 focus:outline-none focus:border-gray-700" type="number" aria-label="Contact" placeholder="Contact Number" />
-                <textarea name="" id="" aria-label="Your message" placeholder="Message" className="w-full h-48 lg:h-36 xl:h-48 2xl:h-56 mt-4 md:mt-6 p-4 rounded-md border border-gray-300 resize-none text-base text-gray-600 focus:outline-none focus:border-gray-700"></textarea>
+                <form name="contact" method="POST" data-netlify="true">
+                <input name="name" className="rounded-md border border-gray-300 mt-4 md:mt-6 p-4 text-base text-gray-600 focus:outline-none focus:border-gray-700" type="text" aria-label="Name" placeholder="Enter your Name" />
+                <input name="email" className="rounded-md border border-gray-300 mt-4 p-4 text-base text-gray-600 focus:outline-none focus:border-gray-700" type="email" aria-label="Email" placeholder="Enter your email" />
+                <input name="orgname" className="rounded-md border border-gray-300 mt-4 md:mt-6 p-4 text-base text-gray-600 focus:outline-none focus:border-gray-700" type="text" aria-label="orgname" placeholder="Organization Name" />
+                <input name="contactnumber" className="rounded-md border border-gray-300 mt-4 p-4 text-base text-gray-600 focus:outline-none focus:border-gray-700" type="number" aria-label="Contact" placeholder="Contact Number" />
+                <textarea name="message" id="" aria-label="Your message" placeholder="Message" className="w-full h-48 lg:h-36 xl:h-48 2xl:h-56 mt-4 md:mt-6 p-4 rounded-md border border-gray-300 resize-none text-base text-gray-600 focus:outline-none focus:border-gray-700"></textarea>
                 <button type="submit" className="bg-indigo-700 hover:bg-indigo-600 rounded-md mt-4 md:mt-5 leading-4 p-4 text-base font-medium text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700">Send</button>
                 </form>
             </div>
