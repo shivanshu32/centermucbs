@@ -5,7 +5,7 @@ export default function Services() {
     <div id="services">
            
 
-            <div className="relative h-full" style={{ background: "linear-gradient(0deg, rgba(243, 243, 245, 1) 0%, rgba(215, 219, 255, 1) 99%)" }}>
+            <div className="relative h-full mt-8" style={{ background: "linear-gradient(0deg, rgba(243, 243, 245, 1) 0%, rgba(215, 219, 255, 1) 99%)" }}>
                 <section className="max-w-8xl mx-auto container py-16">
                     <div>
                         <div className="flex items-left flex-col px-4">

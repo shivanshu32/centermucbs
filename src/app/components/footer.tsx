@@ -98,9 +98,9 @@ export default function Footer() {
                   className="text-white "
                 >
                   <p className="text-lg font-semibold e ">Center for Management of UCBs</p>
-                  <p className="text-base pt-7 pr-4">
+                  {/* <p className="text-base pt-7 pr-4">
                     Plot 2/25, Block B, Sector 132 Noida, Uttar Pradesh 201304
-                  </p>
+                  </p> */}
                   <br />
                     Contact Number: +91 9870265838, 0120-3551050
 
