@@ -1237,8 +1237,27 @@ __turbopack_esm__({
     "default": (()=>Contact)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$emailjs$2f$browser$2f$es$2f$index$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$module__evaluation$3e$__ = __turbopack_import__("[project]/node_modules/@emailjs/browser/es/index.js [app-rsc] (ecmascript) <module evaluation>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$emailjs$2f$browser$2f$es$2f$index$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_import__("[project]/node_modules/@emailjs/browser/es/index.js [app-rsc] (ecmascript) <locals>");
+;
+;
 ;
 function Contact() {
+    const form = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["useRef"])();
+    const sendEmail = (e)=>{
+        e.preventDefault();
+        const SERVICE_ID = "service_6by4y8w";
+        const TEMPLATE_ID = "template_58czeqf";
+        const PUBLIC_KEY = "SS7aB-TQWD2q2tzAB";
+        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$emailjs$2f$browser$2f$es$2f$index$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"].sendForm(SERVICE_ID, TEMPLATE_ID, form.current, {
+            publicKey: PUBLIC_KEY
+        }).then(()=>{
+            console.log('SUCCESS!');
+        }, (error)=>{
+            console.log('FAILED...', error.text);
+        });
+    };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         id: "contactus",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1254,7 +1273,7 @@ function Contact() {
                                 children: "Get in touch with Us"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/contact.tsx",
-                                lineNumber: 9,
+                                lineNumber: 33,
                                 columnNumber: 17
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1262,13 +1281,13 @@ function Contact() {
                                 children: "We will get back to you soon"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/contact.tsx",
-                                lineNumber: 10,
+                                lineNumber: 34,
                                 columnNumber: 17
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/components/contact.tsx",
-                        lineNumber: 8,
+                        lineNumber: 32,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1279,63 +1298,67 @@ function Contact() {
                                 children: "Send us a message"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/contact.tsx",
-                                lineNumber: 13,
+                                lineNumber: 37,
                                 columnNumber: 17
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
+                                ref: form,
+                                onSubmit: sendEmail,
                                 name: "contact",
-                                method: "post",
-                                action: "/",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                        name: "name",
                                         className: "rounded-md border border-gray-300 mt-4 md:mt-6 p-4 text-base text-gray-600 focus:outline-none focus:border-gray-700",
                                         type: "text",
                                         "aria-label": "Name",
                                         placeholder: "Enter your Name"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/contact.tsx",
-                                        lineNumber: 15,
+                                        lineNumber: 39,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                        name: "email",
                                         className: "rounded-md border border-gray-300 mt-4 p-4 text-base text-gray-600 focus:outline-none focus:border-gray-700",
                                         type: "email",
                                         "aria-label": "Email",
                                         placeholder: "Enter your email"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/contact.tsx",
-                                        lineNumber: 16,
+                                        lineNumber: 40,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                        name: "orgname",
                                         className: "rounded-md border border-gray-300 mt-4 md:mt-6 p-4 text-base text-gray-600 focus:outline-none focus:border-gray-700",
                                         type: "text",
                                         "aria-label": "orgname",
                                         placeholder: "Organization Name"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/contact.tsx",
-                                        lineNumber: 17,
+                                        lineNumber: 41,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                        name: "contactnumber",
                                         className: "rounded-md border border-gray-300 mt-4 p-4 text-base text-gray-600 focus:outline-none focus:border-gray-700",
                                         type: "number",
                                         "aria-label": "Contact",
                                         placeholder: "Contact Number"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/contact.tsx",
-                                        lineNumber: 18,
+                                        lineNumber: 42,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
-                                        name: "",
+                                        name: "message",
                                         id: "",
                                         "aria-label": "Your message",
                                         placeholder: "Message",
                                         className: "w-full h-48 lg:h-36 xl:h-48 2xl:h-56 mt-4 md:mt-6 p-4 rounded-md border border-gray-300 resize-none text-base text-gray-600 focus:outline-none focus:border-gray-700"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/contact.tsx",
-                                        lineNumber: 19,
+                                        lineNumber: 43,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1344,35 +1367,35 @@ function Contact() {
                                         children: "Send"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/contact.tsx",
-                                        lineNumber: 20,
+                                        lineNumber: 44,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/components/contact.tsx",
-                                lineNumber: 14,
+                                lineNumber: 38,
                                 columnNumber: 17
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/components/contact.tsx",
-                        lineNumber: 12,
+                        lineNumber: 36,
                         columnNumber: 13
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/components/contact.tsx",
-                lineNumber: 7,
+                lineNumber: 31,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/app/components/contact.tsx",
-            lineNumber: 6,
+            lineNumber: 30,
             columnNumber: 5
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/components/contact.tsx",
-        lineNumber: 5,
+        lineNumber: 29,
         columnNumber: 5
     }, this);
 }
