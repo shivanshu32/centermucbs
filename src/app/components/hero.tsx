@@ -36,7 +36,7 @@ export default function Hero() {
 
       <div className="absolute top-1/2 md:left-1/4 left-1/2 md:w-[40%] md:text-start text-center  transform -translate-x-1/2 -translate-y-1/2 text-white">
                <h1 className="md:text-4xl text-xl mx-auto  md:my-3 uppercase font-bold">
-               Delivering Expert Advice
+               Center for management of UCBs
                </h1>
               
                <p className="md:text-xl text-base font-semibold hidden lg:block w-full">

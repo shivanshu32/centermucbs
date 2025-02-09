@@ -56,7 +56,7 @@ function Hero() {
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                             className: "md:text-4xl text-xl mx-auto  md:my-3 uppercase font-bold",
-                            children: "Delivering Expert Advice"
+                            children: "Center for management of UCBs"
                         }, void 0, false, {
                             fileName: "[project]/src/app/components/hero.tsx",
                             lineNumber: 38,
@@ -526,6 +526,23 @@ function Upcomingtraining() {
                                     fileName: "[project]/src/app/components/upcomingtraining.tsx",
                                     lineNumber: 23,
                                     columnNumber: 5
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "pt-4",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                        className: " hover:bg-gradient-to-r from-[#DE466C] to-[#004281] bg-[#004281] px-5 text-lg py-2  text-white font-medium rounded-full transition duration-300",
+                                        href: "/KYC-AML.pdf",
+                                        download: "Brochure",
+                                        children: "Download Brochure"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/components/upcomingtraining.tsx",
+                                        lineNumber: 31,
+                                        columnNumber: 27
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/components/upcomingtraining.tsx",
+                                    lineNumber: 30,
+                                    columnNumber: 27
                                 }, this)
                             ]
                         }, void 0, true, {
@@ -548,7 +565,7 @@ function Upcomingtraining() {
                                         children: "Corporate Governance, & Risk Management in UCBs"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                        lineNumber: 36,
+                                        lineNumber: 40,
                                         columnNumber: 27
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -558,19 +575,19 @@ function Upcomingtraining() {
                                                 children: "Location:"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                                lineNumber: 37,
+                                                lineNumber: 41,
                                                 columnNumber: 61
                                             }, this),
                                             " Udaipur, Rajasthan"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                        lineNumber: 37,
+                                        lineNumber: 41,
                                         columnNumber: 5
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                        lineNumber: 38,
+                                        lineNumber: 42,
                                         columnNumber: 5
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -580,14 +597,14 @@ function Upcomingtraining() {
                                                 children: "Date:"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                                lineNumber: 39,
+                                                lineNumber: 43,
                                                 columnNumber: 61
                                             }, this),
                                             " February 22, 2025 - February 23, 2025"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                        lineNumber: 39,
+                                        lineNumber: 43,
                                         columnNumber: 5
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -597,20 +614,20 @@ function Upcomingtraining() {
                                                 children: "Duration:"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                                lineNumber: 40,
+                                                lineNumber: 44,
                                                 columnNumber: 47
                                             }, this),
                                             " 2 days"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                        lineNumber: 40,
+                                        lineNumber: 44,
                                         columnNumber: 5
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                lineNumber: 35,
+                                lineNumber: 39,
                                 columnNumber: 17
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -622,12 +639,12 @@ function Upcomingtraining() {
                                             children: "Targeted for Chairman/Directors and C.E.O.s of UCBs"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                            lineNumber: 44,
+                                            lineNumber: 48,
                                             columnNumber: 31
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                        lineNumber: 43,
+                                        lineNumber: 47,
                                         columnNumber: 27
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -639,24 +656,24 @@ function Upcomingtraining() {
                                             children: "Download Brochure"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                            lineNumber: 48,
+                                            lineNumber: 52,
                                             columnNumber: 27
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                        lineNumber: 47,
+                                        lineNumber: 51,
                                         columnNumber: 27
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                lineNumber: 42,
+                                lineNumber: 46,
                                 columnNumber: 23
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                        lineNumber: 34,
+                        lineNumber: 38,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -669,7 +686,7 @@ function Upcomingtraining() {
                                         children: "Credit Management and Investment Management in UCBs"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                        lineNumber: 58,
+                                        lineNumber: 62,
                                         columnNumber: 27
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -679,19 +696,19 @@ function Upcomingtraining() {
                                                 children: "Location:"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                                lineNumber: 61,
+                                                lineNumber: 65,
                                                 columnNumber: 61
                                             }, this),
                                             " Indian Institute of Banking & Finance, Professional Development Centre, Northern Zone, Delhi"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                        lineNumber: 61,
+                                        lineNumber: 65,
                                         columnNumber: 5
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                        lineNumber: 64,
+                                        lineNumber: 68,
                                         columnNumber: 5
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -701,14 +718,14 @@ function Upcomingtraining() {
                                                 children: "Date:"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                                lineNumber: 65,
+                                                lineNumber: 69,
                                                 columnNumber: 61
                                             }, this),
                                             " March 03, 2025  - March 04, 2025  "
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                        lineNumber: 65,
+                                        lineNumber: 69,
                                         columnNumber: 5
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -718,20 +735,20 @@ function Upcomingtraining() {
                                                 children: "Duration:"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                                lineNumber: 66,
+                                                lineNumber: 70,
                                                 columnNumber: 47
                                             }, this),
                                             " 2 days"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                        lineNumber: 66,
+                                        lineNumber: 70,
                                         columnNumber: 5
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                lineNumber: 57,
+                                lineNumber: 61,
                                 columnNumber: 17
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -742,23 +759,23 @@ function Upcomingtraining() {
                                         children: "Taregeted for Officers working in UCBs"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                        lineNumber: 70,
+                                        lineNumber: 74,
                                         columnNumber: 31
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                    lineNumber: 69,
+                                    lineNumber: 73,
                                     columnNumber: 27
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                lineNumber: 68,
+                                lineNumber: 72,
                                 columnNumber: 23
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                        lineNumber: 56,
+                        lineNumber: 60,
                         columnNumber: 17
                     }, this)
                 ]
@@ -779,7 +796,7 @@ function Upcomingtraining() {
                                     children: "Board Meetings, Annual General Meetings and Writing of Proceedings"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                    lineNumber: 83,
+                                    lineNumber: 87,
                                     columnNumber: 27
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -789,19 +806,19 @@ function Upcomingtraining() {
                                             children: "Location:"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                            lineNumber: 85,
+                                            lineNumber: 89,
                                             columnNumber: 82
                                         }, this),
                                         " Kasauli, Himachal Pradesh"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                    lineNumber: 85,
+                                    lineNumber: 89,
                                     columnNumber: 26
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                     fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                    lineNumber: 86,
+                                    lineNumber: 90,
                                     columnNumber: 5
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -811,14 +828,14 @@ function Upcomingtraining() {
                                             children: "Date:"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                            lineNumber: 87,
+                                            lineNumber: 91,
                                             columnNumber: 61
                                         }, this),
                                         " March 22, 2025 to March 23, 2025  "
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                    lineNumber: 87,
+                                    lineNumber: 91,
                                     columnNumber: 5
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -828,20 +845,20 @@ function Upcomingtraining() {
                                             children: "Duration:"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                            lineNumber: 88,
+                                            lineNumber: 92,
                                             columnNumber: 47
                                         }, this),
                                         " 2 days"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                    lineNumber: 88,
+                                    lineNumber: 92,
                                     columnNumber: 5
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                            lineNumber: 82,
+                            lineNumber: 86,
                             columnNumber: 23
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -853,12 +870,12 @@ function Upcomingtraining() {
                                         children: "Targeted for Compliance officers and Senior Officers working in UCBs"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                        lineNumber: 92,
+                                        lineNumber: 96,
                                         columnNumber: 31
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                    lineNumber: 91,
+                                    lineNumber: 95,
                                     columnNumber: 27
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -870,29 +887,29 @@ function Upcomingtraining() {
                                         children: "Download Brochure"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                        lineNumber: 96,
+                                        lineNumber: 100,
                                         columnNumber: 27
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                    lineNumber: 95,
+                                    lineNumber: 99,
                                     columnNumber: 27
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                            lineNumber: 90,
+                            lineNumber: 94,
                             columnNumber: 23
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                    lineNumber: 80,
+                    lineNumber: 84,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                lineNumber: 77,
+                lineNumber: 81,
                 columnNumber: 9
             }, this)
         ]
