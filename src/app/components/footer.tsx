@@ -9,10 +9,10 @@ import {FaRegLifeRing} from "react-icons/fa"
 
 export default function Footer() {
   return (
-  
-  <h2>
+  <>
+ 
     {/* {id="ContactUs"} */}
-    <h2 className="">
+   
       <div className=" mx-auto py-12  bg-white">
         {/* <div className="flex lg:flex-row md:flex-col flex-col gap-8 w-full">
           <div data-aos="zoom-in-up" data-aos-once="false" className="w-full">
@@ -265,8 +265,8 @@ export default function Footer() {
           </div>
         </div>
       </div>
-    </h2>
-  </h2>
+  
+  </>
   )
 }
 

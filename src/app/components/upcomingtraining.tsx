@@ -44,7 +44,12 @@ export default function Upcomingtraining() {
                               <p className="text-sm dark:text-gray-100">Targeted for Chairman/Directors and C.E.O.s of UCBs</p>
                             
                           </div>
+                          <div className="pt-4">
+                          <a className=" hover:bg-gradient-to-r from-[#DE466C] to-[#004281] bg-[#004281] px-5 text-lg py-2  text-white font-medium rounded-full transition duration-300" href="/GovernanceandRiskManagementinUCBs.pdf" download="Brochure">Download Brochure</a>
+                          </div>
                       </div>
+                      
+                    
                 </div>
                 {/* Remove class [ h-24 ] when adding a card block */}
                 {/* Remove class [ border-gray-300  dark:border-gray-700 border-dashed border-2 ] to remove dotted border */}
@@ -77,7 +82,7 @@ export default function Upcomingtraining() {
                       <div>
                           <h4 className="text-gray-800 dark:text-gray-100 font-bold mb-3">Board Meetings, Annual General Meetings and Writing of Proceedings
                          </h4>
-                         <p className="text-gray-800 dark:text-gray-100 text-sm"><b>Location:</b> Kasol, Himachal Pradesh</p>
+                         <p className="text-gray-800 dark:text-gray-100 text-sm"><b>Location:</b> Kasauli, Himachal Pradesh</p>
     <br />
     <p className="text-gray-800 dark:text-gray-100 text-sm"><b>Date:</b> March 22, 2025 to March 23, 2025  </p>
     <p className="text-sm dark:text-gray-100"><b>Duration:</b> 2 days</p>
@@ -86,6 +91,9 @@ export default function Upcomingtraining() {
                           <div className="flex items-center justify-between text-gray-800">
                               <p className="text-sm dark:text-gray-100">Targeted for Compliance officers and Senior Officers working in UCBs</p>
                             
+                          </div>
+                          <div className="pt-4">
+                          <a className=" hover:bg-gradient-to-r from-[#DE466C] to-[#004281] bg-[#004281] px-5 text-lg py-2  text-white font-medium rounded-full transition duration-300" href="/BoardMeetingsinUCBs.pdf" download="Brochure">Download Brochure</a>
                           </div>
                       </div>
                  
