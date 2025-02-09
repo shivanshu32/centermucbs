@@ -3,9 +3,9 @@ import React, { useRef }  from 'react'
 import emailjs from '@emailjs/browser';
 
 export default function Contact() {
-    const form = useRef(true);
+    const form = useRef<HTMLInputElement | null>(null);
 
-    const sendEmail = (e) => {
+    const sendEmail = (e : React.ChangeEvent<HTMLInputElement>) => {
         e.preventDefault();
 
         const SERVICE_ID = "service_6by4y8w";
