@@ -26,6 +26,10 @@ export default function Upcomingtraining() {
                               UCBs</p>
                               
                           </div>
+
+                          <div className="pt-4">
+                          <a className=" hover:bg-gradient-to-r from-[#DE466C] to-[#004281] bg-[#004281] px-5 text-lg py-2  text-white font-medium rounded-full transition duration-300" href="/KYC-AML.pdf" download="Brochure">Download Brochure</a>
+                          </div>
     
                       </div>
                 </div>    
