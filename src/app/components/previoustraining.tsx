@@ -59,7 +59,8 @@ export default function Previoustraining() {
                 {/* Remove class [ border-gray-300  dark:border-gray-700 border-dashed border-2 ] to remove dotted border */}
                 <div className="p-4 rounded border-gray-300  dark:border-gray-700 border-solid border-2" >
                 <div>
-                          <h4 className="text-gray-800 dark:text-gray-100 font-bold mb-3">KYC AML, Customer Service, Credit Administration
+                          <h4 className="text-gray-800 dark:text-gray-100 font-bold mb-3">
+                            KYC AML, Customer Service, Credit Administration
                          </h4>
                          <p className="text-gray-800 dark:text-gray-100 text-sm"><b>Location:</b>  Bijnor
     </p>
@@ -76,13 +77,18 @@ export default function Previoustraining() {
                       </div>
                      
                  
-                </div>    
+                </div>  
+
+               
                 {/* Remove class [ h-24 ] when adding a card block */}
                 {/* Remove class [ border-gray-300  dark:border-gray-700 border-dashed border-2 ] to remove dotted border */}
                 
                 {/* Remove class [ h-24 ] when adding a card block */}
                 {/* Remove class [ border-gray-300  dark:border-gray-700 border-dashed border-2 ] to remove dotted border */}
                
+
+
+
         </div>
     
       </div>

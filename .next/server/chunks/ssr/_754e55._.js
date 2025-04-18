@@ -427,6 +427,48 @@ function Services() {
     }, this);
 }
 }}),
+"[project]/src/data/trainingPrograms.ts [app-rsc] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, x: __turbopack_external_require__, y: __turbopack_external_import__, z: __turbopack_require_stub__ } = __turbopack_context__;
+{
+__turbopack_esm__({
+    "upcomingTrainingPrograms": (()=>upcomingTrainingPrograms)
+});
+const upcomingTrainingPrograms = [
+    {
+        title: "Corporate Governance, & Risk Management in UCBs",
+        location: "Udaipur, Rajasthan",
+        date: "February 22, 2025 - February 23, 2025",
+        duration: "2 days",
+        targetAudience: "Targeted for Chairman/Directors and C.E.O.s of UCBs",
+        brochureUrl: "/GovernanceandRiskManagementinUCBs.pdf"
+    },
+    {
+        title: "Credit Management and Investment Management in UCBs",
+        location: "Indian Institute of Banking & Finance, Professional Development Centre, Northern Zone, Delhi",
+        date: "March 03, 2025 - March 04, 2025",
+        duration: "2 days",
+        targetAudience: "Targeted for Officers working in UCBs"
+    },
+    {
+        title: "KYC/AML and Customer Services in UCBs",
+        location: "IIBF, Professional Development Centre, Northern Zone, Delhi",
+        date: "February 14, 2025 - February 15, 2025",
+        duration: "2 days",
+        targetAudience: "Targeted for Officers working in UCBs",
+        brochureUrl: "/KYC-AML.pdf"
+    },
+    {
+        title: "vBoard Meetings, Annual General Meetings and Writing of Proceedings",
+        location: "Kasauli, Himachal Pradesh",
+        date: "March 22, 2025 to March 23, 2025",
+        duration: "2 days",
+        targetAudience: "Targeted for Compliance officers and Senior Officers working in UCBs",
+        brochureUrl: "/BoardMeetingsinUCBs.pdf"
+    }
+];
+}}),
 "[project]/src/app/components/upcomingtraining.tsx [app-rsc] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
@@ -436,369 +478,26 @@ __turbopack_esm__({
     "default": (()=>Upcomingtraining)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$trainingPrograms$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/data/trainingPrograms.ts [app-rsc] (ecmascript)");
+;
 ;
 function Upcomingtraining() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         id: "upcomingtraining",
-        children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "container mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 pt-6 gap-8 pb-16",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "p-4 rounded border-gray-300  dark:border-gray-700 border-solid border-2",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                                        className: "text-gray-800 dark:text-gray-100 font-bold mb-3",
-                                        children: "Corporate Governance, & Risk Management in UCBs"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                        lineNumber: 20,
-                                        columnNumber: 27
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-gray-800 dark:text-gray-100 text-sm",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
-                                                children: "Location:"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                                lineNumber: 21,
-                                                columnNumber: 61
-                                            }, this),
-                                            " Udaipur, Rajasthan"
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                        lineNumber: 21,
-                                        columnNumber: 5
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                        fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                        lineNumber: 22,
-                                        columnNumber: 5
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-gray-800 dark:text-gray-100 text-sm",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
-                                                children: "Date:"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                                lineNumber: 23,
-                                                columnNumber: 61
-                                            }, this),
-                                            " February 22, 2025 - February 23, 2025"
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                        lineNumber: 23,
-                                        columnNumber: 5
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-sm dark:text-gray-100",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
-                                                children: "Duration:"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                                lineNumber: 24,
-                                                columnNumber: 47
-                                            }, this),
-                                            " 2 days"
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                        lineNumber: 24,
-                                        columnNumber: 5
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                lineNumber: 19,
-                                columnNumber: 17
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "flex items-center justify-between text-gray-800",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-sm dark:text-gray-100",
-                                            children: "Targeted for Chairman/Directors and C.E.O.s of UCBs"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                            lineNumber: 28,
-                                            columnNumber: 31
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                        lineNumber: 27,
-                                        columnNumber: 27
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "pt-4",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                            className: " hover:bg-gradient-to-r from-[#DE466C] to-[#004281] bg-[#004281] px-5 text-lg py-2  text-white font-medium rounded-full transition duration-300",
-                                            href: "/GovernanceandRiskManagementinUCBs.pdf",
-                                            download: "Brochure",
-                                            children: "Download Brochure"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                            lineNumber: 32,
-                                            columnNumber: 27
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                        lineNumber: 31,
-                                        columnNumber: 27
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                lineNumber: 26,
-                                columnNumber: 23
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                        lineNumber: 18,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "p-4 rounded border-gray-300  dark:border-gray-700 border-solid border-2",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                                        className: "text-gray-800 dark:text-gray-100 font-bold mb-3",
-                                        children: "Credit Management and Investment Management in UCBs"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                        lineNumber: 42,
-                                        columnNumber: 27
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-gray-800 dark:text-gray-100 text-sm",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
-                                                children: "Location:"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                                lineNumber: 45,
-                                                columnNumber: 61
-                                            }, this),
-                                            " Indian Institute of Banking & Finance, Professional Development Centre, Northern Zone, Delhi"
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                        lineNumber: 45,
-                                        columnNumber: 5
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                        fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                        lineNumber: 48,
-                                        columnNumber: 5
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-gray-800 dark:text-gray-100 text-sm",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
-                                                children: "Date:"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                                lineNumber: 49,
-                                                columnNumber: 61
-                                            }, this),
-                                            " March 03, 2025  - March 04, 2025  "
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                        lineNumber: 49,
-                                        columnNumber: 5
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-sm dark:text-gray-100",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
-                                                children: "Duration:"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                                lineNumber: 50,
-                                                columnNumber: 47
-                                            }, this),
-                                            " 2 days"
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                        lineNumber: 50,
-                                        columnNumber: 5
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                lineNumber: 41,
-                                columnNumber: 17
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex items-center justify-between text-gray-800",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-sm dark:text-gray-100",
-                                        children: "Taregeted for Officers working in UCBs"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                        lineNumber: 54,
-                                        columnNumber: 31
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                    lineNumber: 53,
-                                    columnNumber: 27
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                lineNumber: 52,
-                                columnNumber: 23
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                        lineNumber: 40,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "p-4 rounded border-gray-300  dark:border-gray-700 border-solid border-2",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                                    className: "text-gray-800 dark:text-gray-100 font-bold mb-3",
-                                    children: "KYC/AML and Customer Services in UCBs"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                    lineNumber: 63,
-                                    columnNumber: 27
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-gray-800 dark:text-gray-100 text-sm",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
-                                            children: "Location:"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                            lineNumber: 65,
-                                            columnNumber: 83
-                                        }, this),
-                                        " IIBF, Professional Development Centre, Northern Zone, Delhi "
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                    lineNumber: 65,
-                                    columnNumber: 27
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                    fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                    lineNumber: 66,
-                                    columnNumber: 5
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-gray-800 dark:text-gray-100 text-sm",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
-                                            children: "Date:"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                            lineNumber: 67,
-                                            columnNumber: 61
-                                        }, this),
-                                        " February 14, 2025 - February 15, 2025 "
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                    lineNumber: 67,
-                                    columnNumber: 5
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-sm dark:text-gray-100",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
-                                            children: "Duration:"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                            lineNumber: 68,
-                                            columnNumber: 47
-                                        }, this),
-                                        " 2 days"
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                    lineNumber: 68,
-                                    columnNumber: 5
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex items-center justify-between text-gray-800",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-sm dark:text-gray-100",
-                                        children: "Targeted for Officers working in UCBs"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                        lineNumber: 71,
-                                        columnNumber: 31
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                    lineNumber: 69,
-                                    columnNumber: 5
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "pt-4",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                        className: " hover:bg-gradient-to-r from-[#DE466C] to-[#004281] bg-[#004281] px-5 text-lg py-2  text-white font-medium rounded-full transition duration-300",
-                                        href: "/KYC-AML.pdf",
-                                        download: "Brochure",
-                                        children: "Download Brochure"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                        lineNumber: 77,
-                                        columnNumber: 27
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                    lineNumber: 76,
-                                    columnNumber: 27
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                            lineNumber: 62,
-                            columnNumber: 17
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                        lineNumber: 61,
-                        columnNumber: 1
-                    }, this),
-                    "   "
-                ]
-            }, void 0, true, {
-                fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                lineNumber: 12,
-                columnNumber: 9
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "container mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 pt-6 gap-8",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "p-4 rounded border-gray-300  dark:border-gray-700 border-solid border-2",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "container mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 pt-6 gap-8 pb-16",
+            children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$trainingPrograms$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["upcomingTrainingPrograms"].map((program, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "p-4 rounded border-gray-300 dark:border-gray-700 border-solid border-2",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
                                     className: "text-gray-800 dark:text-gray-100 font-bold mb-3",
-                                    children: "Board Meetings, Annual General Meetings and Writing of Proceedings"
+                                    children: program.title
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                    lineNumber: 91,
-                                    columnNumber: 27
+                                    lineNumber: 11,
+                                    columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-gray-800 dark:text-gray-100 text-sm",
@@ -807,20 +506,21 @@ function Upcomingtraining() {
                                             children: "Location:"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                            lineNumber: 93,
-                                            columnNumber: 82
+                                            lineNumber: 12,
+                                            columnNumber: 71
                                         }, this),
-                                        " Kasauli, Himachal Pradesh"
+                                        " ",
+                                        program.location
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                    lineNumber: 93,
-                                    columnNumber: 26
+                                    lineNumber: 12,
+                                    columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                     fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                    lineNumber: 94,
-                                    columnNumber: 5
+                                    lineNumber: 13,
+                                    columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-gray-800 dark:text-gray-100 text-sm",
@@ -829,15 +529,16 @@ function Upcomingtraining() {
                                             children: "Date:"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                            lineNumber: 95,
-                                            columnNumber: 61
+                                            lineNumber: 14,
+                                            columnNumber: 71
                                         }, this),
-                                        " March 22, 2025 to March 23, 2025  "
+                                        " ",
+                                        program.date
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                    lineNumber: 95,
-                                    columnNumber: 5
+                                    lineNumber: 14,
+                                    columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-sm dark:text-gray-100",
@@ -846,21 +547,22 @@ function Upcomingtraining() {
                                             children: "Duration:"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                            lineNumber: 96,
-                                            columnNumber: 47
+                                            lineNumber: 15,
+                                            columnNumber: 57
                                         }, this),
-                                        " 2 days"
+                                        " ",
+                                        program.duration
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                    lineNumber: 96,
-                                    columnNumber: 5
+                                    lineNumber: 15,
+                                    columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                            lineNumber: 90,
-                            columnNumber: 23
+                            lineNumber: 10,
+                            columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: [
@@ -868,53 +570,52 @@ function Upcomingtraining() {
                                     className: "flex items-center justify-between text-gray-800",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "text-sm dark:text-gray-100",
-                                        children: "Targeted for Compliance officers and Senior Officers working in UCBs"
+                                        children: program.targetAudience
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                        lineNumber: 100,
-                                        columnNumber: 31
+                                        lineNumber: 19,
+                                        columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                    lineNumber: 99,
-                                    columnNumber: 27
+                                    lineNumber: 18,
+                                    columnNumber: 15
                                 }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                program.brochureUrl && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "pt-4",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                        className: " hover:bg-gradient-to-r from-[#DE466C] to-[#004281] bg-[#004281] px-5 text-lg py-2  text-white font-medium rounded-full transition duration-300",
-                                        href: "/BoardMeetingsinUCBs.pdf",
+                                        className: "hover:bg-gradient-to-r from-[#DE466C] to-[#004281] bg-[#004281] px-5 text-lg py-2 text-white font-medium rounded-full transition duration-300",
+                                        href: program.brochureUrl,
                                         download: "Brochure",
                                         children: "Download Brochure"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                        lineNumber: 104,
-                                        columnNumber: 27
+                                        lineNumber: 23,
+                                        columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                    lineNumber: 103,
-                                    columnNumber: 27
+                                    lineNumber: 22,
+                                    columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                            lineNumber: 98,
-                            columnNumber: 23
+                            lineNumber: 17,
+                            columnNumber: 13
                         }, this)
                     ]
-                }, void 0, true, {
+                }, index, true, {
                     fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                    lineNumber: 88,
-                    columnNumber: 17
-                }, this)
-            }, void 0, false, {
-                fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                lineNumber: 85,
-                columnNumber: 9
-            }, this)
-        ]
-    }, void 0, true, {
+                    lineNumber: 9,
+                    columnNumber: 11
+                }, this))
+        }, void 0, false, {
+            fileName: "[project]/src/app/components/upcomingtraining.tsx",
+            lineNumber: 7,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
         fileName: "[project]/src/app/components/upcomingtraining.tsx",
         lineNumber: 6,
         columnNumber: 5
@@ -1284,6 +985,253 @@ function Whychooseus() {
     }, this);
 }
 }}),
+"[project]/src/data/previousTrainingPrograms.ts [app-rsc] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, x: __turbopack_external_require__, y: __turbopack_external_import__, z: __turbopack_require_stub__ } = __turbopack_context__;
+{
+__turbopack_esm__({
+    "previousTrainingPrograms": (()=>previousTrainingPrograms)
+});
+const previousTrainingPrograms = [
+    {
+        title: "Corporate Governance, & Risk Management in UCBs",
+        location: "Udaipur, Rajasthan",
+        date: "January 15, 2024 - January 16, 2024",
+        duration: "2 days",
+        targetAudience: "Targeted for Chairman/Directors and C.E.O.s of UCBs",
+        brochureUrl: "/GovernanceandRiskManagementinUCBs-Jan2024.pdf"
+    },
+    {
+        title: "Credit Management and Investment Management in UCBs",
+        location: "Indian Institute of Banking & Finance, Professional Development Centre, Northern Zone, Delhi",
+        date: "December 10, 2023 - December 11, 2023",
+        duration: "2 days",
+        targetAudience: "Targeted for Officers working in UCBs"
+    },
+    {
+        title: "KYC/AML and Customer Services in UCBs",
+        location: "IIBF, Professional Development Centre, Northern Zone, Delhi",
+        date: "November 5, 2023 - November 6, 2023",
+        duration: "2 days",
+        targetAudience: "Targeted for Officers working in UCBs",
+        brochureUrl: "/KYC-AML-Nov2023.pdf"
+    },
+    {
+        title: "Board Meetings, Annual General Meetings and Writing of Proceedings",
+        location: "Kasauli, Himachal Pradesh",
+        date: "October 20, 2023 to October 21, 2023",
+        duration: "2 days",
+        targetAudience: "Targeted for Compliance officers and Senior Officers working in UCBs",
+        brochureUrl: "/BoardMeetingsinUCBs-Oct2023.pdf"
+    }
+];
+}}),
+"[project]/src/app/components/previoustraining.tsx [app-rsc] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, x: __turbopack_external_require__, y: __turbopack_external_import__, z: __turbopack_require_stub__ } = __turbopack_context__;
+{
+__turbopack_esm__({
+    "default": (()=>Previoustraining)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$previousTrainingPrograms$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/data/previousTrainingPrograms.ts [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/client/app-dir/link.js [app-rsc] (ecmascript)");
+;
+;
+;
+function Previoustraining() {
+    // Only show the first 3 previous programs on the home page
+    const displayedPrograms = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$previousTrainingPrograms$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["previousTrainingPrograms"].slice(0, 3);
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        id: "previoustraining",
+        className: "py-12 bg-gray-50",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "container mx-auto px-4",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                    className: "text-3xl font-bold text-[#004281] mb-8 text-center",
+                    children: "Previous Training Programs"
+                }, void 0, false, {
+                    fileName: "[project]/src/app/components/previoustraining.tsx",
+                    lineNumber: 12,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8",
+                    children: displayedPrograms.map((program, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "p-5 rounded-lg border border-gray-300 shadow-sm hover:shadow-md transition-shadow",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                    className: "text-lg font-bold text-[#004281] mb-3",
+                                    children: program.title
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/components/previoustraining.tsx",
+                                    lineNumber: 17,
+                                    columnNumber: 15
+                                }, this),
+                                program.location && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "mb-2",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "text-sm text-gray-600",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "font-semibold",
+                                                children: "Location:"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/app/components/previoustraining.tsx",
+                                                lineNumber: 21,
+                                                columnNumber: 56
+                                            }, this),
+                                            " ",
+                                            program.location
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/app/components/previoustraining.tsx",
+                                        lineNumber: 21,
+                                        columnNumber: 19
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/components/previoustraining.tsx",
+                                    lineNumber: 20,
+                                    columnNumber: 17
+                                }, this),
+                                program.date && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "mb-2",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "text-sm text-gray-600",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "font-semibold",
+                                                children: "Date:"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/app/components/previoustraining.tsx",
+                                                lineNumber: 27,
+                                                columnNumber: 56
+                                            }, this),
+                                            " ",
+                                            program.date
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/app/components/previoustraining.tsx",
+                                        lineNumber: 27,
+                                        columnNumber: 19
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/components/previoustraining.tsx",
+                                    lineNumber: 26,
+                                    columnNumber: 17
+                                }, this),
+                                program.duration && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "mb-2",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "text-sm text-gray-600",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "font-semibold",
+                                                children: "Duration:"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/app/components/previoustraining.tsx",
+                                                lineNumber: 33,
+                                                columnNumber: 56
+                                            }, this),
+                                            " ",
+                                            program.duration
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/app/components/previoustraining.tsx",
+                                        lineNumber: 33,
+                                        columnNumber: 19
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/components/previoustraining.tsx",
+                                    lineNumber: 32,
+                                    columnNumber: 17
+                                }, this),
+                                program.targetAudience && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "mb-3",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "text-sm text-gray-600",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "font-semibold",
+                                                children: "Target Audience:"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/app/components/previoustraining.tsx",
+                                                lineNumber: 39,
+                                                columnNumber: 56
+                                            }, this),
+                                            " ",
+                                            program.targetAudience
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/app/components/previoustraining.tsx",
+                                        lineNumber: 39,
+                                        columnNumber: 19
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/components/previoustraining.tsx",
+                                    lineNumber: 38,
+                                    columnNumber: 17
+                                }, this),
+                                program.brochureUrl && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "mt-3",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                        href: program.brochureUrl,
+                                        className: "inline-block bg-[#004281] hover:bg-[#003366] text-white text-sm font-medium py-1.5 px-3 rounded-full transition-colors",
+                                        download: "Brochure",
+                                        children: "Download Brochure"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/components/previoustraining.tsx",
+                                        lineNumber: 45,
+                                        columnNumber: 19
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/components/previoustraining.tsx",
+                                    lineNumber: 44,
+                                    columnNumber: 17
+                                }, this)
+                            ]
+                        }, index, true, {
+                            fileName: "[project]/src/app/components/previoustraining.tsx",
+                            lineNumber: 16,
+                            columnNumber: 13
+                        }, this))
+                }, void 0, false, {
+                    fileName: "[project]/src/app/components/previoustraining.tsx",
+                    lineNumber: 14,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "mt-8 text-center",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                        href: "/archive",
+                        className: "inline-block bg-[#004281] hover:bg-[#003366] text-white font-medium py-2 px-6 rounded-full transition-colors",
+                        children: "View All Previous Programs"
+                    }, void 0, false, {
+                        fileName: "[project]/src/app/components/previoustraining.tsx",
+                        lineNumber: 59,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/src/app/components/previoustraining.tsx",
+                    lineNumber: 58,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/app/components/previoustraining.tsx",
+            lineNumber: 11,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "[project]/src/app/components/previoustraining.tsx",
+        lineNumber: 10,
+        columnNumber: 5
+    }, this);
+}
+}}),
 "[project]/src/app/components/contact.js (client proxy) <module evaluation>": ((__turbopack_context__) => {
 "use strict";
 
@@ -1336,9 +1284,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$components$2f$
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$components$2f$services$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/app/components/services.tsx [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$components$2f$trainingprograms$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/app/components/trainingprograms.tsx [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$components$2f$whychooseus$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/app/components/whychooseus.tsx [app-rsc] (ecmascript)");
-// import Upcomingtraining from "./components/upcomingtraining";
-// import Previoustraining from "./components/previoustraining";
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$components$2f$upcomingtraining$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/app/components/upcomingtraining.tsx [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$components$2f$previoustraining$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/app/components/previoustraining.tsx [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$components$2f$contact$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/app/components/contact.js [app-rsc] (ecmascript)");
+;
+;
 ;
 ;
 ;
@@ -1374,6 +1324,16 @@ function Home() {
                 lineNumber: 18,
                 columnNumber: 2
             }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$components$2f$upcomingtraining$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                fileName: "[project]/src/app/page.tsx",
+                lineNumber: 19,
+                columnNumber: 2
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$components$2f$previoustraining$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                fileName: "[project]/src/app/page.tsx",
+                lineNumber: 20,
+                columnNumber: 2
+            }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$components$2f$contact$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/page.tsx",
                 lineNumber: 21,
@@ -1401,4 +1361,4 @@ var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_
 
 };
 
-//# sourceMappingURL=_c2d895._.js.map
+//# sourceMappingURL=_754e55._.js.map
