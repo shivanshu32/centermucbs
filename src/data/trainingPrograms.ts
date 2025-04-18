@@ -44,15 +44,15 @@ export const upcomingTrainingPrograms: TrainingProgram[] = [
 //     programmeFee: "₹ Rs. 8500/- + GST per participant for non – residential Rs. 17000/- + GST for residential (Double sharing) Rs. 22000/- + GST for residential (Single sharing)",
 //     brochureUrl: "/BoardMeetingsinUCBs.pdf"
 //   },
-  {
-    title: "KYC/AML and Customer Services in Co-operative Banks",
-    location: "IIBF, Delhi",
-    date: "April 19, 2025 to April 19, 2025",
-    duration: "1 day",
-    targetAudience: "Targeted for Officers working in UCBs/DCCBs/CCBs",
-    programmeFee: "Rs. 3000/- + GST per participant for non - residential Rs. 6000/- + GST for residential (Double sharing) Rs.7000/- + GST for residential (Single sharing)",
-    brochureUrl: ""
-  },
+//   {
+//     title: "KYC/AML and Customer Services in Co-operative Banks",
+//     location: "IIBF, Delhi",
+//     date: "April 19, 2025 to April 19, 2025",
+//     duration: "1 day",
+//     targetAudience: "Targeted for Officers working in UCBs/DCCBs/CCBs",
+//     programmeFee: "Rs. 3000/- + GST per participant for non - residential Rs. 6000/- + GST for residential (Double sharing) Rs.7000/- + GST for residential (Single sharing)",
+//     brochureUrl: ""
+//   },
   {
     title: "Board Meetings, Annual General Meetings and Writing of Proceedings and Strategies for Good Governance",
     location: "Mussoorie,Uttarakhand",
@@ -79,23 +79,23 @@ export const upcomingTrainingPrograms: TrainingProgram[] = [
     targetAudience: "Targeted for Board Members/ C.E.O.s/MDs and Sr. Officers working in UCBs/DCCBs/CCBs",
     programmeFee: "Rs. 8500/- + GST per participant for non – residential Rs. 17000/- + GST for residential (Double sharing) Rs. 22000/- + GST for residential (Single sharing)",
     brochureUrl: ""
-  },
-  {
-    title: "Credit Management and Investment Management in Co- operative Banks",
-    location: "IIBF, Delhi",
-    date: "May 16, 2025 to May 17, 2025",
-    duration: "2 days",
-    targetAudience: "Targeted for Officers working in UCBs/DCCBs/CCBs",
-    programmeFee: "Rs. 3000/- + GST per participant for non - residential Rs. 6000/- + GST for residential (Double sharing) Rs.7000/- + GST for residential (Single sharing)",
-    brochureUrl: ""
-  },
-  {
-    title: "Information Technology and Cyber Security in Co-operative Banks",
-    location: "IIBF, Delhi",
-    date: "June 9, 2025 to June 9, 2025",
-    duration: "1 days",
-    targetAudience: "Targeted for Officers working in IT department of UCBs/DCCBs/CCBs",
-    programmeFee: "Rs. 3000/- + GST per participant for non - residential Rs. 6000/- + GST for residential (Double sharing) Rs.7000/- + GST for residential (Single sharing)",
-    brochureUrl: ""
   }
+//   {
+//     title: "Credit Management and Investment Management in Co- operative Banks",
+//     location: "IIBF, Delhi",
+//     date: "May 16, 2025 to May 17, 2025",
+//     duration: "2 days",
+//     targetAudience: "Targeted for Officers working in UCBs/DCCBs/CCBs",
+//     programmeFee: "Rs. 3000/- + GST per participant for non - residential Rs. 6000/- + GST for residential (Double sharing) Rs.7000/- + GST for residential (Single sharing)",
+//     brochureUrl: ""
+//   },
+//   {
+//     title: "Information Technology and Cyber Security in Co-operative Banks",
+//     location: "IIBF, Delhi",
+//     date: "June 9, 2025 to June 9, 2025",
+//     duration: "1 days",
+//     targetAudience: "Targeted for Officers working in IT department of UCBs/DCCBs/CCBs",
+//     programmeFee: "Rs. 3000/- + GST per participant for non - residential Rs. 6000/- + GST for residential (Double sharing) Rs.7000/- + GST for residential (Single sharing)",
+//     brochureUrl: ""
+//   }
 ]; 
