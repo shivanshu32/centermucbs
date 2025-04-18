@@ -442,6 +442,7 @@ const upcomingTrainingPrograms = [
     //     date: "February 22, 2025 - February 23, 2025",
     //     duration: "2 days",
     //     targetAudience: "Targeted for Chairman/Directors and C.E.O.s of UCBs",
+    //     programmeFee: "₹ 3000/- + GST per participant for non - residential Rs. 6000/- + GST for residential (Double sharing) Rs. 7000/- + GST for residential (Single sharing)",
     //     brochureUrl: "/GovernanceandRiskManagementinUCBs.pdf"
     //   },
     //   {
@@ -449,7 +450,8 @@ const upcomingTrainingPrograms = [
     //     location: "Indian Institute of Banking & Finance, Professional Development Centre, Northern Zone, Delhi",
     //     date: "March 03, 2025 - March 04, 2025",
     //     duration: "2 days",
-    //     targetAudience: "Targeted for Officers working in UCBs"
+    //     targetAudience: "Targeted for Officers working in UCBs",
+    //     programmeFee: "₹ 8500/- + GST per participant for non – residential Rs. 17000/- + GST for residential (Double sharing) Rs. 22000/- + GST for residential (Single sharing)"
     //   },
     //   {
     //     title: "KYC/AML and Customer Services in UCBs",
@@ -457,6 +459,7 @@ const upcomingTrainingPrograms = [
     //     date: "February 14, 2025 - February 15, 2025",
     //     duration: "2 days",
     //     targetAudience: "Targeted for Officers working in UCBs",
+    //     programmeFee: "₹ Rs. 7500/- + GST per participant for non - residential Rs. 12500/- + GST for residential (Double sharing) Rs. 15000/- + GST for residential (Single sharing)",
     //     brochureUrl: "/KYC-AML.pdf"
     //   },
     //   {
@@ -465,14 +468,16 @@ const upcomingTrainingPrograms = [
     //     date: "March 22, 2025 to March 23, 2025",
     //     duration: "2 days",
     //     targetAudience: "Targeted for Compliance officers and Senior Officers working in UCBs",
+    //     programmeFee: "₹ Rs. 8500/- + GST per participant for non – residential Rs. 17000/- + GST for residential (Double sharing) Rs. 22000/- + GST for residential (Single sharing)",
     //     brochureUrl: "/BoardMeetingsinUCBs.pdf"
-    //   }
+    //   },
     {
         title: "KYC/AML and Customer Services in Co-operative Banks",
         location: "IIBF, Delhi",
         date: "April 19, 2025 to April 19, 2025",
         duration: "1 day",
         targetAudience: "Targeted for Officers working in UCBs/DCCBs/CCBs",
+        programmeFee: "Rs. 3000/- + GST per participant for non - residential Rs. 6000/- + GST for residential (Double sharing) Rs.7000/- + GST for residential (Single sharing)",
         brochureUrl: ""
     },
     {
@@ -481,6 +486,7 @@ const upcomingTrainingPrograms = [
         date: "April 26, 2025 to April 27, 2025",
         duration: "2 days",
         targetAudience: "Targeted for Chairman/Directors and C.E.O.s of UCBs/DCCBs/CCBs",
+        programmeFee: "Rs. 8500/- + GST per participant for non – residential Rs. 17000/- + GST for residential (Double sharing) Rs. 22000/- + GST for residential (Single sharing)",
         brochureUrl: ""
     },
     {
@@ -489,6 +495,7 @@ const upcomingTrainingPrograms = [
         date: "April 28, 2025 to April 29, 2025",
         duration: "2 days",
         targetAudience: "Targeted for Officers working in audit/compliance department of UCBs/DCCBs/CCBs",
+        programmeFee: "Rs. 7500/- + GST per participant for non - residential Rs. 12500/- + GST for residential (Double sharing) Rs. 15000/- + GST for residential (Single sharing)",
         brochureUrl: ""
     },
     {
@@ -497,6 +504,7 @@ const upcomingTrainingPrograms = [
         date: "May 10, 2025 to May 11, 2025",
         duration: "2 days",
         targetAudience: "Targeted for Board Members/ C.E.O.s/MDs and Sr. Officers working in UCBs/DCCBs/CCBs",
+        programmeFee: "Rs. 8500/- + GST per participant for non – residential Rs. 17000/- + GST for residential (Double sharing) Rs. 22000/- + GST for residential (Single sharing)",
         brochureUrl: ""
     },
     {
@@ -505,6 +513,7 @@ const upcomingTrainingPrograms = [
         date: "May 16, 2025 to May 17, 2025",
         duration: "2 days",
         targetAudience: "Targeted for Officers working in UCBs/DCCBs/CCBs",
+        programmeFee: "Rs. 3000/- + GST per participant for non - residential Rs. 6000/- + GST for residential (Double sharing) Rs.7000/- + GST for residential (Single sharing)",
         brochureUrl: ""
     },
     {
@@ -513,6 +522,7 @@ const upcomingTrainingPrograms = [
         date: "June 9, 2025 to June 9, 2025",
         duration: "1 days",
         targetAudience: "Targeted for Officers working in IT department of UCBs/DCCBs/CCBs",
+        programmeFee: "Rs. 3000/- + GST per participant for non - residential Rs. 6000/- + GST for residential (Double sharing) Rs.7000/- + GST for residential (Single sharing)",
         brochureUrl: ""
     }
 ];
@@ -530,6 +540,37 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$trainingProgr
 ;
 ;
 function Upcomingtraining() {
+    // Function to format programme fee for better display
+    const formatProgrammeFee = (fee)=>{
+        if (!fee) return null;
+        // Split the fee string by "Rs." to separate different plans
+        const plans = fee.split('Rs.').filter((plan)=>plan.trim() !== '');
+        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "mt-2",
+            children: plans.map((plan, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "text-sm dark:text-gray-100 mb-1",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                            className: "font-semibold",
+                            children: "Rs."
+                        }, void 0, false, {
+                            fileName: "[project]/src/app/components/upcomingtraining.tsx",
+                            lineNumber: 16,
+                            columnNumber: 13
+                        }, this),
+                        plan.trim()
+                    ]
+                }, index, true, {
+                    fileName: "[project]/src/app/components/upcomingtraining.tsx",
+                    lineNumber: 15,
+                    columnNumber: 11
+                }, this))
+        }, void 0, false, {
+            fileName: "[project]/src/app/components/upcomingtraining.tsx",
+            lineNumber: 13,
+            columnNumber: 7
+        }, this);
+    };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         id: "upcomingtraining",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -544,7 +585,7 @@ function Upcomingtraining() {
                                     children: program.title
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                    lineNumber: 11,
+                                    lineNumber: 29,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -554,7 +595,7 @@ function Upcomingtraining() {
                                             children: "Location:"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                            lineNumber: 12,
+                                            lineNumber: 30,
                                             columnNumber: 71
                                         }, this),
                                         " ",
@@ -562,12 +603,12 @@ function Upcomingtraining() {
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                    lineNumber: 12,
+                                    lineNumber: 30,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                     fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                    lineNumber: 13,
+                                    lineNumber: 31,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -577,7 +618,7 @@ function Upcomingtraining() {
                                             children: "Date:"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                            lineNumber: 14,
+                                            lineNumber: 32,
                                             columnNumber: 71
                                         }, this),
                                         " ",
@@ -585,7 +626,7 @@ function Upcomingtraining() {
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                    lineNumber: 14,
+                                    lineNumber: 32,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -595,7 +636,7 @@ function Upcomingtraining() {
                                             children: "Duration:"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                            lineNumber: 15,
+                                            lineNumber: 33,
                                             columnNumber: 57
                                         }, this),
                                         " ",
@@ -603,69 +644,94 @@ function Upcomingtraining() {
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                    lineNumber: 15,
-                                    columnNumber: 15
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                            lineNumber: 10,
-                            columnNumber: 13
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex items-center justify-between text-gray-800",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-sm dark:text-gray-100",
-                                        children: program.targetAudience
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                        lineNumber: 19,
-                                        columnNumber: 17
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                    lineNumber: 18,
+                                    lineNumber: 33,
                                     columnNumber: 15
                                 }, this),
-                                program.brochureUrl && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "pt-4",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                        className: "hover:bg-gradient-to-r from-[#DE466C] to-[#004281] bg-[#004281] px-5 text-lg py-2 text-white font-medium rounded-full transition duration-300",
-                                        href: program.brochureUrl,
-                                        download: "Brochure",
-                                        children: "Download Brochure"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                        lineNumber: 23,
-                                        columnNumber: 19
-                                    }, this)
-                                }, void 0, false, {
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "text-sm dark:text-gray-100 mt-2",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
+                                            children: "Target Audience:"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/components/upcomingtraining.tsx",
+                                            lineNumber: 34,
+                                            columnNumber: 62
+                                        }, this),
+                                        " ",
+                                        program.targetAudience
+                                    ]
+                                }, void 0, true, {
                                     fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                    lineNumber: 22,
+                                    lineNumber: 34,
+                                    columnNumber: 15
+                                }, this),
+                                program.programmeFee && program.programmeFee !== "" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "mt-2",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-sm dark:text-gray-100 font-semibold",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
+                                                children: "Programme Fee:"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/app/components/upcomingtraining.tsx",
+                                                lineNumber: 37,
+                                                columnNumber: 75
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/components/upcomingtraining.tsx",
+                                            lineNumber: 37,
+                                            columnNumber: 19
+                                        }, this),
+                                        formatProgrammeFee(program.programmeFee)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/app/components/upcomingtraining.tsx",
+                                    lineNumber: 36,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                            lineNumber: 17,
+                            lineNumber: 28,
+                            columnNumber: 13
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            children: program.brochureUrl && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "pt-4",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                    className: "hover:bg-gradient-to-r from-[#DE466C] to-[#004281] bg-[#004281] px-5 text-lg py-2 text-white font-medium rounded-full transition duration-300",
+                                    href: program.brochureUrl,
+                                    download: "Brochure",
+                                    children: "Download Brochure"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/components/upcomingtraining.tsx",
+                                    lineNumber: 45,
+                                    columnNumber: 19
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/src/app/components/upcomingtraining.tsx",
+                                lineNumber: 44,
+                                columnNumber: 17
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/src/app/components/upcomingtraining.tsx",
+                            lineNumber: 42,
                             columnNumber: 13
                         }, this)
                     ]
                 }, index, true, {
                     fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                    lineNumber: 9,
+                    lineNumber: 27,
                     columnNumber: 11
                 }, this))
         }, void 0, false, {
             fileName: "[project]/src/app/components/upcomingtraining.tsx",
-            lineNumber: 7,
+            lineNumber: 25,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/components/upcomingtraining.tsx",
-        lineNumber: 6,
+        lineNumber: 24,
         columnNumber: 5
     }, this);
 }

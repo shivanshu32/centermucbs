@@ -4,6 +4,7 @@ export interface ArchiveProgram {
   date: string;
   duration: string;
   targetAudience: string;
+  programmeFee: string;
   brochureUrl?: string; // Optional field for download brochure
 }
 
@@ -14,6 +15,7 @@ export const archivePrograms: ArchiveProgram[] = [
     date: "August 25, 2024 - August 26, 2024",
     duration: "",
     targetAudience: "",
+    programmeFee: "",
     brochureUrl: "" // Empty for now
   },
   {
@@ -22,6 +24,7 @@ export const archivePrograms: ArchiveProgram[] = [
     date: "October 12, 2024 - October 13, 2024",
     duration: "",
     targetAudience: "",
+    programmeFee: "",
     brochureUrl: "" // Empty for now
   },
   {
@@ -30,6 +33,7 @@ export const archivePrograms: ArchiveProgram[] = [
     date: "December 14, 2024 - December 15, 2024",
     duration: "",
     targetAudience: "",
+    programmeFee: "",
     brochureUrl: "" // Empty for now
   },
   {
@@ -38,6 +42,7 @@ export const archivePrograms: ArchiveProgram[] = [
     date: "December 28, 2024 - December 29, 2024",
     duration: "",
     targetAudience: "",
+    programmeFee: "",
     brochureUrl: "" // Empty for now
   },
   {
@@ -46,6 +51,7 @@ export const archivePrograms: ArchiveProgram[] = [
     date: "February 14, 2025 - February 15, 2025",
     duration: "",
     targetAudience: "",
+    programmeFee: "",
     brochureUrl: "" // Empty for now
   },
   {
@@ -54,6 +60,7 @@ export const archivePrograms: ArchiveProgram[] = [
     date: "February 22, 2025 - February 23, 2025",
     duration: "",
     targetAudience: "",
+    programmeFee: "",
     brochureUrl: "" // Empty for now
   },
   {
@@ -62,6 +69,7 @@ export const archivePrograms: ArchiveProgram[] = [
     date: "March 03, 2025 - March 04, 2025",
     duration: "",
     targetAudience: "",
+    programmeFee: "",
     brochureUrl: "" // Empty for now
   },
   {
@@ -70,6 +78,7 @@ export const archivePrograms: ArchiveProgram[] = [
     date: "March 22, 2025 to March 23, 2025",
     duration: "",
     targetAudience: "",
+    programmeFee: "",
     brochureUrl: "" // Empty for now
   },
 ]; 

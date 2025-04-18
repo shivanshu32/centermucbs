@@ -15,6 +15,7 @@ const archivePrograms = [
         date: "August 25, 2024 - August 26, 2024",
         duration: "",
         targetAudience: "",
+        programmeFee: "",
         brochureUrl: "" // Empty for now
     },
     {
@@ -23,6 +24,7 @@ const archivePrograms = [
         date: "October 12, 2024 - October 13, 2024",
         duration: "",
         targetAudience: "",
+        programmeFee: "",
         brochureUrl: "" // Empty for now
     },
     {
@@ -31,6 +33,7 @@ const archivePrograms = [
         date: "December 14, 2024 - December 15, 2024",
         duration: "",
         targetAudience: "",
+        programmeFee: "",
         brochureUrl: "" // Empty for now
     },
     {
@@ -39,6 +42,7 @@ const archivePrograms = [
         date: "December 28, 2024 - December 29, 2024",
         duration: "",
         targetAudience: "",
+        programmeFee: "",
         brochureUrl: "" // Empty for now
     },
     {
@@ -47,6 +51,7 @@ const archivePrograms = [
         date: "February 14, 2025 - February 15, 2025",
         duration: "",
         targetAudience: "",
+        programmeFee: "",
         brochureUrl: "" // Empty for now
     },
     {
@@ -55,6 +60,7 @@ const archivePrograms = [
         date: "February 22, 2025 - February 23, 2025",
         duration: "",
         targetAudience: "",
+        programmeFee: "",
         brochureUrl: "" // Empty for now
     },
     {
@@ -63,6 +69,7 @@ const archivePrograms = [
         date: "March 03, 2025 - March 04, 2025",
         duration: "",
         targetAudience: "",
+        programmeFee: "",
         brochureUrl: "" // Empty for now
     },
     {
@@ -71,6 +78,7 @@ const archivePrograms = [
         date: "March 22, 2025 to March 23, 2025",
         duration: "",
         targetAudience: "",
+        programmeFee: "",
         brochureUrl: "" // Empty for now
     }
 ];
@@ -172,6 +180,24 @@ function Index() {
                                         fileName: "[project]/src/app/archive/page.tsx",
                                         lineNumber: 24,
                                         columnNumber: 17
+                                    }, this),
+                                    program.programmeFee && program.programmeFee !== "" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "text-sm dark:text-gray-100",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
+                                                children: "Programme Fee:"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/app/archive/page.tsx",
+                                                lineNumber: 30,
+                                                columnNumber: 19
+                                            }, this),
+                                            " ",
+                                            program.programmeFee
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/app/archive/page.tsx",
+                                        lineNumber: 29,
+                                        columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
@@ -188,12 +214,12 @@ function Index() {
                                             children: program.targetAudience
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/archive/page.tsx",
-                                            lineNumber: 32,
+                                            lineNumber: 37,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/archive/page.tsx",
-                                        lineNumber: 31,
+                                        lineNumber: 36,
                                         columnNumber: 17
                                     }, this),
                                     program.brochureUrl && program.brochureUrl !== "" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -205,18 +231,18 @@ function Index() {
                                             children: "Download Brochure"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/archive/page.tsx",
-                                            lineNumber: 37,
+                                            lineNumber: 42,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/archive/page.tsx",
-                                        lineNumber: 36,
+                                        lineNumber: 41,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/archive/page.tsx",
-                                lineNumber: 29,
+                                lineNumber: 34,
                                 columnNumber: 13
                             }, this)
                         ]

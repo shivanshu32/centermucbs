@@ -25,6 +25,11 @@ export default function Index() {
                   <b>Duration:</b> {program.duration}
                 </p>
               )}
+              {program.programmeFee && program.programmeFee !== "" && (
+                <p className="text-sm dark:text-gray-100">
+                  <b>Programme Fee:</b> {program.programmeFee}
+                </p>
+              )}
             </div>
             <div>
               {program.targetAudience && program.targetAudience !== "" && (
