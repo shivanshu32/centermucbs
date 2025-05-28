@@ -1,5 +1,5 @@
 import React from 'react'
-import Upcomingtraining from './upcomingtraining'
+// import Upcomingtraining from './upcomingtraining'
 
 export default function Trainingprograms() {
   return (
