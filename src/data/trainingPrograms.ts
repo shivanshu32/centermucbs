@@ -54,29 +54,38 @@ export const upcomingTrainingPrograms: TrainingProgram[] = [
 //     brochureUrl: ""
 //   },
   {
-    title: "Board Meetings, Annual General Meetings and Writing of Proceedings and Strategies for Good Governance",
-    location: "Mussoorie,Uttarakhand",
-    date: "April 26, 2025 to April 27, 2025",
-    duration: "2 days",
-    targetAudience: "Targeted for Chairman/Directors and C.E.O.s of UCBs/DCCBs/CCBs",
+    title: "KYC/AML and Customer Services",
+    location: "Delhi",
+    date: "June 12, 2025 to June 12, 2025",
+    duration: "1 day",
+    targetAudience: "Targeted for Officers working in Co-operative Banks",
     programmeFee: "Rs. 8500/- + GST per participant for non – residential Rs. 17000/- + GST for residential (Double sharing) Rs. 22000/- + GST for residential (Single sharing)",
     brochureUrl: ""
   },
   {
-    title: "Audit/Compliance & Risk Management in Co-operative Banks",
-    location: "Dehradun, Uttarakhand",
-    date: "April 28, 2025 to April 29, 2025",
+    title: "Corporate Governance, & Risk Management",
+    location: "Mussoorie, Uttarakhand",
+    date: "July 12, 2025 to July 13, 2025",
     duration: "2 days",
-    targetAudience: "Targeted for Officers working in audit/compliance department of UCBs/DCCBs/CCBs",
+    targetAudience: "Targeted for Chairman/Directors and C.E.O.s, Officers of Co-operative Banks",
     programmeFee: "Rs. 7500/- + GST per participant for non - residential Rs. 12500/- + GST for residential (Double sharing) Rs. 15000/- + GST for residential (Single sharing)",
     brochureUrl: ""
   },
   {
-    title: "Credit Administration and NPA Management in Co-operative Banks",
-    location: "Shimla, Himachal Pradesh",
-    date: "May 10, 2025 to May 11, 2025",
+    title: "Credit Appraisal and Recovery Management",
+    location: "Manali, Himachal Pradesh",
+    date: "June 14, 2025 to June 15, 2025",
     duration: "2 days",
-    targetAudience: "Targeted for Board Members/ C.E.O.s/MDs and Sr. Officers working in UCBs/DCCBs/CCBs",
+    targetAudience: "Targeted for Chairman/Directors and C.E.O.s, Officers working in Co-operative Banks",
+    programmeFee: "Rs. 8500/- + GST per participant for non – residential Rs. 17000/- + GST for residential (Double sharing) Rs. 22000/- + GST for residential (Single sharing)",
+    brochureUrl: ""
+  },
+  {
+    title: "Board Meetings, Annual General Meetings and Writing of Proceedings",
+    location: "Gangtok, Sikkim",
+    date: "June 28, 2025 to June 29, 2025",
+    duration: "2 days",
+    targetAudience: "Targeted for Chairman/Directors and C.E.O.s , officers of Co-operative Banks",
     programmeFee: "Rs. 8500/- + GST per participant for non – residential Rs. 17000/- + GST for residential (Double sharing) Rs. 22000/- + GST for residential (Single sharing)",
     brochureUrl: ""
   }

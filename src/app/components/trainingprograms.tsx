@@ -34,7 +34,7 @@ export default function Trainingprograms() {
         </div>
       </div>
     </div>
-    <Upcomingtraining />
+    {/* <Upcomingtraining /> */}
   </div>
   )
 }
