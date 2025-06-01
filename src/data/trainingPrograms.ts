@@ -62,15 +62,7 @@ export const upcomingTrainingPrograms: TrainingProgram[] = [
     programmeFee: "Rs. 8500/- + GST per participant for non – residential Rs. 17000/- + GST for residential (Double sharing) Rs. 22000/- + GST for residential (Single sharing)",
     brochureUrl: ""
   },
-  {
-    title: "Corporate Governance, & Risk Management",
-    location: "Mussoorie, Uttarakhand",
-    date: "July 12, 2025 to July 13, 2025",
-    duration: "2 days",
-    targetAudience: "Targeted for Chairman/Directors and C.E.O.s, Officers of Co-operative Banks",
-    programmeFee: "Rs. 7500/- + GST per participant for non - residential Rs. 12500/- + GST for residential (Double sharing) Rs. 15000/- + GST for residential (Single sharing)",
-    brochureUrl: ""
-  },
+  
   {
     title: "Credit Appraisal and Recovery Management",
     location: "Manali, Himachal Pradesh",
@@ -81,9 +73,18 @@ export const upcomingTrainingPrograms: TrainingProgram[] = [
     brochureUrl: ""
   },
   {
-    title: "Board Meetings, Annual General Meetings and Writing of Proceedings",
-    location: "Gangtok, Sikkim",
+    title: "Corporate Governance, & Risk Management",
+    location: "Mussoorie, Uttarakhand",
     date: "June 28, 2025 to June 29, 2025",
+    duration: "2 days",
+    targetAudience: "Targeted for Chairman/Directors and C.E.O.s, Officers of Co-operative Banks",
+    programmeFee: "Rs. 8500/- + GST per participant for non - residential Rs. 17000/- + GST for residential (Double sharing) Rs. 22000/- + GST for residential (Single sharing)",
+    brochureUrl: ""
+  },
+  {
+    title: "Board Meetings, Annual General Meetings and Writing of Proceedings",
+    location: "Shimla, Himachal Pradesh",
+    date: "July 12, 2025 to July 13, 2025",
     duration: "2 days",
     targetAudience: "Targeted for Chairman/Directors and C.E.O.s , officers of Co-operative Banks",
     programmeFee: "Rs. 8500/- + GST per participant for non – residential Rs. 17000/- + GST for residential (Double sharing) Rs. 22000/- + GST for residential (Single sharing)",
