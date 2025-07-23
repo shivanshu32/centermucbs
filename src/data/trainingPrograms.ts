@@ -54,42 +54,52 @@ export const upcomingTrainingPrograms: TrainingProgram[] = [
 //     brochureUrl: ""
 //   },
   {
-    title: "KYC/AML and Customer Services",
+    title: "KYC/AML and Customer Services, Credit Administration in Co-operative Banks",
     location: "Delhi",
-    date: "June 12, 2025 to June 12, 2025",
-    duration: "1 day",
+    date: "July 28, 2025 to July 29, 2025",
+    duration: "2 days",
     targetAudience: "Targeted for Officers working in Co-operative Banks",
-    programmeFee: "Rs. 8500/- + GST per participant for non – residential Rs. 17000/- + GST for residential (Double sharing) Rs. 22000/- + GST for residential (Single sharing)",
+    programmeFee: "Rs. 3500/- + GST per participant for non – residential Rs. 9000/- + GST for residential (Double sharing) Rs. 12000/- + GST for residential (Single sharing)",
     brochureUrl: ""
   },
   
   {
-    title: "Credit Appraisal and Recovery Management",
-    location: "Manali, Himachal Pradesh",
-    date: "June 14, 2025 to June 15, 2025",
+    title: "Audit, Compliance Management, Risk Management in Co-operative Banks",
+    location: "Chandigarh",
+    date: "August 13, 2025 to August 14, 2025",
     duration: "2 days",
-    targetAudience: "Targeted for Chairman/Directors and C.E.O.s, Officers working in Co-operative Banks",
-    programmeFee: "Rs. 8500/- + GST per participant for non – residential Rs. 17000/- + GST for residential (Double sharing) Rs. 22000/- + GST for residential (Single sharing)",
-    brochureUrl: ""
-  },
-  {
-    title: "Corporate Governance, & Risk Management",
-    location: "Mussoorie, Uttarakhand",
-    date: "June 28, 2025 to June 29, 2025",
-    duration: "2 days",
-    targetAudience: "Targeted for Chairman/Directors and C.E.O.s, Officers of Co-operative Banks",
-    programmeFee: "Rs. 8500/- + GST per participant for non - residential Rs. 17000/- + GST for residential (Double sharing) Rs. 22000/- + GST for residential (Single sharing)",
+    targetAudience: "Targeted for Officers working in Co-operative Banks",
+    programmeFee: "Rs. 3500/- + GST per participant for non – residential Rs. 9000/- + GST for residential (Double sharing) Rs. 12000/- + GST for residential (Single sharing)",
     brochureUrl: ""
   },
   {
     title: "Board Meetings, Annual General Meetings and Writing of Proceedings",
-    location: "Shimla, Himachal Pradesh",
-    date: "July 12, 2025 to July 13, 2025",
+    location: "Jaipur, Rajasthan",
+    date: "August 23, 2025 to August 24, 2025",
+    duration: "2 days",
+    targetAudience: "Targeted for Chairman/Directors and C.E.O.s, Officers of Co-operative Banks",
+    programmeFee: "Rs. 5500/- + GST per participant for non – residential Rs. 12000/- + GST for residential (Double sharing) Rs. 17000/- + GST for residential (Single sharing)",
+    brochureUrl: ""
+  },
+  {
+    title: "Governance and Risk Management in Co-operative Banks",
+    location: "Lucknow, Uttar Pradesh",
+    date: "September 13, 2025 to September 14, 2025",
     duration: "2 days",
     targetAudience: "Targeted for Chairman/Directors and C.E.O.s , officers of Co-operative Banks",
-    programmeFee: "Rs. 8500/- + GST per participant for non – residential Rs. 17000/- + GST for residential (Double sharing) Rs. 22000/- + GST for residential (Single sharing)",
+    programmeFee: "Rs. 5500/- + GST per participant for non – residential Rs. 12000/- + GST for residential (Double sharing) Rs. 17000/- + GST for residential (Single sharing)",
+    brochureUrl: ""
+  },
+  {
+    title: "Credit Administration and Recovery Management",
+    location: "Varanasi, Uttar Pradesh",
+    date: "September 25, 2025 to September 26, 2025",
+    duration: "2 days",
+    targetAudience: "Targeted for Officers working in Co-operative Banks",
+    programmeFee: "Rs. 3500/- + GST per participant for non – residential Rs. 9000/- + GST for residential (Double sharing) Rs. 12000/- + GST for residential (Single sharing)",
     brochureUrl: ""
   }
+  
 //   {
 //     title: "Credit Management and Investment Management in Co- operative Banks",
 //     location: "IIBF, Delhi",
