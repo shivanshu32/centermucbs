@@ -54,6 +54,15 @@ export const upcomingTrainingPrograms: TrainingProgram[] = [
 //     brochureUrl: ""
 //   },
   {
+    title: "Management Development Programme",
+    location: "Amritsar, Punjab",
+    date: "September 11, 2026 to September 12, 2026",
+    duration: "2 days",
+    targetAudience: "The Chairman, Board members, Managing Director/Chief Executive Officer and senior officers of Urban Co-Operative Banks/ District Central Cooperative Banks/State Co-Operative Banks",
+    programmeFee: "Rs. 8500/- + GST per participant for non – residential Rs. 18000/- + GST per participant for residential (Double sharing) Rs. 28000/- + GST per participant for residential (Single sharing)",
+    brochureUrl: "/Management-Development-Programme-Amritsar-September-2026.pdf"
+  },
+  {
     title: "KYC/AML and Customer Services",
     location: "Delhi",
     date: "June 12, 2025 to June 12, 2025",
