@@ -10,7 +10,6 @@ export default function Footer() {
         <div className="footer-brand">
           <Link className="brand brand-footer" href="/">
             <Image src="/cmucblogo.jpg" alt="CMUCBs logo" width={58} height={58} />
-            <span><strong>CMUCBs</strong><small>Centre for Management of UCBs</small></span>
           </Link>
           <p>Delivering expert advice for stronger, future-ready co-operative banks.</p>
         </div>

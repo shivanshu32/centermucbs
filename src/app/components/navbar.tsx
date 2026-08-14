@@ -21,7 +21,7 @@ export default function Navbar() {
   }, [open]);
 
   return (
-    <header className="site-header">
+    <header className={`site-header ${open ? "menu-open" : ""}`}>
       <nav className="site-shell nav-inner" aria-label="Primary navigation">
         <Link className="brand" href="/" aria-label="CMUCBs home">
           <Image src="/cmucblogo.jpg" alt="" width={62} height={62} priority />
@@ -36,9 +36,9 @@ export default function Navbar() {
             {links.map((link) => (
               <Link key={link.label} href={link.href} onClick={() => setOpen(false)}>{link.label}</Link>
             ))}
-            <a href="https://website.rbi.org.in/web/rbi/notifications/rbi-circulars" target="_blank" rel="noreferrer">RBI updates</a>
+            <a href="https://website.rbi.org.in/web/rbi/notifications/rbi-circulars" target="_blank" rel="noreferrer" onClick={() => setOpen(false)}>RBI updates</a>
           </div>
-          <Link className="button button-nav" href="https://forms.gle/ExCvt9jbBhp7tzg68">
+          <Link className="button button-nav" href="https://forms.gle/ExCvt9jbBhp7tzg68" onClick={() => setOpen(false)}>
             Nominations <FiArrowUpRight aria-hidden="true" />
           </Link>
         </div>
