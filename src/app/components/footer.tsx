@@ -257,7 +257,7 @@ export default function Footer() {
                 >
                   <FaRegCopyright />
                   <p className="text-sm e text-white">
-                    Copyright : 2025, CMUCBs. All Rights Reserved.
+                    Copyright : 2026, CMUCBs. All Rights Reserved.
                   </p>
                 </div>
               </div>
