@@ -471,58 +471,58 @@ const upcomingTrainingPrograms = [
     //     programmeFee: "₹ Rs. 8500/- + GST per participant for non – residential Rs. 17000/- + GST for residential (Double sharing) Rs. 22000/- + GST for residential (Single sharing)",
     //     brochureUrl: "/BoardMeetingsinUCBs.pdf"
     //   },
+    //   {
+    //     title: "KYC/AML and Customer Services in Co-operative Banks",
+    //     location: "IIBF, Delhi",
+    //     date: "April 19, 2025 to April 19, 2025",
+    //     duration: "1 day",
+    //     targetAudience: "Targeted for Officers working in UCBs/DCCBs/CCBs",
+    //     programmeFee: "Rs. 3000/- + GST per participant for non - residential Rs. 6000/- + GST for residential (Double sharing) Rs.7000/- + GST for residential (Single sharing)",
+    //     brochureUrl: ""
+    //   },
     {
-        title: "KYC/AML and Customer Services in Co-operative Banks",
-        location: "IIBF, Delhi",
-        date: "April 19, 2025 to April 19, 2025",
-        duration: "1 day",
-        targetAudience: "Targeted for Officers working in UCBs/DCCBs/CCBs",
-        programmeFee: "Rs. 3000/- + GST per participant for non - residential Rs. 6000/- + GST for residential (Double sharing) Rs.7000/- + GST for residential (Single sharing)",
-        brochureUrl: ""
+        title: "Management Development Programme",
+        location: "Amritsar, Punjab",
+        date: "September 11, 2026 to September 12, 2026",
+        duration: "2 days",
+        targetAudience: "The Chairman, Board members, Managing Director/Chief Executive Officer and senior officers of Urban Co-Operative Banks/ District Central Cooperative Banks/State Co-Operative Banks",
+        programmeFee: "Rs. 8500/- + GST per participant for non – residential Rs. 18000/- + GST per participant for residential (Double sharing) Rs. 28000/- + GST per participant for residential (Single sharing)",
+        brochureUrl: "/Management-Development-Programme-Amritsar-September-2026.pdf"
     },
     {
-        title: "Board Meetings, Annual General Meetings and Writing of Proceedings and Strategies for Good Governance",
-        location: "Mussoorie,Uttarakhand",
-        date: "April 26, 2025 to April 27, 2025",
-        duration: "2 days",
-        targetAudience: "Targeted for Chairman/Directors and C.E.O.s of UCBs/DCCBs/CCBs",
+        title: "KYC/AML and Customer Services",
+        location: "Delhi",
+        date: "June 12, 2025 to June 12, 2025",
+        duration: "1 day",
+        targetAudience: "Targeted for Officers working in Co-operative Banks",
         programmeFee: "Rs. 8500/- + GST per participant for non – residential Rs. 17000/- + GST for residential (Double sharing) Rs. 22000/- + GST for residential (Single sharing)",
         brochureUrl: ""
     },
     {
-        title: "Audit/Compliance & Risk Management in Co-operative Banks",
-        location: "Dehradun, Uttarakhand",
-        date: "April 28, 2025 to April 29, 2025",
+        title: "Corporate Governance, & Risk Management",
+        location: "Mussoorie, Uttarakhand",
+        date: "July 12, 2025 to July 13, 2025",
         duration: "2 days",
-        targetAudience: "Targeted for Officers working in audit/compliance department of UCBs/DCCBs/CCBs",
+        targetAudience: "Targeted for Chairman/Directors and C.E.O.s, Officers of Co-operative Banks",
         programmeFee: "Rs. 7500/- + GST per participant for non - residential Rs. 12500/- + GST for residential (Double sharing) Rs. 15000/- + GST for residential (Single sharing)",
         brochureUrl: ""
     },
     {
-        title: "Credit Administration and NPA Management in Co-operative Banks",
-        location: "Shimla, Himachal Pradesh",
-        date: "May 10, 2025 to May 11, 2025",
+        title: "Credit Appraisal and Recovery Management",
+        location: "Manali, Himachal Pradesh",
+        date: "June 14, 2025 to June 15, 2025",
         duration: "2 days",
-        targetAudience: "Targeted for Board Members/ C.E.O.s/MDs and Sr. Officers working in UCBs/DCCBs/CCBs",
+        targetAudience: "Targeted for Chairman/Directors and C.E.O.s, Officers working in Co-operative Banks",
         programmeFee: "Rs. 8500/- + GST per participant for non – residential Rs. 17000/- + GST for residential (Double sharing) Rs. 22000/- + GST for residential (Single sharing)",
         brochureUrl: ""
     },
     {
-        title: "Credit Management and Investment Management in Co- operative Banks",
-        location: "IIBF, Delhi",
-        date: "May 16, 2025 to May 17, 2025",
+        title: "Board Meetings, Annual General Meetings and Writing of Proceedings",
+        location: "Gangtok, Sikkim",
+        date: "June 28, 2025 to June 29, 2025",
         duration: "2 days",
-        targetAudience: "Targeted for Officers working in UCBs/DCCBs/CCBs",
-        programmeFee: "Rs. 3000/- + GST per participant for non - residential Rs. 6000/- + GST for residential (Double sharing) Rs.7000/- + GST for residential (Single sharing)",
-        brochureUrl: ""
-    },
-    {
-        title: "Information Technology and Cyber Security in Co-operative Banks",
-        location: "IIBF, Delhi",
-        date: "June 9, 2025 to June 9, 2025",
-        duration: "1 days",
-        targetAudience: "Targeted for Officers working in IT department of UCBs/DCCBs/CCBs",
-        programmeFee: "Rs. 3000/- + GST per participant for non - residential Rs. 6000/- + GST for residential (Double sharing) Rs.7000/- + GST for residential (Single sharing)",
+        targetAudience: "Targeted for Chairman/Directors and C.E.O.s , officers of Co-operative Banks",
+        programmeFee: "Rs. 8500/- + GST per participant for non – residential Rs. 17000/- + GST for residential (Double sharing) Rs. 22000/- + GST for residential (Single sharing)",
         brochureUrl: ""
     }
 ];
@@ -1151,10 +1151,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$components$2f$
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$components$2f$services$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/app/components/services.tsx [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$components$2f$trainingprograms$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/app/components/trainingprograms.tsx [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$components$2f$whychooseus$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/app/components/whychooseus.tsx [app-rsc] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$components$2f$upcomingtraining$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/app/components/upcomingtraining.tsx [app-rsc] (ecmascript)");
+// import Upcomingtraining from "./components/upcomingtraining";
 // import Previoustraining from "./components/previoustraining";
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$components$2f$contact$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/app/components/contact.js [app-rsc] (ecmascript)");
-;
 ;
 ;
 ;
@@ -1188,11 +1187,6 @@ function Home() {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$components$2f$whychooseus$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/page.tsx",
                 lineNumber: 18,
-                columnNumber: 2
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$components$2f$upcomingtraining$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                fileName: "[project]/src/app/page.tsx",
-                lineNumber: 19,
                 columnNumber: 2
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$components$2f$contact$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
