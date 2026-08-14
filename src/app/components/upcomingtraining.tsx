@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FiArrowUpRight, FiCalendar, FiClock, FiMapPin, FiUsers } from "react-icons/fi";
+import { FiArrowUpRight, FiCalendar, FiClock, FiDownload, FiMapPin, FiUsers } from "react-icons/fi";
 import { upcomingTrainingPrograms } from "@/data/trainingPrograms";
 
 export default function Upcomingtraining() {
@@ -32,11 +32,16 @@ export default function Upcomingtraining() {
                 <p className="programme-audience"><FiUsers aria-hidden="true" /> {program.targetAudience}</p>
               </div>
               <div className="programme-action">
-                {program.brochureUrl ? (
-                  <a className="circle-link" href={program.brochureUrl} download aria-label={`Download brochure for ${program.title}`}>
+                {program.brochureUrl && (
+                  <a className="circle-link" href={program.brochureUrl} download aria-label={`Download brochure for ${program.title}`} title="Download brochure">
+                    <FiDownload aria-hidden="true" />
+                  </a>
+                )}
+                {program.registrationUrl ? (
+                  <a className="circle-link" href={program.registrationUrl} target="_blank" rel="noreferrer" aria-label={`Register for ${program.title}`} title="Register now">
                     <FiArrowUpRight aria-hidden="true" />
                   </a>
-                ) : (
+                ) : !program.brochureUrl && (
                   <Link className="circle-link" href="#contactus" aria-label={`Enquire about ${program.title}`}>
                     <FiArrowUpRight aria-hidden="true" />
                   </Link>

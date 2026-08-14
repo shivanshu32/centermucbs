@@ -24,7 +24,7 @@ export default function Hero() {
             people capability into confident, sustainable growth.
           </p>
           <div className="hero-actions">
-            <Link className="button button-primary" href="https://forms.gle/ExCvt9jbBhp7tzg68">
+            <Link className="button button-primary" href="https://forms.gle/GJa2SqFGqBDa6tsa7">
               Nominate a participant <FiArrowUpRight aria-hidden="true" />
             </Link>
             <Link className="button button-ghost" href="#services">

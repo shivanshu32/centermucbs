@@ -189,6 +189,7 @@ h2 {
 .programme-meta span, .programme-audience { display: inline-flex; align-items: center; gap: 7px; }
 .programme-meta svg, .programme-audience svg { color: var(--blue); flex: 0 0 auto; }
 .programme-audience { margin: 12px 0 0; color: #718090; font-size: 11px; }
+.programme-action { display: flex; flex-direction: column; gap: 10px; }
 .circle-link { display: grid; place-items: center; width: 46px; height: 46px; border: 1px solid var(--line); border-radius: 50%; transition: color .25s ease, background .25s ease, transform .25s ease; }
 .circle-link:hover { transform: rotate(45deg); color: white; background: var(--blue); }
 
@@ -377,7 +378,7 @@ h2 {
   .format-card h3 { font-size: 32px; }
   .programme-calendar { margin-top: 70px; padding: 70px 0; }
   .programme-card { grid-template-columns: 36px 1fr; gap: 12px; padding: 25px 0; }
-  .programme-action { display: none; }
+  .programme-action { grid-column: 2; flex-direction: row; }
   .programme-meta { flex-direction: column; gap: 8px; }
   .programme-audience { align-items: flex-start; }
   .services-grid { grid-template-columns: 1fr; }

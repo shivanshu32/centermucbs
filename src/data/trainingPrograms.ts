@@ -6,9 +6,20 @@ export interface TrainingProgram {
   targetAudience: string;
   programmeFee: string;
   brochureUrl?: string; // Optional field for download brochure
+  registrationUrl?: string;
 }
 
 export const upcomingTrainingPrograms: TrainingProgram[] = [
+  {
+    title: "Strengthening Governance, Compliance, Risk Management & Business Growth",
+    location: "Amritsar, Punjab",
+    date: "September 11, 2026 to September 12, 2026",
+    duration: "2 days",
+    targetAudience: "Chairpersons, board members, managing directors/CEOs and senior officers of Urban, District Central and State Co-operative Banks",
+    programmeFee: "Rs. 8,500 + GST non-residential; Rs. 18,000 + GST residential (double sharing); Rs. 28,000 + GST residential (single sharing)",
+    brochureUrl: "/Management-Development-Programme-Amritsar-September-2026.pdf",
+    registrationUrl: "https://forms.gle/GJa2SqFGqBDa6tsa7"
+  },
 //   {
 //     title: "Corporate Governance, & Risk Management in UCBs",
 //     location: "Udaipur, Rajasthan",
@@ -118,4 +129,4 @@ export const upcomingTrainingPrograms: TrainingProgram[] = [
 //     programmeFee: "Rs. 3000/- + GST per participant for non - residential Rs. 6000/- + GST for residential (Double sharing) Rs.7000/- + GST for residential (Single sharing)",
 //     brochureUrl: ""
 //   }
-]; 
+];

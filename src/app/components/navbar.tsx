@@ -38,7 +38,7 @@ export default function Navbar() {
             ))}
             <a href="https://website.rbi.org.in/web/rbi/notifications/rbi-circulars" target="_blank" rel="noreferrer" onClick={() => setOpen(false)}>RBI updates</a>
           </div>
-          <Link className="button button-nav" href="https://forms.gle/ExCvt9jbBhp7tzg68" onClick={() => setOpen(false)}>
+          <Link className="button button-nav" href="https://forms.gle/GJa2SqFGqBDa6tsa7" onClick={() => setOpen(false)}>
             Nominations <FiArrowUpRight aria-hidden="true" />
           </Link>
         </div>
