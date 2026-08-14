@@ -25,7 +25,6 @@ export default function Navbar() {
       <nav className="site-shell nav-inner" aria-label="Primary navigation">
         <Link className="brand" href="/" aria-label="CMUCBs home">
           <Image src="/cmucblogo.jpg" alt="" width={62} height={62} priority />
-          <span><strong>CMUCBs</strong><small>Centre for Management of UCBs</small></span>
         </Link>
 
         <button className="menu-button" onClick={() => setOpen(!open)} aria-expanded={open} aria-controls="primary-menu" aria-label={open ? "Close menu" : "Open menu"}>
