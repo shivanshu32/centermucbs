@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaArrowRight } from "react-icons/fa"
 
 export default function Whychooseus() {
   return (
@@ -11,28 +12,28 @@ export default function Whychooseus() {
         <p className="xl:text-xl text-base font-semibold leading-7 text-gray-300 lg:mt-6 mt-4">We prioritize governance and sustained compliance, ensuring your bank operates within the regulatory framework,  with a focus on driving business growth and meeting customer expectations, we offer well-defined SOPs for business acquisition, fund management, credit administration, and recovery processes. Our objective is to provide expert training to Staff, Management development programmes for top management and providing technical and advisory services to UCBs through management consultancy. </p>
         <div className="mt-10">
           <div className="flex items-center">
-            <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/arrow.svg" alt="arrow right" />
+            <FaArrowRight className="w-6 h-6 text-gray-300" />
             <p className="xl:text-base text-sm font-medium leading-4 text-gray-300 ml-4">Governance and sustained compliance.
             </p>
           </div>
           <div className="flex items-center md:mt-6 mt-4">
-            <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/arrow.svg" alt="arrow right" />
+            <FaArrowRight className="w-6 h-6 text-gray-300" />
             <p className="xl:text-base text-sm font-medium leading-4 text-gray-300 ml-4">Strong I.T. system and upto date technology as per cyber security framework.
             </p>
           </div>
           <div className="flex items-center md:mt-6 mt-4">
-            <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/arrow.svg" alt="arrow right" />
+            <FaArrowRight className="w-6 h-6 text-gray-300" />
             <p className="xl:text-base text-sm font-medium leading-4 text-gray-300 ml-4">Business growth meeting customers’ expectations.
             </p>
           </div>
           <div className="flex items-center md:mt-6 mt-4">
-            <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/arrow.svg" alt="arrow right" />
+            <FaArrowRight className="w-6 h-6 text-gray-300" />
             <p className="xl:text-base text-sm font-medium leading-4 text-gray-300 ml-4">SOPs for business acquisition, fund management, Credit administration, Recovery process.  
 
             </p>
           </div>
           <div className="flex items-center md:mt-6 mt-4">
-            <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/arrow.svg" alt="arrow right" />
+            <FaArrowRight className="w-6 h-6 text-gray-300" />
             <p className="xl:text-base text-sm font-medium leading-4 text-gray-300 ml-4">Updated policies as per guidelines of Reserve Bank of India.  
 
             </p>

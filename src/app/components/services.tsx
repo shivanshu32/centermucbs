@@ -75,7 +75,7 @@ export default function Services() {
                     </div>
                 </section>
                 <div className="absolute top-0 right-20">
-                    <img className="invisible md:visible lg:w-auto lg:h-auto w-48 h-48" src="https://i.ibb.co/0V7KqPk/Group-1.png" alt="Group-1" />
+                    <img className="invisible md:visible lg:w-auto lg:h-auto w-48 h-48" src="/Group-1.png" alt="Group-1" />
                 </div>
             </div>
         </div>
