@@ -51,6 +51,18 @@ export default function Upcomingtraining() {
                   </a>
                 </div>
               )}
+              {program.nominationUrl && (
+                <div className="pt-4">
+                  <a 
+                    className="hover:bg-gradient-to-r from-[#DE466C] to-[#004281] bg-[#004281] px-5 text-lg py-2 text-white font-medium rounded-full transition duration-300" 
+                    href={program.nominationUrl} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                  >
+                    Nomination
+                  </a>
+                </div>
+              )}
             </div>
           </div>
         ))}

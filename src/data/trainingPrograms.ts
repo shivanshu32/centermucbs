@@ -6,6 +6,7 @@ export interface TrainingProgram {
   targetAudience: string;
   programmeFee: string;
   brochureUrl?: string; // Optional field for download brochure
+  nominationUrl?: string; // Optional nomination link
 }
 
 export const upcomingTrainingPrograms: TrainingProgram[] = [
@@ -60,7 +61,8 @@ export const upcomingTrainingPrograms: TrainingProgram[] = [
     duration: "2 days",
     targetAudience: "The Chairman, Board members, Managing Director/Chief Executive Officer and senior officers of Urban Co-Operative Banks/ District Central Cooperative Banks/State Co-Operative Banks",
     programmeFee: "Rs. 8500/- + GST per participant for non – residential Rs. 18000/- + GST per participant for residential (Double sharing) Rs. 28000/- + GST per participant for residential (Single sharing)",
-    brochureUrl: "/Management-Development-Programme-Amritsar-September-2026.pdf"
+    brochureUrl: "/Management-Development-Programme-Amritsar-September-2026.pdf",
+    nominationUrl: "https://forms.gle/GJa2SqFGqBDa6tsa7"
   },
   {
     title: "KYC/AML and Customer Services",
