@@ -1,38 +1,46 @@
-import { FiCheck } from "react-icons/fi";
-
-const strengths = [
-  "Governance and sustained compliance",
-  "Technology aligned with the cyber security framework",
-  "Business growth centred on customer expectations",
-  "Clear SOPs across acquisition, funds, credit and recovery",
-  "Policies updated in line with Reserve Bank of India guidance",
-];
+import React from 'react'
 
 export default function Whychooseus() {
   return (
-    <section className="section why-section">
-      <div className="site-shell why-layout">
-        <div className="why-art" aria-hidden="true">
-          <div className="why-rings">
-            <span>Insight</span>
-            <span>Action</span>
-            <span>Impact</span>
+    <div className="bg-gray-900 xl:px-20 px-6 md:py-20 py-14 w-full">
+    <div className="w-full flex md:flex-row flex-col items-center md:justify-between justify-center">
+      <div className="xl:w-full lg:w-full">
+      <div className="text-5xl leading-[60px] text-[#ffffff] tracking-[-0.04em]  font-[800] text-center mx-1 md:mx-0  ">
+     Why Choose Us
+    </div>
+        <p className="xl:text-xl text-base font-semibold leading-7 text-gray-300 lg:mt-6 mt-4">We prioritize governance and sustained compliance, ensuring your bank operates within the regulatory framework,  with a focus on driving business growth and meeting customer expectations, we offer well-defined SOPs for business acquisition, fund management, credit administration, and recovery processes. Our objective is to provide expert training to Staff, Management development programmes for top management and providing technical and advisory services to UCBs through management consultancy. </p>
+        <div className="mt-10">
+          <div className="flex items-center">
+            <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/arrow.svg" alt="arrow right" />
+            <p className="xl:text-base text-sm font-medium leading-4 text-gray-300 ml-4">Governance and sustained compliance.
+            </p>
+          </div>
+          <div className="flex items-center md:mt-6 mt-4">
+            <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/arrow.svg" alt="arrow right" />
+            <p className="xl:text-base text-sm font-medium leading-4 text-gray-300 ml-4">Strong I.T. system and upto date technology as per cyber security framework.
+            </p>
+          </div>
+          <div className="flex items-center md:mt-6 mt-4">
+            <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/arrow.svg" alt="arrow right" />
+            <p className="xl:text-base text-sm font-medium leading-4 text-gray-300 ml-4">Business growth meeting customers’ expectations.
+            </p>
+          </div>
+          <div className="flex items-center md:mt-6 mt-4">
+            <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/arrow.svg" alt="arrow right" />
+            <p className="xl:text-base text-sm font-medium leading-4 text-gray-300 ml-4">SOPs for business acquisition, fund management, Credit administration, Recovery process.  
+
+            </p>
+          </div>
+          <div className="flex items-center md:mt-6 mt-4">
+            <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/arrow.svg" alt="arrow right" />
+            <p className="xl:text-base text-sm font-medium leading-4 text-gray-300 ml-4">Updated policies as per guidelines of Reserve Bank of India.  
+
+            </p>
           </div>
         </div>
-        <div className="why-copy">
-          <div className="eyebrow eyebrow-light">Why CMUCBs</div>
-          <h2>Deep expertise.<br />Practical outcomes.</h2>
-          <p>
-            We connect regulatory understanding with the day-to-day realities of
-            banking, so advice is not only sound—it is usable.
-          </p>
-          <ul>
-            {strengths.map((strength) => (
-              <li key={strength}><span><FiCheck aria-hidden="true" /></span>{strength}</li>
-            ))}
-          </ul>
-        </div>
       </div>
-    </section>
-  );
+      
+    </div>
+  </div>
+  )
 }

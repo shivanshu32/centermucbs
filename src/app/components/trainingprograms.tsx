@@ -1,61 +1,40 @@
-import Link from "next/link";
-import { FiArrowRight, FiBookOpen, FiUsers } from "react-icons/fi";
-import Upcomingtraining from "./upcomingtraining";
-
-const formats = [
-  {
-    icon: FiUsers,
-    number: "01",
-    title: "Management development",
-    copy: "Immersive programmes for chairpersons, directors, CEOs and senior leaders—designed around sharper decisions and sound governance.",
-    tag: "For leadership teams",
-  },
-  {
-    icon: FiBookOpen,
-    number: "02",
-    title: "Staff capacity building",
-    copy: "Applied learning that equips officers with current knowledge, better processes and the confidence to serve customers well.",
-    tag: "For banking professionals",
-  },
-];
+import React from 'react'
+import Upcomingtraining from './upcomingtraining'
 
 export default function Trainingprograms() {
   return (
-    <section id="trainingprogram" className="section training-section">
-      <div className="site-shell">
-        <div className="section-heading split-heading">
-          <div>
-            <div className="eyebrow eyebrow-light">Learning that moves institutions</div>
-            <h2>Expert-led. Applied.<br />Built to make a difference.</h2>
+    <div id="trainingprogram" >
+    <div className="flex justify-center items-center flex-col relative">
+      <img className="absolute object-cover z-0 top-0 w-full h-full hidden lg:block" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/feature_11_desktop.png" alt="bg-desktop" />
+      <img className="absolute object-cover z-0 top-0 w-full h-full md:block lg:hidden " src="https://tuk-cdn.s3.amazonaws.com/can-uploader/feature_11_ipad.png" alt="bg-ipad" />
+      <img className="absolute object-cover z-0 top-0 w-full h-full md:hidden" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/feature_11_mobile.png" alt="bg-mobile" />
+      <div className="2xl:px-20 z-20 static  flex flex-col justify-center items-center px-4 md:px-6 py-12 ">
+      <div className="text-5xl leading-[60px] text-[#004281] tracking-[-0.04em]  font-[800] text-center mx-1 md:mx-0  ">
+       Upcoming Training Programs
+      </div>
+        <div className="grid mt-8 w-full md:mt-12 xl:mt-14 grid-cols-1 md:grid-cols-2 xl:grid-cols-3 justify-items-center items-center gap-6 md:gap-6 xl:gap-8">
+          <div className="cursor-pointer  flex flex-col   justify-center items-center">
+            <img className="-mb-6 md:-mb-8 xl:-mb-10  w-12 md:w-16 xl:w-auto z-20" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/feature_11_svg-1.svg" alt="billing" />
+            <div className="flex-col transition duration-500 hover:shadow-2xl w-full border py-14 px-8 flex justify-center items-center bg-white shadow border rounded-md border-gray-200">
+              <p className="w-full md:w-72 xl:w-80 text-xl xl:text-2xl font-medium text-center text-gray-800">Management Development Program 
+              </p>
+              <p className="w-full md:w-72 xl:w-80 mt-4 text-base xl:text-xl leading-6 xl:leading-9 text-center text-gray-600">Our Management Training Program is designed to equip professionals with the skills, knowledge, and strategies needed to excel in leadership roles. </p>
+            </div>
           </div>
-          <div>
-            <p>
-              Programmes shaped around the real regulatory, operational and
-              leadership challenges facing co-operative banks today.
-            </p>
-            <Link className="text-link text-link-light" href="/archive">
-              View past programmes <FiArrowRight aria-hidden="true" />
-            </Link>
-          </div>
-        </div>
 
-        <div className="format-grid">
-          {formats.map(({ icon: Icon, number, title, copy, tag }) => (
-            <article className="format-card" key={number}>
-              <div className="format-card-top">
-                <span>{number}</span>
-                <Icon aria-hidden="true" />
-              </div>
-              <div>
-                <h3>{title}</h3>
-                <p>{copy}</p>
-              </div>
-              <span className="format-tag">{tag}</span>
-            </article>
-          ))}
+          <div className="cursor-pointer  flex flex-col   justify-center items-center">
+            <img className="-mb-6 md:-mb-8 xl:-mb-10  w-12 md:w-16 xl:w-auto z-20" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/feature_11_svg-2.svg" alt="billing" />
+            <div className="flex-col transition duration-500 hover:shadow-2xl w-full border py-14 px-8 flex justify-center items-center bg-white shadow border rounded-md border-gray-200">
+              <p className="w-full md:w-72 xl:w-80 text-xl xl:text-2xl font-medium text-center text-gray-800">Capacity building for staff of UCBs
+              </p>
+              <p className="w-full md:w-72 xl:w-80 mt-4 text-base xl:text-xl leading-6 xl:leading-9 text-center text-gray-600">Our Capacity Building Training Program empowers organizations to enhance their skills, resources, and capabilities for sustainable growth. </p>
+            </div>
+          </div>
+         
         </div>
       </div>
-      <Upcomingtraining />
-    </section>
-  );
+    </div>
+    <Upcomingtraining />
+  </div>
+  )
 }

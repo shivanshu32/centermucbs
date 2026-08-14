@@ -1,64 +1,57 @@
-"use client";
-
-import emailjs from "@emailjs/browser";
-import { useRef, useState } from "react";
-import { FiArrowUpRight, FiMail, FiPhone } from "react-icons/fi";
+"use client"
+import React, { useRef }  from 'react'
+import emailjs from '@emailjs/browser';
 
 export default function Contact() {
-  const form = useRef(null);
-  const [status, setStatus] = useState("idle");
+    const form = useRef();
 
-  const sendEmail = async (event) => {
-    event.preventDefault();
-    setStatus("sending");
-    try {
-      await emailjs.sendForm("service_6by4y8w", "template_58czeqf", form.current, {
-        publicKey: "SS7aB-TQWD2q2tzAB",
-      });
-      form.current?.reset();
-      setStatus("success");
-    } catch {
-      setStatus("error");
-    }
-  };
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        const SERVICE_ID = "service_6by4y8w";
+        const TEMPLATE_ID = "template_58czeqf";
+        const PUBLIC_KEY = "SS7aB-TQWD2q2tzAB";
+    
+        emailjs
+          .sendForm(SERVICE_ID, TEMPLATE_ID, form.current, {
+            publicKey: PUBLIC_KEY,
+          })
+          .then(
+            () => {
+              alert('SUCCESS!, We have received your message and will get back to you');
+              document.getElementById("name").value = "";
+              document.getElementById("email").value = "";
+              document.getElementById("orgname").value = "";
+              document.getElementById("contactnumber").value = "";
+              document.getElementById("message").value = "";
+            },
+            (error) => {
+              console.log('FAILED...', error.text);
+            },
+          );
+      };
 
   return (
-    <section id="contactus" className="section contact-section">
-      <div className="site-shell contact-shell">
-        <div className="contact-copy">
-          <div className="eyebrow eyebrow-light">Start a conversation</div>
-          <h2>Let&apos;s strengthen your institution—together.</h2>
-          <p>
-            Tell us where you would value support. Our team will respond with a
-            clear, practical next step.
-          </p>
-          <div className="contact-details">
-            <a href="tel:+919870265838"><FiPhone aria-hidden="true" /><span><small>Call us</small>+91 98702 65838</span></a>
-            <a href="mailto:cmucbs@gmail.com"><FiMail aria-hidden="true" /><span><small>Email us</small>cmucbs@gmail.com</span></a>
-          </div>
+    <div id="contactus">
+    <div className="xl:container xl:mx-auto py-12 lg:py-0">
+        <div className="flex flex-col lg:flex-row justify-center items-center items-strech h-full mx-4">
+            <div className="lg:w-full 2xl:w-3/5">
+                <h1 className="text-3xl lg:text-5xl font-bold text-gray-800 w-11/12">Get in touch with Us</h1>
+                <p className="mt-3 lg:mt-4 text-base leading-normal text-gray-600 md:w-8/12 2xl:w-7/12">We will get back to you soon</p>
+            </div>
+            <div className="lg:w-full 2xl:w-2/5 flex w-full bg-gray-50 flex flex-col justify-center px-5 py-5 md:px-7 md:py-7 lg:py-12 lg:px-20 mt-2 md:mt-6 lg:mt-0">
+                <h2 className="text-lg font-semibold text-gray-800">Send us a message</h2>
+                <form ref={form} onSubmit={sendEmail} name="contact">
+                <input id="name" name="name" className="rounded-md border border-gray-300 mt-4 md:mt-6 p-4 text-base text-gray-600 focus:outline-none focus:border-gray-700" type="text" aria-label="Name" placeholder="Enter your Name" />
+                <input id="email" name="email" className="rounded-md border border-gray-300 mt-4 p-4 text-base text-gray-600 focus:outline-none focus:border-gray-700" type="email" aria-label="Email" placeholder="Enter your email" />
+                <input id="orgname" name="orgname" className="rounded-md border border-gray-300 mt-4 md:mt-6 p-4 text-base text-gray-600 focus:outline-none focus:border-gray-700" type="text" aria-label="orgname" placeholder="Organization Name" />
+                <input id="contactnumber" name="contactnumber" className="rounded-md border border-gray-300 mt-4 p-4 text-base text-gray-600 focus:outline-none focus:border-gray-700" type="number" aria-label="Contact" placeholder="Contact Number" />
+                <textarea id="message" name="message" aria-label="Your message" placeholder="Message" className="w-full h-48 lg:h-36 xl:h-48 2xl:h-56 mt-4 md:mt-6 p-4 rounded-md border border-gray-300 resize-none text-base text-gray-600 focus:outline-none focus:border-gray-700"></textarea>
+                <button type="submit" className="bg-indigo-700 hover:bg-indigo-600 rounded-md mt-4 md:mt-5 leading-4 p-4 text-base font-medium text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700">Send</button>
+                </form>
+            </div>
         </div>
-
-        <form ref={form} onSubmit={sendEmail} className="contact-form">
-          <div className="field-row">
-            <label>Name<input required name="name" type="text" placeholder="Your full name" /></label>
-            <label>Work email<input required name="email" type="email" placeholder="name@bank.com" /></label>
-          </div>
-          <div className="field-row">
-            <label>Organisation<input name="orgname" type="text" placeholder="Bank or organisation" /></label>
-            <label>Phone<input name="contactnumber" type="tel" placeholder="Your contact number" /></label>
-          </div>
-          <label>How can we help?<textarea required name="message" rows={4} placeholder="Tell us about your training or consultancy requirement" /></label>
-          <div className="form-footer">
-            <p aria-live="polite">
-              {status === "success" && "Thank you—your message has been received."}
-              {status === "error" && "We couldn't send that. Please email us directly."}
-            </p>
-            <button className="button button-primary" type="submit" disabled={status === "sending"}>
-              {status === "sending" ? "Sending…" : "Send enquiry"} <FiArrowUpRight aria-hidden="true" />
-            </button>
-          </div>
-        </form>
-      </div>
-    </section>
-  );
+    </div>
+</div>
+  )
 }

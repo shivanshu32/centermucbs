@@ -1,67 +1,35 @@
-import { FiArrowUpRight, FiCompass, FiTarget, FiUsers } from "react-icons/fi";
-
-const values = [
-  {
-    icon: FiCompass,
-    title: "Practical guidance",
-    copy: "Clear advice designed for real banking decisions—not theory that stays on paper.",
-  },
-  {
-    icon: FiUsers,
-    title: "Industry expertise",
-    copy: "Experienced banking and co-operative sector leaders who understand your world.",
-  },
-  {
-    icon: FiTarget,
-    title: "Focused outcomes",
-    copy: "Training and consultancy that strengthen governance, capability and performance.",
-  },
-];
+import React from 'react'
 
 export default function About() {
   return (
-    <section id="aboutus" className="section about-section">
-      <div className="site-shell">
-        <div className="about-top">
-          <div>
-            <div className="eyebrow">About CMUCBs</div>
-            <h2>Better banking,<br />made practical.</h2>
-          </div>
-          <div className="about-summary">
-            <p>
-              We help Urban Co-operative Banks build stronger governance,
-              confident teams and sustainable growth.
-            </p>
-            <span>
-              Our experts turn banking experience and regulatory knowledge into
-              clear, useful action.
-            </span>
-          </div>
+    <div id="aboutus" className=" flex justify-center py-[5%] gap-5 flex-col items-center">
+        <div className="text-5xl leading-[60px] text-[#004281] tracking-[-0.04em]  font-[800] text-center mx-1 md:mx-0  ">
+          About Us
+        </div>
+        <div className="text-xl font-medium leading-8 text-[#818487] text-justify  mt-[2%] mx-[8%]">
+        We are a management consulting firm for the Urban Co-Operative Banks, collaborating with visionary leaders to create adaptive strategies for strong governance, Compliance management and healthy work culture in UCBs. 
         </div>
 
-        <div className="about-values">
-          {values.map(({ icon: Icon, title, copy }, index) => (
-            <article className="about-value" key={title}>
-              <div className="about-value-head">
-                <Icon aria-hidden="true" />
-                <span>0{index + 1}</span>
-              </div>
-              <h3>{title}</h3>
-              <p>{copy}</p>
-            </article>
-          ))}
+        <div className="text-xl font-medium leading-8 text-[#818487] text-justify   mx-[8%]">
+        We conduct Management Development Programmes for capacity building of Top Management in Urban Co-Operative Banks. Our objective is to provide technical and advisory services to UCBs through management consultancy.
         </div>
 
-        <div className="about-callout">
-          <div>
-            <span>From insight to implementation</span>
-            <strong>Support shaped around your bank.</strong>
-          </div>
-          <a className="button button-about" href="#trainingprogram">
-            Explore our programmes <FiArrowUpRight aria-hidden="true" />
-          </a>
+        <div className="text-xl font-medium leading-8 text-[#818487] text-justify   mx-[8%]">
+        Panel of experts are Industry leaders from the banking and co-operative sector. Our objective is to provide expert training to Staff, Management development programmes for top management and providing technical and advisory services to UCBs through management consultancy.
         </div>
+
+        <div className="text-xl font-medium leading-8 text-[#818487] text-justify   mx-[8%]">
+        Our cost-effective training programmes are designed to improve operational efficiency of staff and help the top management to implement good governance in the organisation.
+        </div>
+       
+
+
       </div>
-    </section>
-  );
+  )
 }
+
+
+
+
+ 
+ 

@@ -1,55 +1,59 @@
-import Link from "next/link";
-import { FiArrowUpRight, FiCalendar, FiClock, FiDownload, FiMapPin, FiUsers } from "react-icons/fi";
-import { upcomingTrainingPrograms } from "@/data/trainingPrograms";
+import React from 'react';
+import { upcomingTrainingPrograms } from '@/data/trainingPrograms';
 
 export default function Upcomingtraining() {
-  return (
-    <div id="upcomingtraining" className="programme-calendar">
-      <div className="site-shell">
-        <div className="calendar-heading">
-          <div>
-            <div className="eyebrow eyebrow-light">Programme calendar</div>
-            <h2>Published programmes</h2>
+  // Function to format programme fee for better display
+  const formatProgrammeFee = (fee: string) => {
+    if (!fee) return null;
+    
+    // Split the fee string by "Rs." to separate different plans
+    const plans = fee.split('Rs.').filter(plan => plan.trim() !== '');
+    
+    return (
+      <div className="mt-2">
+        {plans.map((plan, index) => (
+          <div key={index} className="text-sm dark:text-gray-100 mb-1">
+            <span className="font-semibold">Rs.</span>{plan.trim()}
           </div>
-          <p>
-            Schedules are updated periodically. Contact our team for the latest
-            availability and programme information.
-          </p>
-        </div>
+        ))}
+      </div>
+    );
+  };
 
-        <div className="programme-list">
-          {upcomingTrainingPrograms.map((program, index) => (
-            <article className="programme-card" key={`${program.title}-${program.date}`}>
-              <div className="programme-index">{String(index + 1).padStart(2, "0")}</div>
-              <div className="programme-main">
-                <span className="programme-type">Professional development</span>
-                <h3>{program.title}</h3>
-                <div className="programme-meta">
-                  <span><FiMapPin aria-hidden="true" /> {program.location}</span>
-                  <span><FiCalendar aria-hidden="true" /> {program.date}</span>
-                  <span><FiClock aria-hidden="true" /> {program.duration}</span>
+  return (
+    <div id="upcomingtraining">
+      <div className="container mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 pt-6 gap-8 pb-16">
+        {upcomingTrainingPrograms.map((program, index) => (
+          <div key={index} className="p-4 rounded border-gray-300 dark:border-gray-700 border-solid border-2">
+            <div>
+              <h4 className="text-gray-800 dark:text-gray-100 font-bold mb-3">{program.title}</h4>
+              <p className="text-gray-800 dark:text-gray-100 text-sm"><b>Location:</b> {program.location}</p>
+              <br />
+              <p className="text-gray-800 dark:text-gray-100 text-sm"><b>Date:</b> {program.date}</p>
+              <p className="text-sm dark:text-gray-100"><b>Duration:</b> {program.duration}</p>
+              <p className="text-sm dark:text-gray-100 mt-2"><b>Target Audience:</b> {program.targetAudience}</p>
+              {program.programmeFee && program.programmeFee !== "" && (
+                <div className="mt-2">
+                  <p className="text-sm dark:text-gray-100 font-semibold"><b>Programme Fee:</b></p>
+                  {formatProgrammeFee(program.programmeFee)}
                 </div>
-                <p className="programme-audience"><FiUsers aria-hidden="true" /> {program.targetAudience}</p>
-              </div>
-              <div className="programme-action">
-                {program.brochureUrl && (
-                  <a className="circle-link" href={program.brochureUrl} download aria-label={`Download brochure for ${program.title}`} title="Download brochure">
-                    <FiDownload aria-hidden="true" />
+              )}
+            </div>
+            <div>
+              {program.brochureUrl && (
+                <div className="pt-4">
+                  <a 
+                    className="hover:bg-gradient-to-r from-[#DE466C] to-[#004281] bg-[#004281] px-5 text-lg py-2 text-white font-medium rounded-full transition duration-300" 
+                    href={program.brochureUrl} 
+                    download="Brochure"
+                  >
+                    Download Brochure
                   </a>
-                )}
-                {program.registrationUrl ? (
-                  <a className="circle-link" href={program.registrationUrl} target="_blank" rel="noreferrer" aria-label={`Register for ${program.title}`} title="Register now">
-                    <FiArrowUpRight aria-hidden="true" />
-                  </a>
-                ) : !program.brochureUrl && (
-                  <Link className="circle-link" href="#contactus" aria-label={`Enquire about ${program.title}`}>
-                    <FiArrowUpRight aria-hidden="true" />
-                  </Link>
-                )}
-              </div>
-            </article>
-          ))}
-        </div>
+                </div>
+              )}
+            </div>
+          </div>
+        ))}
       </div>
     </div>
   );
