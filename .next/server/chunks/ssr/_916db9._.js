@@ -487,43 +487,8 @@ const upcomingTrainingPrograms = [
         duration: "2 days",
         targetAudience: "The Chairman, Board members, Managing Director/Chief Executive Officer and senior officers of Urban Co-Operative Banks/ District Central Cooperative Banks/State Co-Operative Banks",
         programmeFee: "Rs. 8500/- + GST per participant for non – residential Rs. 18000/- + GST per participant for residential (Double sharing) Rs. 28000/- + GST per participant for residential (Single sharing)",
-        brochureUrl: "/Management-Development-Programme-Amritsar-September-2026.pdf"
-    },
-    {
-        title: "KYC/AML and Customer Services",
-        location: "Delhi",
-        date: "June 12, 2025 to June 12, 2025",
-        duration: "1 day",
-        targetAudience: "Targeted for Officers working in Co-operative Banks",
-        programmeFee: "Rs. 8500/- + GST per participant for non – residential Rs. 17000/- + GST for residential (Double sharing) Rs. 22000/- + GST for residential (Single sharing)",
-        brochureUrl: ""
-    },
-    {
-        title: "Corporate Governance, & Risk Management",
-        location: "Mussoorie, Uttarakhand",
-        date: "July 12, 2025 to July 13, 2025",
-        duration: "2 days",
-        targetAudience: "Targeted for Chairman/Directors and C.E.O.s, Officers of Co-operative Banks",
-        programmeFee: "Rs. 7500/- + GST per participant for non - residential Rs. 12500/- + GST for residential (Double sharing) Rs. 15000/- + GST for residential (Single sharing)",
-        brochureUrl: ""
-    },
-    {
-        title: "Credit Appraisal and Recovery Management",
-        location: "Manali, Himachal Pradesh",
-        date: "June 14, 2025 to June 15, 2025",
-        duration: "2 days",
-        targetAudience: "Targeted for Chairman/Directors and C.E.O.s, Officers working in Co-operative Banks",
-        programmeFee: "Rs. 8500/- + GST per participant for non – residential Rs. 17000/- + GST for residential (Double sharing) Rs. 22000/- + GST for residential (Single sharing)",
-        brochureUrl: ""
-    },
-    {
-        title: "Board Meetings, Annual General Meetings and Writing of Proceedings",
-        location: "Gangtok, Sikkim",
-        date: "June 28, 2025 to June 29, 2025",
-        duration: "2 days",
-        targetAudience: "Targeted for Chairman/Directors and C.E.O.s , officers of Co-operative Banks",
-        programmeFee: "Rs. 8500/- + GST per participant for non – residential Rs. 17000/- + GST for residential (Double sharing) Rs. 22000/- + GST for residential (Single sharing)",
-        brochureUrl: ""
+        brochureUrl: "/Management-Development-Programme-Amritsar-September-2026.pdf",
+        nominationUrl: "https://forms.gle/GJa2SqFGqBDa6tsa7"
     }
 ];
 }}),
@@ -696,24 +661,44 @@ function Upcomingtraining() {
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            children: program.brochureUrl && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "pt-4",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                    className: "hover:bg-gradient-to-r from-[#DE466C] to-[#004281] bg-[#004281] px-5 text-lg py-2 text-white font-medium rounded-full transition duration-300",
-                                    href: program.brochureUrl,
-                                    download: "Brochure",
-                                    children: "Download Brochure"
+                            children: [
+                                program.brochureUrl && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "pt-4",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                        className: "hover:bg-gradient-to-r from-[#DE466C] to-[#004281] bg-[#004281] px-5 text-lg py-2 text-white font-medium rounded-full transition duration-300",
+                                        href: program.brochureUrl,
+                                        download: "Brochure",
+                                        children: "Download Brochure"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/components/upcomingtraining.tsx",
+                                        lineNumber: 45,
+                                        columnNumber: 19
+                                    }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                    lineNumber: 45,
-                                    columnNumber: 19
+                                    lineNumber: 44,
+                                    columnNumber: 17
+                                }, this),
+                                program.nominationUrl && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "pt-4",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                        className: "hover:bg-gradient-to-r from-[#DE466C] to-[#004281] bg-[#004281] px-5 text-lg py-2 text-white font-medium rounded-full transition duration-300",
+                                        href: program.nominationUrl,
+                                        target: "_blank",
+                                        rel: "noopener noreferrer",
+                                        children: "Nomination"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/components/upcomingtraining.tsx",
+                                        lineNumber: 56,
+                                        columnNumber: 19
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/components/upcomingtraining.tsx",
+                                    lineNumber: 55,
+                                    columnNumber: 17
                                 }, this)
-                            }, void 0, false, {
-                                fileName: "[project]/src/app/components/upcomingtraining.tsx",
-                                lineNumber: 44,
-                                columnNumber: 17
-                            }, this)
-                        }, void 0, false, {
+                            ]
+                        }, void 0, true, {
                             fileName: "[project]/src/app/components/upcomingtraining.tsx",
                             lineNumber: 42,
                             columnNumber: 13
