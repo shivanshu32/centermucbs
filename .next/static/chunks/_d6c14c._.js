@@ -63,6 +63,32 @@ function Contact() {
                                 fileName: "[project]/src/app/components/contact.js",
                                 lineNumber: 40,
                                 columnNumber: 17
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "mt-6 p-3 bg-white rounded-lg shadow-md inline-block",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                        src: "/qr-get-in-touch.png",
+                                        alt: "Scan to contact",
+                                        className: "w-28 h-28"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/components/contact.js",
+                                        lineNumber: 42,
+                                        columnNumber: 19
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "text-xs text-gray-500 mt-1 text-center",
+                                        children: "Scan to connect"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/components/contact.js",
+                                        lineNumber: 43,
+                                        columnNumber: 19
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/app/components/contact.js",
+                                lineNumber: 41,
+                                columnNumber: 17
                             }, this)
                         ]
                     }, void 0, true, {
@@ -78,7 +104,7 @@ function Contact() {
                                 children: "Send us a message"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/contact.js",
-                                lineNumber: 43,
+                                lineNumber: 47,
                                 columnNumber: 17
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
@@ -95,7 +121,7 @@ function Contact() {
                                         placeholder: "Enter your Name"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/contact.js",
-                                        lineNumber: 45,
+                                        lineNumber: 49,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -107,7 +133,7 @@ function Contact() {
                                         placeholder: "Enter your email"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/contact.js",
-                                        lineNumber: 46,
+                                        lineNumber: 50,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -119,7 +145,7 @@ function Contact() {
                                         placeholder: "Organization Name"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/contact.js",
-                                        lineNumber: 47,
+                                        lineNumber: 51,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -131,7 +157,7 @@ function Contact() {
                                         placeholder: "Contact Number"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/contact.js",
-                                        lineNumber: 48,
+                                        lineNumber: 52,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
@@ -142,7 +168,7 @@ function Contact() {
                                         className: "w-full h-48 lg:h-36 xl:h-48 2xl:h-56 mt-4 md:mt-6 p-4 rounded-md border border-gray-300 resize-none text-base text-gray-600 focus:outline-none focus:border-gray-700"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/contact.js",
-                                        lineNumber: 49,
+                                        lineNumber: 53,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -151,19 +177,19 @@ function Contact() {
                                         children: "Send"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/contact.js",
-                                        lineNumber: 50,
+                                        lineNumber: 54,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/components/contact.js",
-                                lineNumber: 44,
+                                lineNumber: 48,
                                 columnNumber: 17
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/components/contact.js",
-                        lineNumber: 42,
+                        lineNumber: 46,
                         columnNumber: 13
                     }, this)
                 ]
