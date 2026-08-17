@@ -24,8 +24,18 @@ export default function Navbar() {
 
 
   return (
-    <nav className="bg-white shadow  z-50 w-full ">
-      <div className="container mx-auto px-4 py-2 md:flex md:items-center md:justify-between ">
+    <nav className="bg-white shadow z-50 w-full">
+      {/* Top bar with site title */}
+      <div className="bg-[#004281] w-full">
+        <div className="container mx-auto px-4 py-2 text-center">
+          <h1 className="text-lg lg:text-xl font-bold text-white whitespace-nowrap">
+            Center for Management of UCBs
+          </h1>
+        </div>
+      </div>
+
+      {/* Logo and menu row */}
+      <div className="container mx-auto px-4 py-2 md:flex md:items-center md:justify-between">
         <div className="flex justify-between items-center md:ml-[3%]">
          
           <Image
@@ -36,10 +46,6 @@ export default function Navbar() {
                     height={100}
                     priority
                   />
-          
-          <h1 className="hidden md:block text-lg lg:text-xl font-bold text-[#004281] whitespace-nowrap ml-3">
-            Center for Management of UCBs
-          </h1>
          
           <button className="md:hidden focus:outline-none" onClick={toggleMenu}>
             {isMenuOpen ? <MdClose size={30} /> : <BiMenuAltRight size={30} />}
