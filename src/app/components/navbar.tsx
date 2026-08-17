@@ -37,6 +37,9 @@ export default function Navbar() {
                     priority
                   />
           
+          <h1 className="hidden md:block text-lg lg:text-xl font-bold text-[#004281] whitespace-nowrap ml-3">
+            Center for Management of UCBs
+          </h1>
          
           <button className="md:hidden focus:outline-none" onClick={toggleMenu}>
             {isMenuOpen ? <MdClose size={30} /> : <BiMenuAltRight size={30} />}
