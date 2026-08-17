@@ -28,7 +28,7 @@ export default function Navbar() {
       {/* Top bar with site title */}
       <div className="bg-[#004281] w-full">
         <div className="container mx-auto px-4 py-2 text-center">
-          <h1 className="text-lg lg:text-xl font-bold text-white whitespace-nowrap">
+          <h1 className="text-xl lg:text-3xl font-bold text-white whitespace-nowrap">
             Center for Management of UCBs
           </h1>
         </div>
