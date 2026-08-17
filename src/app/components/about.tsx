@@ -7,9 +7,6 @@ export default function About() {
           <h1 className="md:text-4xl text-xl mx-auto md:my-3 uppercase font-bold text-[#004281]">
             Center for Management of UCBs
           </h1>
-          <p className="md:text-xl text-base font-semibold text-[#004281]">
-            From Compliance to Customer Service – We&apos;ve Got You Covered
-          </p>
         </div>
         <div className="text-5xl leading-[60px] text-[#004281] tracking-[-0.04em]  font-[800] text-center mx-1 md:mx-0  ">
           About Us
