@@ -22,8 +22,6 @@ export default function Hero() {
   }, [])
 
   const goToSlide = (index: number) => setCurrent(index)
-  const nextSlide = () => setCurrent((prev) => (prev + 1) % slides.length)
-  const prevSlide = () => setCurrent((prev) => (prev - 1 + slides.length) % slides.length)
 
   return (
     <div className="overflow-hidden relative w-full">
@@ -45,8 +43,11 @@ export default function Hero() {
           </div>
         ))}
 
+        {/* Background overlay */}
+        <div className="absolute inset-0 bg-black/40 z-[5]" />
+
         {/* Overlay text */}
-        <div className="absolute top-1/2 left-1/2 md:left-1/4 md:w-[40%] md:text-start text-center transform -translate-x-1/2 -translate-y-1/2 text-white z-10 px-4">
+        <div className="absolute top-1/2 left-1/2 md:left-1/4 md:w-[40%] md:text-start text-center transform -translate-x-1/2 -translate-y-1/2 text-[#004281] z-10 px-4">
           <h1 className="md:text-4xl text-xl mx-auto md:my-3 uppercase font-bold drop-shadow-lg">
             Center for Management of UCBs
           </h1>
@@ -54,28 +55,6 @@ export default function Hero() {
             From Compliance to Customer Service – We&apos;ve Got You Covered
           </p>
         </div>
-
-        {/* Prev / Next arrows */}
-        <button
-          type="button"
-          aria-label="Previous slide"
-          onClick={prevSlide}
-          className="absolute top-1/2 left-2 md:left-4 z-20 -translate-y-1/2 bg-white/30 hover:bg-white/50 text-white rounded-full p-2 md:p-3 focus:outline-none"
-        >
-          <svg className="w-5 h-5 md:w-6 md:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-          </svg>
-        </button>
-        <button
-          type="button"
-          aria-label="Next slide"
-          onClick={nextSlide}
-          className="absolute top-1/2 right-2 md:right-4 z-20 -translate-y-1/2 bg-white/30 hover:bg-white/50 text-white rounded-full p-2 md:p-3 focus:outline-none"
-        >
-          <svg className="w-5 h-5 md:w-6 md:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-          </svg>
-        </button>
 
         {/* Dots */}
         <div className="absolute bottom-4 left-1/2 -translate-x-1/2 z-20 flex gap-2">
