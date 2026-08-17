@@ -37,10 +37,9 @@ export default function Contact() {
         <div className="flex flex-col lg:flex-row justify-center items-center items-strech h-full mx-4">
             <div className="lg:w-full 2xl:w-3/5">
                 <h1 className="text-3xl lg:text-5xl font-bold text-gray-800 w-11/12">Get in touch with Us</h1>
-                <p className="mt-3 lg:mt-4 text-base leading-normal text-gray-600 md:w-8/12 2xl:w-7/12">We will get back to you soon</p>
                 <div className="mt-6 p-3 bg-white rounded-lg shadow-md inline-block">
                   <img src="/qr-get-in-touch.png" alt="Scan to contact" className="w-28 h-28" />
-                  <p className="text-xs text-gray-500 mt-1 text-center">Scan to connect</p>
+                  <p className="text-xs text-gray-500 mt-1 text-center">Scan to nominate</p>
                 </div>
             </div>
             <div className="lg:w-full 2xl:w-2/5 flex w-full bg-gray-50 flex flex-col justify-center px-5 py-5 md:px-7 md:py-7 lg:py-12 lg:px-20 mt-2 md:mt-6 lg:mt-0">
