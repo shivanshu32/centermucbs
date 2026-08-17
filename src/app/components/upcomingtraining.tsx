@@ -22,7 +22,7 @@ export default function Upcomingtraining() {
 
   return (
     <div id="upcomingtraining">
-      <div className="container mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 justify-items-center pt-6 gap-8 pb-16">
+      <div className="container mx-auto flex flex-wrap justify-center pt-6 gap-8 pb-16">
         {upcomingTrainingPrograms.map((program, index) => (
           <div key={index} className="p-4 rounded border-gray-300 dark:border-gray-700 border-solid border-2 w-full max-w-md">
             <div>
