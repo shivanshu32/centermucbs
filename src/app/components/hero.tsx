@@ -46,16 +46,6 @@ export default function Hero() {
         {/* Background overlay */}
         <div className="absolute inset-0 bg-black/40 z-[5]" />
 
-        {/* Overlay text */}
-        <div className="absolute top-1/2 left-1/2 md:left-1/4 md:w-[40%] md:text-start text-center transform -translate-x-1/2 -translate-y-1/2 text-white z-10 px-4">
-          <h1 className="md:text-4xl text-xl mx-auto md:my-3 uppercase font-bold drop-shadow-lg">
-            Center for Management of UCBs
-          </h1>
-          <p className="md:text-xl text-base font-semibold hidden lg:block w-full drop-shadow-lg">
-            From Compliance to Customer Service – We&apos;ve Got You Covered
-          </p>
-        </div>
-
         {/* Dots */}
         <div className="absolute bottom-4 left-1/2 -translate-x-1/2 z-20 flex gap-2">
           {slides.map((_, index) => (
