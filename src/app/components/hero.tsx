@@ -9,6 +9,7 @@ const slides = [
   { src: '/slider4.png', alt: 'Slide 4' },
   { src: '/slider5.png', alt: 'Slide 5' },
   { src: '/slider6.png', alt: 'Slide 6' },
+  { src: '/slider7.png', alt: 'Slide 7' },
 ]
 
 export default function Hero() {
