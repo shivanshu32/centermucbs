@@ -40,7 +40,7 @@ export default function Hero() {
                </h1>
               
                <p className="md:text-xl text-base font-semibold hidden lg:block w-full">
-               From Compliance to Customer Service – We've Got You Covered
+               {"From Compliance to Customer Service – We've Got You Covered"}
                </p>
              </div>
 
