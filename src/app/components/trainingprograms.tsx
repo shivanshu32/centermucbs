@@ -10,12 +10,12 @@ export default function Trainingprograms() {
           <h2 className="text-3xl md:text-5xl font-extrabold text-center text-[#004281] mb-10 md:mb-14">
             Upcoming Training Programs
           </h2>
-          <div className="mx-auto grid max-w-4xl grid-cols-1 gap-8 md:grid-cols-2">
-            <div id="training-management-development" className="scroll-mt-32 flex flex-col items-center">
+          <div className="mx-auto grid max-w-4xl grid-cols-1 items-stretch gap-8 md:grid-cols-2">
+            <div id="training-management-development" className="scroll-mt-32 flex h-full flex-col items-center">
               <div className="mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-[#0b65aa] to-[#004281] shadow-lg shadow-blue-900/20 ring-4 ring-white/70 md:h-20 md:w-20">
                 <FaGraduationCap className="h-8 w-8 text-white md:h-10 md:w-10" />
               </div>
-              <div className="w-full border py-10 px-6 md:px-8 flex flex-col justify-center items-center bg-white shadow rounded-lg border-gray-200 hover:shadow-2xl transition duration-500">
+              <div className="flex w-full flex-1 flex-col items-center justify-center rounded-lg border border-gray-200 bg-white px-6 py-10 shadow transition duration-500 hover:shadow-2xl md:px-8">
                 <p className="text-xl md:text-2xl font-medium text-center text-gray-800">
                   Management Development Program
                 </p>
@@ -25,11 +25,11 @@ export default function Trainingprograms() {
               </div>
             </div>
 
-            <div id="training-capacity-building" className="scroll-mt-32 flex flex-col items-center">
+            <div id="training-capacity-building" className="scroll-mt-32 flex h-full flex-col items-center">
               <div className="mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-[#0b65aa] to-[#004281] shadow-lg shadow-blue-900/20 ring-4 ring-white/70 md:h-20 md:w-20">
                 <FaUsers className="h-8 w-8 text-white md:h-10 md:w-10" />
               </div>
-              <div className="w-full border py-10 px-6 md:px-8 flex flex-col justify-center items-center bg-white shadow rounded-lg border-gray-200 hover:shadow-2xl transition duration-500">
+              <div className="flex w-full flex-1 flex-col items-center justify-center rounded-lg border border-gray-200 bg-white px-6 py-10 shadow transition duration-500 hover:shadow-2xl md:px-8">
                 <p className="text-xl md:text-2xl font-medium text-center text-gray-800">
                   Capacity building for staff of UCBs
                 </p>

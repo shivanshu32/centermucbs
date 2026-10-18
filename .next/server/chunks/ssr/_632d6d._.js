@@ -14,11 +14,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$imag
 ;
 function Hero() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "relative flex min-h-[28rem] items-center overflow-hidden md:min-h-[34rem] lg:min-h-[42rem]",
+        className: "relative h-[calc(100dvh-10rem)] w-full overflow-hidden bg-[#07569b]",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                src: "/b13.jpg",
-                alt: "",
+                src: "/hero-background-clean.png",
+                alt: "Delivering Expert Advice — Centre for Management of UCBs",
                 fill: true,
                 priority: true,
                 sizes: "100vw",
@@ -29,43 +29,26 @@ function Hero() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute inset-0 bg-black/35",
-                "aria-hidden": "true"
+                "aria-hidden": "true",
+                className: "absolute inset-0 bg-gradient-to-r from-[#031d40]/65 via-[#062f5e]/30 to-transparent"
             }, void 0, false, {
                 fileName: "[project]/src/app/components/hero.tsx",
                 lineNumber: 14,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "relative z-10 mx-auto w-full max-w-7xl px-6 py-12 sm:px-8 md:px-12 lg:px-16",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "max-w-3xl text-left text-white",
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                            className: "mb-4 text-2xl font-bold uppercase leading-tight sm:text-3xl md:mb-5 md:text-4xl lg:text-5xl",
-                            children: "Center for Management of UCBs"
-                        }, void 0, false, {
-                            fileName: "[project]/src/app/components/hero.tsx",
-                            lineNumber: 18,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "max-w-3xl text-base font-semibold leading-relaxed sm:text-lg md:text-xl",
-                            children: "From Compliance to Customer Service – We've Got You Covered"
-                        }, void 0, false, {
-                            fileName: "[project]/src/app/components/hero.tsx",
-                            lineNumber: 21,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
+                className: "absolute inset-0 z-10 mx-auto flex w-full max-w-7xl items-center px-6 sm:px-8 md:px-12 lg:px-16",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                    className: "max-w-[12ch] text-left text-4xl font-extrabold leading-[1.05] tracking-tight text-white drop-shadow-[0_3px_12px_rgba(0,0,0,0.35)] sm:text-5xl md:text-6xl lg:text-7xl",
+                    children: "Delivering Expert Advice"
+                }, void 0, false, {
                     fileName: "[project]/src/app/components/hero.tsx",
-                    lineNumber: 17,
+                    lineNumber: 16,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/components/hero.tsx",
-                lineNumber: 16,
+                lineNumber: 15,
                 columnNumber: 7
             }, this)
         ]
@@ -89,7 +72,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 function About() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         id: "aboutus",
-        className: "scroll-mt-8 bg-white px-5 py-8 sm:px-8 md:py-10",
+        className: "scroll-mt-8 bg-[#eaf4ff] px-5 py-8 sm:px-8 md:py-10",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "mx-auto max-w-6xl",
             children: [
@@ -373,11 +356,11 @@ function Trainingprograms() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "mx-auto grid max-w-4xl grid-cols-1 gap-8 md:grid-cols-2",
+                            className: "mx-auto grid max-w-4xl grid-cols-1 items-stretch gap-8 md:grid-cols-2",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     id: "training-management-development",
-                                    className: "scroll-mt-32 flex flex-col items-center",
+                                    className: "scroll-mt-32 flex h-full flex-col items-center",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-[#0b65aa] to-[#004281] shadow-lg shadow-blue-900/20 ring-4 ring-white/70 md:h-20 md:w-20",
@@ -394,7 +377,7 @@ function Trainingprograms() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "w-full border py-10 px-6 md:px-8 flex flex-col justify-center items-center bg-white shadow rounded-lg border-gray-200 hover:shadow-2xl transition duration-500",
+                                            className: "flex w-full flex-1 flex-col items-center justify-center rounded-lg border border-gray-200 bg-white px-6 py-10 shadow transition duration-500 hover:shadow-2xl md:px-8",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     className: "text-xl md:text-2xl font-medium text-center text-gray-800",
@@ -426,7 +409,7 @@ function Trainingprograms() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     id: "training-capacity-building",
-                                    className: "scroll-mt-32 flex flex-col items-center",
+                                    className: "scroll-mt-32 flex h-full flex-col items-center",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-[#0b65aa] to-[#004281] shadow-lg shadow-blue-900/20 ring-4 ring-white/70 md:h-20 md:w-20",
@@ -443,7 +426,7 @@ function Trainingprograms() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "w-full border py-10 px-6 md:px-8 flex flex-col justify-center items-center bg-white shadow rounded-lg border-gray-200 hover:shadow-2xl transition duration-500",
+                                            className: "flex w-full flex-1 flex-col items-center justify-center rounded-lg border border-gray-200 bg-white px-6 py-10 shadow transition duration-500 hover:shadow-2xl md:px-8",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     className: "text-xl md:text-2xl font-medium text-center text-gray-800",
