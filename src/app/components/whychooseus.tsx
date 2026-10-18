@@ -34,7 +34,7 @@ export default function Whychooseus() {
             ))}
           </div>
 
-          <div className="mt-8 rounded-2xl border border-white/15 bg-white p-5 text-[#0b2f55] shadow-xl shadow-black/15 sm:p-6">
+          <div id="contactus" className="mt-8 scroll-mt-6 rounded-2xl border border-white/15 bg-white p-5 text-[#0b2f55] shadow-xl shadow-black/15 sm:p-6">
             <div className="mb-4">
               <h3 className="text-xl font-bold">Get in Touch</h3>
               <p className="mt-1 text-sm leading-6 text-slate-600">Tell us what your bank needs, and we’ll get in touch.</p>
