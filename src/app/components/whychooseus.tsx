@@ -16,7 +16,7 @@ export default function Whychooseus() {
       <div aria-hidden="true" className="absolute -right-24 -top-28 -z-10 h-80 w-80 rounded-full bg-sky-500/10 blur-3xl" />
       <div aria-hidden="true" className="absolute -bottom-36 left-1/4 -z-10 h-80 w-80 rounded-full bg-blue-400/10 blur-3xl" />
 
-      <div className="mx-auto grid w-full max-w-7xl items-center gap-12 lg:grid-cols-[minmax(0,1fr)_300px] lg:gap-16">
+      <div className="mx-auto w-full max-w-7xl">
         <div>
           <h2 className="text-4xl font-extrabold tracking-tight sm:text-5xl">Why Choose Us</h2>
           <p className="mt-6 max-w-3xl text-base leading-8 text-slate-200 sm:text-lg">
@@ -34,16 +34,18 @@ export default function Whychooseus() {
             ))}
           </div>
 
-          <div id="contactus" className="mt-8 scroll-mt-6 rounded-2xl border border-white/15 bg-white p-5 text-[#0b2f55] shadow-xl shadow-black/15 sm:p-6">
+        </div>
+
+        <div className="mt-10 grid items-stretch gap-6 lg:grid-cols-[minmax(0,1fr)_300px] lg:gap-8">
+          <div id="contactus" className="scroll-mt-6 rounded-2xl border border-white/15 bg-white p-5 text-[#0b2f55] shadow-xl shadow-black/15 sm:p-6">
             <div className="mb-4">
               <h3 className="text-xl font-bold">Get in Touch</h3>
               <p className="mt-1 text-sm leading-6 text-slate-600">Tell us what your bank needs, and we’ll get in touch.</p>
             </div>
             <ContactForm />
           </div>
-        </div>
 
-        <aside className="mx-auto w-full max-w-[300px] rounded-2xl border border-white/15 bg-white p-5 text-center text-[#0b2f55] shadow-2xl shadow-black/25 sm:p-6">
+        <aside className="mx-auto flex w-full max-w-[300px] flex-col items-center self-stretch rounded-2xl border border-white/15 bg-white p-5 text-center text-[#0b2f55] shadow-2xl shadow-black/25 sm:p-6 lg:mx-0 lg:max-w-none">
           <div className="mx-auto flex h-11 w-11 items-center justify-center rounded-full bg-blue-50 text-[#0b4b84]">
             <FaQrcode className="h-5 w-5" aria-hidden="true" />
           </div>
@@ -60,6 +62,7 @@ export default function Whychooseus() {
           </div>
           <p className="mt-3 text-xs font-medium tracking-wide text-slate-500">Centre for Management of UCBs</p>
         </aside>
+        </div>
       </div>
     </section>
   )

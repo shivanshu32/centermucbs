@@ -593,7 +593,7 @@ function Whychooseus() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "mx-auto grid w-full max-w-7xl items-center gap-12 lg:grid-cols-[minmax(0,1fr)_300px] lg:gap-16",
+                className: "mx-auto w-full max-w-7xl",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         children: [
@@ -651,9 +651,19 @@ function Whychooseus() {
                                 fileName: "[project]/src/app/components/whychooseus.tsx",
                                 lineNumber: 26,
                                 columnNumber: 11
-                            }, this),
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/app/components/whychooseus.tsx",
+                        lineNumber: 20,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "mt-10 grid items-stretch gap-6 lg:grid-cols-[minmax(0,1fr)_300px] lg:gap-8",
+                        children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "mt-8 rounded-2xl border border-white/15 bg-white p-5 text-[#0b2f55] shadow-xl shadow-black/15 sm:p-6",
+                                id: "contactus",
+                                className: "scroll-mt-6 rounded-2xl border border-white/15 bg-white p-5 text-[#0b2f55] shadow-xl shadow-black/15 sm:p-6",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "mb-4",
@@ -663,7 +673,7 @@ function Whychooseus() {
                                                 children: "Get in Touch"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/components/whychooseus.tsx",
-                                                lineNumber: 39,
+                                                lineNumber: 42,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -671,96 +681,96 @@ function Whychooseus() {
                                                 children: "Tell us what your bank needs, and we’ll get in touch."
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/components/whychooseus.tsx",
-                                                lineNumber: 40,
+                                                lineNumber: 43,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/components/whychooseus.tsx",
-                                        lineNumber: 38,
+                                        lineNumber: 41,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$components$2f$contact$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["ContactForm"], {}, void 0, false, {
                                         fileName: "[project]/src/app/components/whychooseus.tsx",
-                                        lineNumber: 42,
+                                        lineNumber: 45,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/components/whychooseus.tsx",
-                                lineNumber: 37,
+                                lineNumber: 40,
                                 columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("aside", {
+                                className: "mx-auto flex w-full max-w-[300px] flex-col items-center self-stretch rounded-2xl border border-white/15 bg-white p-5 text-center text-[#0b2f55] shadow-2xl shadow-black/25 sm:p-6 lg:mx-0 lg:max-w-none",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "mx-auto flex h-11 w-11 items-center justify-center rounded-full bg-blue-50 text-[#0b4b84]",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaQrcode"], {
+                                            className: "h-5 w-5",
+                                            "aria-hidden": "true"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/components/whychooseus.tsx",
+                                            lineNumber: 50,
+                                            columnNumber: 13
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/components/whychooseus.tsx",
+                                        lineNumber: 49,
+                                        columnNumber: 11
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                        className: "mt-3 text-lg font-bold",
+                                        children: "Connect with CMUCBs"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/components/whychooseus.tsx",
+                                        lineNumber: 52,
+                                        columnNumber: 11
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "mt-1 text-sm leading-5 text-slate-600",
+                                        children: "Scan the QR code to get in touch"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/components/whychooseus.tsx",
+                                        lineNumber: 53,
+                                        columnNumber: 11
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "mx-auto mt-5 w-full max-w-[220px] overflow-hidden rounded-lg border border-slate-200 bg-white p-2",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                            src: "/qr-get-in-touch.png",
+                                            alt: "QR code to get in touch with CMUCBs",
+                                            width: 420,
+                                            height: 420,
+                                            className: "h-auto w-full"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/components/whychooseus.tsx",
+                                            lineNumber: 55,
+                                            columnNumber: 13
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/components/whychooseus.tsx",
+                                        lineNumber: 54,
+                                        columnNumber: 11
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "mt-3 text-xs font-medium tracking-wide text-slate-500",
+                                        children: "Centre for Management of UCBs"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/components/whychooseus.tsx",
+                                        lineNumber: 63,
+                                        columnNumber: 11
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/app/components/whychooseus.tsx",
+                                lineNumber: 48,
+                                columnNumber: 9
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/components/whychooseus.tsx",
-                        lineNumber: 20,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("aside", {
-                        className: "mx-auto w-full max-w-[300px] rounded-2xl border border-white/15 bg-white p-5 text-center text-[#0b2f55] shadow-2xl shadow-black/25 sm:p-6",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "mx-auto flex h-11 w-11 items-center justify-center rounded-full bg-blue-50 text-[#0b4b84]",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaQrcode"], {
-                                    className: "h-5 w-5",
-                                    "aria-hidden": "true"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/app/components/whychooseus.tsx",
-                                    lineNumber: 48,
-                                    columnNumber: 13
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "[project]/src/app/components/whychooseus.tsx",
-                                lineNumber: 47,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                className: "mt-3 text-lg font-bold",
-                                children: "Connect with CMUCBs"
-                            }, void 0, false, {
-                                fileName: "[project]/src/app/components/whychooseus.tsx",
-                                lineNumber: 50,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "mt-1 text-sm leading-5 text-slate-600",
-                                children: "Scan the QR code to get in touch"
-                            }, void 0, false, {
-                                fileName: "[project]/src/app/components/whychooseus.tsx",
-                                lineNumber: 51,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "mx-auto mt-5 w-full max-w-[220px] overflow-hidden rounded-lg border border-slate-200 bg-white p-2",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                    src: "/qr-get-in-touch.png",
-                                    alt: "QR code to get in touch with CMUCBs",
-                                    width: 420,
-                                    height: 420,
-                                    className: "h-auto w-full"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/app/components/whychooseus.tsx",
-                                    lineNumber: 53,
-                                    columnNumber: 13
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "[project]/src/app/components/whychooseus.tsx",
-                                lineNumber: 52,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "mt-3 text-xs font-medium tracking-wide text-slate-500",
-                                children: "Centre for Management of UCBs"
-                            }, void 0, false, {
-                                fileName: "[project]/src/app/components/whychooseus.tsx",
-                                lineNumber: 61,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/app/components/whychooseus.tsx",
-                        lineNumber: 46,
+                        lineNumber: 39,
                         columnNumber: 9
                     }, this)
                 ]
