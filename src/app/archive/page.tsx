@@ -1,57 +1,85 @@
-import React from 'react';
-import { archivePrograms } from '@/data/archivePrograms';
+import Image from "next/image";
 
-export default function Index() {
+const programmeGallery = [
+  {
+    src: "/slider1.png",
+    width: 1426,
+    height: 1103,
+    alt: "Programme participants gathered after a training session",
+  },
+  {
+    src: "/slider2.png",
+    width: 1672,
+    height: 941,
+    alt: "Participants receiving recognition at a programme",
+  },
+  {
+    src: "/slider3.png",
+    width: 1445,
+    height: 1088,
+    alt: "Co-operative banking professionals attending a training session",
+  },
+  {
+    src: "/slider4.png",
+    width: 1448,
+    height: 1086,
+    alt: "Programme participants gathered for a group photograph",
+  },
+  {
+    src: "/slider5.png",
+    width: 1672,
+    height: 941,
+    alt: "Participants at a management development programme",
+  },
+  {
+    src: "/slider6.png",
+    width: 1844,
+    height: 853,
+    alt: "Participants receiving programme certificates",
+  },
+  {
+    src: "/slider7.png",
+    width: 1448,
+    height: 1086,
+    alt: "Co-operative banking professionals at a programme gathering",
+  },
+];
+
+export default function ProgrammeGalleryPage() {
   return (
-    <div id="previoustraining">
-      <div className="text-5xl mt-16 leading-[60px] text-[#004281] tracking-[-0.04em] font-[800] text-center mx-1 md:mx-0">
-        Programme Gallery
-      </div>
+    <main id="previoustraining" className="min-h-screen bg-gradient-to-b from-blue-50 via-white to-gray-50 px-4 pb-20 pt-12 sm:px-6 md:pt-16">
+      <header className="mx-auto mb-10 max-w-4xl text-center md:mb-14">
+        <p className="mb-3 text-sm font-bold uppercase tracking-[0.2em] text-[#DE466C]">
+          Learning · Leadership · Community
+        </p>
+        <h1 className="text-4xl font-extrabold tracking-tight text-[#004281] sm:text-5xl md:text-6xl">
+          Programme Gallery
+        </h1>
+        <p className="mx-auto mt-5 max-w-2xl text-base leading-7 text-gray-600 sm:text-lg">
+          Moments from our training programmes and the co-operative banking community.
+        </p>
+      </header>
 
-      <div className="container mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 pt-6 gap-8 pb-16">
-        {archivePrograms.map((program, index) => (
-          <div key={index} className="p-4 rounded border-gray-300 dark:border-gray-700 border-solid border-2">
-            <div>
-              <h4 className="text-gray-800 dark:text-gray-100 font-bold mb-3">{program.title}</h4>
-              <p className="text-gray-800 dark:text-gray-100 text-sm">
-                <b>Location:</b> {program.location}
-              </p>
-              <br />
-              <p className="text-gray-800 dark:text-gray-100 text-sm">
-                <b>Conducted At:</b> {program.date}
-              </p>
-              {program.duration && program.duration !== "" && (
-                <p className="text-sm dark:text-gray-100">
-                  <b>Duration:</b> {program.duration}
-                </p>
-              )}
-              {program.programmeFee && program.programmeFee !== "" && (
-                <p className="text-sm dark:text-gray-100">
-                  <b>Programme Fee:</b> {program.programmeFee}
-                </p>
-              )}
+      <div className="mx-auto max-w-7xl columns-1 gap-5 sm:columns-2 lg:columns-3 lg:gap-6">
+        {programmeGallery.map((image, index) => (
+          <figure
+            key={image.src}
+            className="group mb-5 break-inside-avoid overflow-hidden rounded-2xl bg-white p-2 shadow-md ring-1 ring-blue-900/10 transition duration-300 hover:-translate-y-1 hover:shadow-xl lg:mb-6"
+          >
+            <div className="overflow-hidden rounded-xl">
+              <Image
+                src={image.src}
+                alt={image.alt}
+                width={image.width}
+                height={image.height}
+                priority={index < 3}
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                className="h-auto w-full transition duration-500 group-hover:scale-[1.03]"
+              />
             </div>
-            <div>
-              {program.targetAudience && program.targetAudience !== "" && (
-                <div className="flex items-center justify-between text-gray-800">
-                  <p className="text-sm dark:text-gray-100">{program.targetAudience}</p>
-                </div>
-              )}
-              {program.brochureUrl && program.brochureUrl !== "" && (
-                <div className="pt-4">
-                  <a 
-                    className="hover:bg-gradient-to-r from-[#DE466C] to-[#004281] bg-[#004281] px-5 text-lg py-2 text-white font-medium rounded-full transition duration-300" 
-                    href={program.brochureUrl} 
-                    download="Brochure"
-                  >
-                    Download Brochure
-                  </a>
-                </div>
-              )}
-            </div>
-          </div>
+          </figure>
         ))}
       </div>
-    </div>
+    </main>
   );
 }

@@ -6,7 +6,14 @@ import Link from "next/link";
 import { BiMenuAltRight } from "react-icons/bi";
 import { MdClose } from "react-icons/md";
 
-const navigationLinks = [
+type NavigationLink = {
+  label: string;
+  href: string;
+  external?: boolean;
+  dropdown?: boolean;
+};
+
+const navigationLinks: NavigationLink[] = [
   { label: "Home", href: "/" },
   { label: "About Us", href: "/#aboutus" },
   { label: "Our Services", href: "/#services", dropdown: true },
