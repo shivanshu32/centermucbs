@@ -67,7 +67,7 @@ export default function Navbar() {
             <h1 className="text-lg font-extrabold leading-tight tracking-tight text-white sm:text-xl md:text-2xl lg:text-3xl">
               Center for Management of UCBs
             </h1>
-            <div className="mt-1.5 flex w-full max-w-[700px] flex-col items-stretch rounded-2xl border border-white/25 bg-white/10 px-3 py-0.5 text-xs text-white shadow-[0_8px_24px_rgba(0,0,0,0.08)] sm:flex-row sm:items-center sm:justify-center sm:rounded-full sm:px-4 sm:py-1 sm:text-sm md:mt-2">
+            <div className="mt-1.5 flex w-full max-w-[700px] flex-col items-stretch px-3 py-0.5 text-xs text-white sm:flex-row sm:items-center sm:justify-center sm:px-4 sm:py-1 sm:text-sm md:mt-2">
               <a href="mailto:cmucbs@gmail.com" className="flex min-w-0 items-center justify-center gap-2 rounded-xl px-2 py-1 font-semibold hover:text-[#06335d] sm:flex-1 sm:py-0.5">
                 <svg className="h-4 w-4 shrink-0 sm:h-5 sm:w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
