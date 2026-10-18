@@ -1,6 +1,5 @@
 const services = [
   { id: "regulatory-compliance-policy-advisory", title: "Regulatory Compliance & Policy Advisory" },
-  { id: "governance-board-effectiveness", title: "Governance & Board Effectiveness" },
   { id: "management-development-programmes", title: "Management Development Programmes" },
   { id: "credit-investment-management", title: "Credit & Investment Management" },
   { id: "recovery-stressed-asset-management", title: "Recovery & Stressed Asset Management" },

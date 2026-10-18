@@ -10,8 +10,8 @@ export default function Trainingprograms() {
           <h2 className="text-3xl md:text-5xl font-extrabold text-center text-[#004281] mb-10 md:mb-14">
             Upcoming Training Programs
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-            <div className="cursor-pointer flex flex-col items-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            <div id="training-management-development" className="scroll-mt-32 flex flex-col items-center">
               <div className="w-16 h-16 md:w-20 md:h-20 flex items-center justify-center rounded-full bg-white shadow mb-4">
                 <FaGraduationCap className="w-8 h-8 md:w-10 md:h-10 text-[#004281]" />
               </div>
@@ -25,7 +25,7 @@ export default function Trainingprograms() {
               </div>
             </div>
 
-            <div className="cursor-pointer flex flex-col items-center">
+            <div id="training-capacity-building" className="scroll-mt-32 flex flex-col items-center">
               <div className="w-16 h-16 md:w-20 md:h-20 flex items-center justify-center rounded-full bg-white shadow mb-4">
                 <FaUsers className="w-8 h-8 md:w-10 md:h-10 text-[#004281]" />
               </div>
@@ -35,6 +35,19 @@ export default function Trainingprograms() {
                 </p>
                 <p className="mt-4 text-base md:text-lg leading-7 text-center text-gray-600">
                   Our Capacity Building Training Program empowers organizations to enhance their skills, resources, and capabilities for sustainable growth.
+                </p>
+              </div>
+            </div>
+            <div id="training-governance-board-effectiveness" className="scroll-mt-32 flex flex-col items-center">
+              <div className="w-16 h-16 md:w-20 md:h-20 flex items-center justify-center rounded-full bg-white shadow mb-4">
+                <FaGraduationCap className="w-8 h-8 md:w-10 md:h-10 text-[#004281]" />
+              </div>
+              <div className="w-full border py-10 px-6 md:px-8 flex flex-col justify-center items-center bg-white shadow rounded-lg border-gray-200 hover:shadow-2xl transition duration-500">
+                <p className="text-xl md:text-2xl font-medium text-center text-gray-800">
+                  Governance &amp; Board Effectiveness
+                </p>
+                <p className="mt-4 text-base md:text-lg leading-7 text-center text-gray-600">
+                  Focused learning for board members and senior leaders on effective governance, oversight and board performance.
                 </p>
               </div>
             </div>

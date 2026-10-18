@@ -6,6 +6,7 @@ module.exports = {
 var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, x: __turbopack_external_require__, y: __turbopack_external_import__, z: __turbopack_require_stub__ } = __turbopack_context__;
 {
 __turbopack_esm__({
+    "ContactForm": (()=>ContactForm),
     "default": (()=>Contact)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
@@ -16,7 +17,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$emailjs$2f
 ;
 ;
 ;
-function Contact() {
+function ContactForm({ className = "" }) {
     const form = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])();
     const sendEmail = (e)=>{
         e.preventDefault();
@@ -27,177 +28,92 @@ function Contact() {
             publicKey: PUBLIC_KEY
         }).then(()=>{
             alert('SUCCESS!, We have received your message and will get back to you');
-            document.getElementById("name").value = "";
-            document.getElementById("email").value = "";
-            document.getElementById("orgname").value = "";
-            document.getElementById("contactnumber").value = "";
-            document.getElementById("message").value = "";
+            form.current?.reset();
         }, (error)=>{
             console.log('FAILED...', error.text);
         });
     };
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        id: "contactus",
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "xl:container xl:mx-auto py-12 lg:py-0",
-            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex flex-col lg:flex-row justify-center items-center items-strech h-full mx-4",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "lg:w-full 2xl:w-3/5",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                className: "text-3xl lg:text-5xl font-bold text-gray-800 w-11/12 text-center",
-                                children: "Get in touch with Us"
-                            }, void 0, false, {
-                                fileName: "[project]/src/app/components/contact.js",
-                                lineNumber: 39,
-                                columnNumber: 17
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "mt-6 p-4 bg-white rounded-lg shadow-md flex flex-col items-center",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                        src: "/qr-get-in-touch.png",
-                                        alt: "Scan to contact",
-                                        className: "w-48 h-48"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/components/contact.js",
-                                        lineNumber: 41,
-                                        columnNumber: 19
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-sm text-gray-500 mt-2 text-center",
-                                        children: "Scan to nominate"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/components/contact.js",
-                                        lineNumber: 42,
-                                        columnNumber: 19
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/app/components/contact.js",
-                                lineNumber: 40,
-                                columnNumber: 17
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/app/components/contact.js",
-                        lineNumber: 38,
-                        columnNumber: 13
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "lg:w-full 2xl:w-2/5 flex w-full bg-gray-50 flex flex-col justify-center px-5 py-5 md:px-7 md:py-7 lg:py-12 lg:px-20 mt-2 md:mt-6 lg:mt-0",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "text-lg font-semibold text-gray-800",
-                                children: "Send us a message"
-                            }, void 0, false, {
-                                fileName: "[project]/src/app/components/contact.js",
-                                lineNumber: 46,
-                                columnNumber: 17
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
-                                ref: form,
-                                onSubmit: sendEmail,
-                                name: "contact",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                                        id: "name",
-                                        name: "name",
-                                        className: "rounded-md border border-gray-300 mt-4 md:mt-6 p-4 text-base text-gray-600 focus:outline-none focus:border-gray-700",
-                                        type: "text",
-                                        "aria-label": "Name",
-                                        placeholder: "Enter your Name"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/components/contact.js",
-                                        lineNumber: 48,
-                                        columnNumber: 17
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                                        id: "email",
-                                        name: "email",
-                                        className: "rounded-md border border-gray-300 mt-4 p-4 text-base text-gray-600 focus:outline-none focus:border-gray-700",
-                                        type: "email",
-                                        "aria-label": "Email",
-                                        placeholder: "Enter your email"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/components/contact.js",
-                                        lineNumber: 49,
-                                        columnNumber: 17
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                                        id: "orgname",
-                                        name: "orgname",
-                                        className: "rounded-md border border-gray-300 mt-4 md:mt-6 p-4 text-base text-gray-600 focus:outline-none focus:border-gray-700",
-                                        type: "text",
-                                        "aria-label": "orgname",
-                                        placeholder: "Organization Name"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/components/contact.js",
-                                        lineNumber: 50,
-                                        columnNumber: 17
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                                        id: "contactnumber",
-                                        name: "contactnumber",
-                                        className: "rounded-md border border-gray-300 mt-4 p-4 text-base text-gray-600 focus:outline-none focus:border-gray-700",
-                                        type: "number",
-                                        "aria-label": "Contact",
-                                        placeholder: "Contact Number"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/components/contact.js",
-                                        lineNumber: 51,
-                                        columnNumber: 17
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
-                                        id: "message",
-                                        name: "message",
-                                        "aria-label": "Your message",
-                                        placeholder: "Message",
-                                        className: "w-full h-48 lg:h-36 xl:h-48 2xl:h-56 mt-4 md:mt-6 p-4 rounded-md border border-gray-300 resize-none text-base text-gray-600 focus:outline-none focus:border-gray-700"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/components/contact.js",
-                                        lineNumber: 52,
-                                        columnNumber: 17
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                        type: "submit",
-                                        className: "bg-indigo-700 hover:bg-indigo-600 rounded-md mt-4 md:mt-5 leading-4 p-4 text-base font-medium text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700",
-                                        children: "Send"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/components/contact.js",
-                                        lineNumber: 53,
-                                        columnNumber: 17
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/app/components/contact.js",
-                                lineNumber: 47,
-                                columnNumber: 17
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/app/components/contact.js",
-                        lineNumber: 45,
-                        columnNumber: 13
-                    }, this)
-                ]
-            }, void 0, true, {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
+        ref: form,
+        onSubmit: sendEmail,
+        name: "contact",
+        className: `grid gap-3 sm:grid-cols-2 ${className}`,
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                required: true,
+                name: "name",
+                className: "w-full rounded-lg border border-slate-200 bg-white px-4 py-3 text-sm text-slate-800 outline-none transition placeholder:text-slate-400 focus:border-sky-500 focus:ring-2 focus:ring-sky-100",
+                type: "text",
+                "aria-label": "Name",
+                placeholder: "Your name"
+            }, void 0, false, {
+                fileName: "[project]/src/app/components/contact.js",
+                lineNumber: 32,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                required: true,
+                name: "email",
+                className: "w-full rounded-lg border border-slate-200 bg-white px-4 py-3 text-sm text-slate-800 outline-none transition placeholder:text-slate-400 focus:border-sky-500 focus:ring-2 focus:ring-sky-100",
+                type: "email",
+                "aria-label": "Email",
+                placeholder: "Email address"
+            }, void 0, false, {
+                fileName: "[project]/src/app/components/contact.js",
+                lineNumber: 33,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                name: "orgname",
+                className: "w-full rounded-lg border border-slate-200 bg-white px-4 py-3 text-sm text-slate-800 outline-none transition placeholder:text-slate-400 focus:border-sky-500 focus:ring-2 focus:ring-sky-100",
+                type: "text",
+                "aria-label": "Organization name",
+                placeholder: "Organization name"
+            }, void 0, false, {
+                fileName: "[project]/src/app/components/contact.js",
+                lineNumber: 34,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                name: "contactnumber",
+                className: "w-full rounded-lg border border-slate-200 bg-white px-4 py-3 text-sm text-slate-800 outline-none transition placeholder:text-slate-400 focus:border-sky-500 focus:ring-2 focus:ring-sky-100",
+                type: "tel",
+                "aria-label": "Contact number",
+                placeholder: "Contact number"
+            }, void 0, false, {
+                fileName: "[project]/src/app/components/contact.js",
+                lineNumber: 35,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
+                required: true,
+                name: "message",
+                "aria-label": "Your message",
+                placeholder: "How can we help?",
+                className: "min-h-28 w-full resize-y rounded-lg border border-slate-200 bg-white px-4 py-3 text-sm text-slate-800 outline-none transition placeholder:text-slate-400 focus:border-sky-500 focus:ring-2 focus:ring-sky-100 sm:col-span-2"
+            }, void 0, false, {
+                fileName: "[project]/src/app/components/contact.js",
+                lineNumber: 36,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                type: "submit",
+                className: "inline-flex items-center justify-center rounded-lg bg-[#0b4b84] px-5 py-3 text-sm font-semibold text-white transition hover:bg-[#083b6a] focus:outline-none focus:ring-2 focus:ring-sky-400 focus:ring-offset-2 sm:col-span-2 sm:justify-self-start",
+                children: "Send message"
+            }, void 0, false, {
                 fileName: "[project]/src/app/components/contact.js",
                 lineNumber: 37,
-                columnNumber: 9
+                columnNumber: 7
             }, this)
-        }, void 0, false, {
-            fileName: "[project]/src/app/components/contact.js",
-            lineNumber: 36,
-            columnNumber: 5
-        }, this)
-    }, void 0, false, {
+        ]
+    }, void 0, true, {
         fileName: "[project]/src/app/components/contact.js",
-        lineNumber: 35,
+        lineNumber: 31,
         columnNumber: 5
     }, this);
+}
+function Contact() {
+    return null;
 }
 }}),
 "[project]/src/app/page.tsx [app-rsc] (ecmascript, Next.js server component, client modules ssr)": ((__turbopack_context__) => {
