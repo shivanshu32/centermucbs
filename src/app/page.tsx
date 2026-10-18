@@ -6,6 +6,7 @@ import Whychooseus from "./components/whychooseus";
 // import Upcomingtraining from "./components/upcomingtraining";
 // import Previoustraining from "./components/previoustraining";
 import Contact from "./components/contact";
+import VisionMission from "./components/visionmission";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
  <About />
  <Trainingprograms />
  <Services />
+ <VisionMission />
  <Whychooseus />
  {/* <Upcomingtraining /> */}
  {/* <Previoustraining /> */}

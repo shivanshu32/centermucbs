@@ -13,7 +13,7 @@ export default function Footer() {
  
     {/* {id="ContactUs"} */}
    
-      <div className=" mx-auto py-12  bg-white">
+      <div className="mx-auto bg-white">
         {/* <div className="flex lg:flex-row md:flex-col flex-col gap-8 w-full">
           <div data-aos="zoom-in-up" data-aos-once="false" className="w-full">
             <img
@@ -90,26 +90,22 @@ export default function Footer() {
        
         <div className="">
           <div className="">
-            <div className=" w-full mx-auto hover:bg-gradient-to-r from-[#DE466C] to-[#004281] bg-[#004281] text-lg   text-white font-medium  transition duration-300  lg:px-10 md:px-6 px-4 py-7">
-              <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1">
+            <div className="box-border w-full bg-[#004281] px-6 py-10 text-lg font-medium text-white transition duration-300 sm:px-8 lg:px-12 lg:py-12">
+              <div className="mx-auto grid w-full max-w-7xl grid-cols-1 items-start gap-x-8 gap-y-10 text-left sm:grid-cols-2 lg:grid-cols-[repeat(4,minmax(0,1fr))] lg:gap-x-10">
                 <div
                   data-aos="zoom-in-up"
                   data-aos-once="false"
-                  className="text-white "
+                  className="box-border min-w-0 text-left text-white"
                 >
-                  <p className="text-lg font-semibold e ">Center for Management of UCBs</p>
+                  <p className="text-lg font-semibold">Center for Management of UCBs</p>
                   {/* <p className="text-base pt-7 pr-4">
                     Plot 2/25, Block B, Sector 132 Noida, Uttar Pradesh 201304
                   </p> */}
-                  <br />
-                    Contact Number: +91 9870265838, 0120-3551050
-
-
-                  <br />
-                  Email: cmucbs@gmail.com
-
-                  <br />
-                  Whatsapp : <Link href="whatsapp://send?phone=+919870265838">+91 9870265838 </Link>
+                  <div className="mt-4 space-y-3 text-base leading-7">
+                    <p>Contact Number: +91 9870265838, 0120-3551050</p>
+                    <p>Email: cmucbs@gmail.com</p>
+                    <p>WhatsApp: <Link href="whatsapp://send?phone=+919870265838" className="hover:underline">+91 9870265838</Link></p>
+                  </div>
                 </div>
 
 
@@ -117,7 +113,7 @@ export default function Footer() {
                   data-aos="fade-down"
                   data-aos-easing="linear"
                   data-aos-once="false"
-                  className="lg:pt-0 text-white md:pt-0 pt-8"
+                  className="box-border min-w-0 text-left text-white"
                 >
                   <p className="text-lg font-semibold e ">Quick Links</p>
                   <ul className="pt-3">
@@ -149,7 +145,7 @@ export default function Footer() {
                   data-aos="fade-down"
                   data-aos-once="false"
                   data-aos-easing="linear"
-                  className="lg:pt-0 md:pt-0 pt-8"
+                  className="box-border min-w-0 text-left text-white"
                 >
                   <p className="text-lg font-semibold e text-white ">Legal</p>
                   <ul className="pt-3">
@@ -167,7 +163,7 @@ export default function Footer() {
 
                   </ul>
                 </div>
-                <div className="lg:pt-0 md:pt-16 pt-8 lg:flex-col md:flex block lgLw-0 md:w-96 lg:justify-start md:justify-between">
+                <div className="box-border min-w-0 text-left">
                   <div data-aos="zoom-in-down" data-aos-once="false">
                     <p className="text-lg font-semibold e text-white">
                       Training Programs
@@ -188,7 +184,7 @@ export default function Footer() {
                   <div
                     data-aos="zoom-out"
                     data-aos-once="false"
-                    className="lg:pt-10 md:pt-0 pt-8 cursor-pointer"
+                    className="mt-8 cursor-pointer"
                   >
                     <p className="text-lg font-semibold e text-white">
                       Follow Us
@@ -197,13 +193,13 @@ export default function Footer() {
                       <div className="my-auto ">
                         <ul className="flex gap-4 ">
                           <li className="w-10 hover:scale-[1.55]  duration-500 h-10 rounded-full bg-[#0077B5]  flex justify-center content-center items-center text-white ">
-                          <Link href={"www.linkedin.com/in/centre-for-management-of-ucbs-cmucbs-a19b79347"}>
+                          <Link href="https://www.linkedin.com/in/centre-for-management-of-ucbs-cmucbs-a19b79347/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BQ%2FxFsR6gTM6be610gkuV3A%3D%3D">
                               <ImLinkedin2 className="" />
                           </Link>
                            
                           </li>
                           <li className="hover:scale-[1.55]  duration-500 w-10 h-10 rounded-full bg-[#3b5998]  flex justify-center items-center text-white ">
-                         <Link href={"https://www.facebook.com/61572386815695/posts/pfbid0iegLkDyrxoDyHh39Qu2ky1g9kWHi33L6UJMcrnbwghmSSjCmvjNq9WEmFCiYfMw4l/?app=fbl"}>
+                         <Link href="https://www.facebook.com/profile.php?id=61572386815695">
                               <ImFacebook className="" />
                               </Link>
                           </li>
@@ -219,7 +215,7 @@ export default function Footer() {
                                 "radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%)",
                             }}
                           >
-                           <Link href={"https://www.instagram.com/centreformanagementof/"}>
+                           <Link href="https://www.instagram.com/centreformanagementof/?__pwa=1#">
                               <FaInstagramSquare className="text-white" />
                             </Link>
                          
@@ -230,7 +226,7 @@ export default function Footer() {
                   </div>
                 </div>
               </div>
-              <div className="flex items-center lg:justify-between md:justify-center lg:gap-0 md:gap-10 gap-3 flex-wrap lg:pt-32 md:pt-16 pt-16">
+              <div className="mx-auto mt-10 flex max-w-7xl flex-wrap items-center justify-center border-t border-white/20 pt-6 sm:justify-between">
                 {/* <div
                   data-aos="fade-down"
                   data-aos-once="false"
@@ -253,7 +249,7 @@ export default function Footer() {
                 <div
                   data-aos="fade-down"
                   data-aos-once="false"
-                  className="flex lg:gap-4 gap-2 lg:pt-0 md:pt-0  lg:pr-20"
+                  className="flex items-center gap-2"
                 >
                   <FaRegCopyright />
                   <p className="text-sm e text-white">

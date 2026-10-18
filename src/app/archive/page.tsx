@@ -5,7 +5,7 @@ export default function Index() {
   return (
     <div id="previoustraining">
       <div className="text-5xl mt-16 leading-[60px] text-[#004281] tracking-[-0.04em] font-[800] text-center mx-1 md:mx-0">
-        Previous Training Programs
+        Programme Gallery
       </div>
 
       <div className="container mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 pt-6 gap-8 pb-16">
