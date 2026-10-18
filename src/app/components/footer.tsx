@@ -97,7 +97,7 @@ export default function Footer() {
                   data-aos-once="false"
                   className="box-border min-w-0 text-left text-white"
                 >
-                  <p className="text-lg font-semibold">Center for Management of UCBs</p>
+                  <p className="text-lg font-semibold underline decoration-white/70 underline-offset-4">Center for Management of UCBs</p>
                   {/* <p className="text-base pt-7 pr-4">
                     Plot 2/25, Block B, Sector 132 Noida, Uttar Pradesh 201304
                   </p> */}
@@ -115,7 +115,7 @@ export default function Footer() {
                   data-aos-once="false"
                   className="box-border min-w-0 text-left text-white"
                 >
-                  <p className="text-lg font-semibold e ">Quick Links</p>
+                  <p className="text-lg font-semibold underline decoration-white/70 underline-offset-4">Quick Links</p>
                   <ul className="pt-3">
                     <li className="pt-4">
                       <Link
@@ -147,7 +147,7 @@ export default function Footer() {
                   data-aos-easing="linear"
                   className="box-border min-w-0 text-left text-white"
                 >
-                  <p className="text-lg font-semibold e text-white ">Legal</p>
+                  <p className="text-lg font-semibold text-white underline decoration-white/70 underline-offset-4">Legal</p>
                   <ul className="pt-3">
                     <li className="pt-4">
                      <Link href="/privacypolicy"> Privacy Policy</Link>
@@ -165,7 +165,7 @@ export default function Footer() {
                 </div>
                 <div className="box-border min-w-0 text-left">
                   <div data-aos="zoom-in-down" data-aos-once="false">
-                    <p className="text-lg font-semibold e text-white">
+                    <p className="text-lg font-semibold text-white underline decoration-white/70 underline-offset-4">
                       Training Programs
       
                     </p>
