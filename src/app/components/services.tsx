@@ -8,6 +8,12 @@ const services = [
   { id: "technology-risk-cybersecurity-awareness", title: "Technology Risk & Cybersecurity Awareness" },
 ];
 
+const cardBackgrounds = [
+  "from-white via-white to-[#dceeff]",
+  "from-[#f1f8ff] via-white to-[#e5f1ff]",
+  "from-white via-[#f8fcff] to-[#dff3fb]",
+];
+
 export default function Services() {
   return (
     <section
@@ -20,12 +26,13 @@ export default function Services() {
           Our Services
         </h2>
         <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-          {services.map(({ id, title }) => (
+          {services.map(({ id, title }, index) => (
             <article
               key={id}
               id={id}
-              className="scroll-mt-32 rounded-xl bg-white/80 p-6 shadow-sm ring-1 ring-blue-900/10 transition duration-300 hover:-translate-y-1 hover:shadow-lg"
+              className={`scroll-mt-32 min-h-40 rounded-2xl border border-blue-100/80 bg-gradient-to-br ${cardBackgrounds[index % cardBackgrounds.length]} p-6 shadow-[0_8px_24px_rgba(15,66,112,0.08)] transition duration-300 hover:-translate-y-1 hover:border-blue-200 hover:shadow-[0_16px_32px_rgba(15,66,112,0.16)]`}
             >
+              <div className="mb-5 h-1.5 w-12 rounded-full bg-gradient-to-r from-[#07569b] to-[#54a9e8]" aria-hidden="true" />
               <h3 className="text-xl font-bold leading-snug text-[#004281]">{title}</h3>
             </article>
           ))}

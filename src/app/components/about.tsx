@@ -2,15 +2,12 @@ export default function About() {
   return (
     <section id="aboutus" className="scroll-mt-8 bg-white px-5 py-8 sm:px-8 md:py-10">
       <div className="mx-auto max-w-6xl">
-        <h2 className="mb-5 text-center text-3xl font-extrabold text-[#004281] sm:text-4xl md:mb-6 md:text-5xl">
+        <h2 className="mb-5 text-left text-3xl font-extrabold text-[#004281] sm:text-4xl md:mb-6 md:text-5xl">
           About Us
         </h2>
 
         <div className="text-gray-700">
-          <h3 className="mb-5 text-center text-xl font-bold leading-snug text-[#004281] sm:text-2xl md:mb-6">
-            Building Stronger Co-operative Banks Through Knowledge, Governance and Professional Excellence
-          </h3>
-          <div className="grid gap-x-10 gap-y-4 text-sm leading-6 sm:grid-cols-2 md:text-base md:leading-7">
+          <div className="grid gap-x-10 gap-y-4 text-justify text-sm leading-6 sm:grid-cols-2 md:text-base md:leading-7">
             <div className="space-y-3">
               <p>
                 The Centre for Management of UCBs (CMUCBs), based in Noida, Uttar Pradesh, is a specialised management development, training and consultancy organisation focused on strengthening the institutional capabilities of the co-operative banking sector.
@@ -40,7 +37,7 @@ export default function About() {
               </p>
             </div>
           </div>
-          <p className="mt-5 border-l-4 border-[#DE466C] bg-blue-50 px-5 py-3 text-sm font-semibold leading-6 text-[#004281] md:text-base">
+          <p className="mt-5 border-l-4 border-[#DE466C] bg-blue-50 px-5 py-3 text-justify text-sm font-semibold leading-6 text-[#004281] md:text-base">
             Our commitment is to support the development of well-governed, professionally managed, compliant and sustainable co-operative banking institutions.
           </p>
         </div>

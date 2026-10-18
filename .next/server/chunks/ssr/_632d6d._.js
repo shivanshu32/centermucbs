@@ -94,7 +94,7 @@ function About() {
             className: "mx-auto max-w-6xl",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                    className: "mb-5 text-center text-3xl font-extrabold text-[#004281] sm:text-4xl md:mb-6 md:text-5xl",
+                    className: "mb-5 text-left text-3xl font-extrabold text-[#004281] sm:text-4xl md:mb-6 md:text-5xl",
                     children: "About Us"
                 }, void 0, false, {
                     fileName: "[project]/src/app/components/about.tsx",
@@ -104,16 +104,8 @@ function About() {
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "text-gray-700",
                     children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                            className: "mb-5 text-center text-xl font-bold leading-snug text-[#004281] sm:text-2xl md:mb-6",
-                            children: "Building Stronger Co-operative Banks Through Knowledge, Governance and Professional Excellence"
-                        }, void 0, false, {
-                            fileName: "[project]/src/app/components/about.tsx",
-                            lineNumber: 10,
-                            columnNumber: 11
-                        }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "grid gap-x-10 gap-y-4 text-sm leading-6 sm:grid-cols-2 md:text-base md:leading-7",
+                            className: "grid gap-x-10 gap-y-4 text-justify text-sm leading-6 sm:grid-cols-2 md:text-base md:leading-7",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "space-y-3",
@@ -122,34 +114,34 @@ function About() {
                                             children: "The Centre for Management of UCBs (CMUCBs), based in Noida, Uttar Pradesh, is a specialised management development, training and consultancy organisation focused on strengthening the institutional capabilities of the co-operative banking sector."
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/about.tsx",
-                                            lineNumber: 15,
+                                            lineNumber: 12,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             children: "We work with Co-operative Banks and other co-operative banking institutions to support professional management, effective governance, regulatory compliance, operational improvement and sustainable institutional development."
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/about.tsx",
-                                            lineNumber: 18,
+                                            lineNumber: 15,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             children: "Co-operative banks play an important role in promoting financial inclusion, meeting the credit needs of local communities, supporting small businesses and strengthening the co-operative movement. To fulfil this role effectively, these institutions must continuously enhance their governance practices, professional capabilities, risk management systems, regulatory preparedness and customer-service standards."
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/about.tsx",
-                                            lineNumber: 21,
+                                            lineNumber: 18,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             children: "CMUCBs seeks to contribute to this development by providing structured management development programmes, professional training, regulatory and policy advisory services, and practical management guidance tailored to the requirements of co-operative banks."
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/about.tsx",
-                                            lineNumber: 24,
+                                            lineNumber: 21,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/components/about.tsx",
-                                    lineNumber: 14,
+                                    lineNumber: 11,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -159,48 +151,48 @@ function About() {
                                             children: "Our programmes are designed for a broad range of stakeholders, including Chairpersons, Board members, Managing Directors, Chief Executive Officers, senior management personnel and bank employees. We focus on strengthening both strategic leadership and day-to-day operational capabilities."
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/about.tsx",
-                                            lineNumber: 29,
+                                            lineNumber: 26,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             children: "Our areas of engagement include corporate governance, Board effectiveness, regulatory compliance, policy formulation and review, credit administration, investment management, recovery and stressed asset management, risk management, internal controls, customer service and technology-related risk awareness."
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/about.tsx",
-                                            lineNumber: 32,
+                                            lineNumber: 29,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             children: "We recognise that every bank operates within its own business environment, organisational structure and resource constraints. Accordingly, our approach emphasises practical understanding, context-sensitive guidance and implementable solutions rather than merely theoretical knowledge."
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/about.tsx",
-                                            lineNumber: 35,
+                                            lineNumber: 32,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             children: "Through professional learning, knowledge sharing and management advisory support, CMUCBs aims to help co-operative banks develop stronger systems, make informed decisions, improve institutional effectiveness and respond confidently to an evolving banking environment."
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/about.tsx",
-                                            lineNumber: 38,
+                                            lineNumber: 35,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/components/about.tsx",
-                                    lineNumber: 28,
+                                    lineNumber: 25,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/components/about.tsx",
-                            lineNumber: 13,
+                            lineNumber: 10,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "mt-5 border-l-4 border-[#DE466C] bg-blue-50 px-5 py-3 text-sm font-semibold leading-6 text-[#004281] md:text-base",
+                            className: "mt-5 border-l-4 border-[#DE466C] bg-blue-50 px-5 py-3 text-justify text-sm font-semibold leading-6 text-[#004281] md:text-base",
                             children: "Our commitment is to support the development of well-governed, professionally managed, compliant and sustainable co-operative banking institutions."
                         }, void 0, false, {
                             fileName: "[project]/src/app/components/about.tsx",
-                            lineNumber: 43,
+                            lineNumber: 40,
                             columnNumber: 11
                         }, this)
                     ]
@@ -262,6 +254,11 @@ const services = [
         title: "Technology Risk & Cybersecurity Awareness"
     }
 ];
+const cardBackgrounds = [
+    "from-white via-white to-[#dceeff]",
+    "from-[#f1f8ff] via-white to-[#e5f1ff]",
+    "from-white via-[#f8fcff] to-[#dff3fb]"
+];
 function Services() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         id: "services",
@@ -278,36 +275,46 @@ function Services() {
                         children: "Our Services"
                     }, void 0, false, {
                         fileName: "[project]/src/app/components/services.tsx",
-                        lineNumber: 19,
+                        lineNumber: 25,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4",
-                        children: services.map(({ id, title })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("article", {
+                        children: services.map(({ id, title }, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("article", {
                                 id: id,
-                                className: "scroll-mt-32 rounded-xl bg-white/80 p-6 shadow-sm ring-1 ring-blue-900/10 transition duration-300 hover:-translate-y-1 hover:shadow-lg",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                    className: "text-xl font-bold leading-snug text-[#004281]",
-                                    children: title
-                                }, void 0, false, {
-                                    fileName: "[project]/src/app/components/services.tsx",
-                                    lineNumber: 29,
-                                    columnNumber: 15
-                                }, this)
-                            }, id, false, {
+                                className: `scroll-mt-32 min-h-40 rounded-2xl border border-blue-100/80 bg-gradient-to-br ${cardBackgrounds[index % cardBackgrounds.length]} p-6 shadow-[0_8px_24px_rgba(15,66,112,0.08)] transition duration-300 hover:-translate-y-1 hover:border-blue-200 hover:shadow-[0_16px_32px_rgba(15,66,112,0.16)]`,
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "mb-5 h-1.5 w-12 rounded-full bg-gradient-to-r from-[#07569b] to-[#54a9e8]",
+                                        "aria-hidden": "true"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/components/services.tsx",
+                                        lineNumber: 35,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                        className: "text-xl font-bold leading-snug text-[#004281]",
+                                        children: title
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/components/services.tsx",
+                                        lineNumber: 36,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, id, true, {
                                 fileName: "[project]/src/app/components/services.tsx",
-                                lineNumber: 24,
+                                lineNumber: 30,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/src/app/components/services.tsx",
-                        lineNumber: 22,
+                        lineNumber: 28,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/components/services.tsx",
-                lineNumber: 18,
+                lineNumber: 24,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -319,18 +326,18 @@ function Services() {
                     alt: ""
                 }, void 0, false, {
                     fileName: "[project]/src/app/components/services.tsx",
-                    lineNumber: 35,
+                    lineNumber: 42,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/components/services.tsx",
-                lineNumber: 34,
+                lineNumber: 41,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/components/services.tsx",
-        lineNumber: 13,
+        lineNumber: 19,
         columnNumber: 5
     }, this);
 }
@@ -403,7 +410,7 @@ function Trainingprograms() {
         id: "trainingprogram",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                className: "py-12 md:py-20 bg-gray-50",
+                className: "bg-gradient-to-b from-[#eaf4ff] via-white to-[#f3f8fe] py-12 md:py-20",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "container mx-auto px-4 md:px-6 2xl:px-20",
                     children: [
@@ -416,7 +423,7 @@ function Trainingprograms() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto",
+                            className: "mx-auto grid max-w-4xl grid-cols-1 gap-8 md:grid-cols-2",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     id: "training-management-development",
@@ -515,55 +522,6 @@ function Trainingprograms() {
                                     fileName: "[project]/src/app/components/trainingprograms.tsx",
                                     lineNumber: 28,
                                     columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    id: "training-governance-board-effectiveness",
-                                    className: "scroll-mt-32 flex flex-col items-center",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "w-16 h-16 md:w-20 md:h-20 flex items-center justify-center rounded-full bg-white shadow mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaGraduationCap"], {
-                                                className: "w-8 h-8 md:w-10 md:h-10 text-[#004281]"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/components/trainingprograms.tsx",
-                                                lineNumber: 43,
-                                                columnNumber: 17
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/components/trainingprograms.tsx",
-                                            lineNumber: 42,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "w-full border py-10 px-6 md:px-8 flex flex-col justify-center items-center bg-white shadow rounded-lg border-gray-200 hover:shadow-2xl transition duration-500",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "text-xl md:text-2xl font-medium text-center text-gray-800",
-                                                    children: "Governance & Board Effectiveness"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/app/components/trainingprograms.tsx",
-                                                    lineNumber: 46,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "mt-4 text-base md:text-lg leading-7 text-center text-gray-600",
-                                                    children: "Focused learning for board members and senior leaders on effective governance, oversight and board performance."
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/app/components/trainingprograms.tsx",
-                                                    lineNumber: 49,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/src/app/components/trainingprograms.tsx",
-                                            lineNumber: 45,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/src/app/components/trainingprograms.tsx",
-                                    lineNumber: 41,
-                                    columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
@@ -584,7 +542,7 @@ function Trainingprograms() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$components$2f$upcomingtraining$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/components/trainingprograms.tsx",
-                lineNumber: 57,
+                lineNumber: 44,
                 columnNumber: 7
             }, this)
         ]
@@ -689,20 +647,12 @@ function Whychooseus() {
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "mb-5 inline-flex items-center gap-2 rounded-full border border-sky-300/25 bg-sky-300/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.18em] text-sky-200",
-                                children: "Professional support for co-operative banks"
-                            }, void 0, false, {
-                                fileName: "[project]/src/app/components/whychooseus.tsx",
-                                lineNumber: 21,
-                                columnNumber: 11
-                            }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                 className: "text-4xl font-extrabold tracking-tight sm:text-5xl",
                                 children: "Why Choose Us"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/whychooseus.tsx",
-                                lineNumber: 24,
+                                lineNumber: 21,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -710,7 +660,7 @@ function Whychooseus() {
                                 children: "We help co-operative banks strengthen governance, sustain compliance and build the capabilities needed for responsible growth. Through practical training, management development and advisory support, we help teams improve everyday banking processes and meet customer expectations."
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/whychooseus.tsx",
-                                lineNumber: 25,
+                                lineNumber: 22,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -725,12 +675,12 @@ function Whychooseus() {
                                                     "aria-hidden": "true"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/components/whychooseus.tsx",
-                                                    lineNumber: 33,
+                                                    lineNumber: 30,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/components/whychooseus.tsx",
-                                                lineNumber: 32,
+                                                lineNumber: 29,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -738,18 +688,18 @@ function Whychooseus() {
                                                 children: strength
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/components/whychooseus.tsx",
-                                                lineNumber: 35,
+                                                lineNumber: 32,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, strength, true, {
                                         fileName: "[project]/src/app/components/whychooseus.tsx",
-                                        lineNumber: 31,
+                                        lineNumber: 28,
                                         columnNumber: 15
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/whychooseus.tsx",
-                                lineNumber: 29,
+                                lineNumber: 26,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -760,10 +710,10 @@ function Whychooseus() {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                 className: "text-xl font-bold",
-                                                children: "Talk to our team"
+                                                children: "Get in Touch"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/components/whychooseus.tsx",
-                                                lineNumber: 42,
+                                                lineNumber: 39,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -771,24 +721,24 @@ function Whychooseus() {
                                                 children: "Tell us what your bank needs, and we’ll get in touch."
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/components/whychooseus.tsx",
-                                                lineNumber: 43,
+                                                lineNumber: 40,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/components/whychooseus.tsx",
-                                        lineNumber: 41,
+                                        lineNumber: 38,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$components$2f$contact$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["ContactForm"], {}, void 0, false, {
                                         fileName: "[project]/src/app/components/whychooseus.tsx",
-                                        lineNumber: 45,
+                                        lineNumber: 42,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/components/whychooseus.tsx",
-                                lineNumber: 40,
+                                lineNumber: 37,
                                 columnNumber: 11
                             }, this)
                         ]
@@ -807,12 +757,12 @@ function Whychooseus() {
                                     "aria-hidden": "true"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/components/whychooseus.tsx",
-                                    lineNumber: 51,
+                                    lineNumber: 48,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/whychooseus.tsx",
-                                lineNumber: 50,
+                                lineNumber: 47,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -820,7 +770,7 @@ function Whychooseus() {
                                 children: "Connect with CMUCBs"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/whychooseus.tsx",
-                                lineNumber: 53,
+                                lineNumber: 50,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -828,7 +778,7 @@ function Whychooseus() {
                                 children: "Scan the QR code to get in touch"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/whychooseus.tsx",
-                                lineNumber: 54,
+                                lineNumber: 51,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -841,12 +791,12 @@ function Whychooseus() {
                                     className: "h-auto w-full"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/components/whychooseus.tsx",
-                                    lineNumber: 56,
+                                    lineNumber: 53,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/whychooseus.tsx",
-                                lineNumber: 55,
+                                lineNumber: 52,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -854,13 +804,13 @@ function Whychooseus() {
                                 children: "Centre for Management of UCBs"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/whychooseus.tsx",
-                                lineNumber: 64,
+                                lineNumber: 61,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/components/whychooseus.tsx",
-                        lineNumber: 49,
+                        lineNumber: 46,
                         columnNumber: 9
                     }, this)
                 ]

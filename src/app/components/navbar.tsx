@@ -20,6 +20,7 @@ const navigationLinks: NavigationLink[] = [
   { label: "Training & Development", href: "/#trainingprogram", dropdown: "training" },
   { label: "Regulatory Resource Centre", href: "/regulatory-resource-centre" },
   { label: "Programme Gallery", href: "/archive" },
+  { label: "Our Vision and Mission", href: "/vision-mission" },
   { label: "Contact Us", href: "/#contactus" },
 ];
 
@@ -36,7 +37,6 @@ const serviceLinks = [
 const trainingLinks = [
   { label: "Management Development Programme", id: "training-management-development" },
   { label: "Capacity Building for UCB Staff", id: "training-capacity-building" },
-  { label: "Governance & Board Effectiveness", id: "training-governance-board-effectiveness" },
 ];
 
 export default function Navbar() {
@@ -86,11 +86,11 @@ export default function Navbar() {
         </div>
       </div>
 
-      <div className="mx-auto w-full max-w-7xl px-5 py-1.5 sm:px-8 lg:px-10 md:flex md:items-center md:justify-center">
-        <div className="flex items-center justify-end md:hidden">
+      <div className="mx-auto w-full max-w-7xl px-5 py-1.5 sm:px-8 lg:px-10 lg:flex lg:items-center lg:justify-center">
+        <div className="flex items-center justify-end lg:hidden">
           <button
             type="button"
-            className="rounded p-2 text-[#004281] focus:outline-none focus:ring-2 focus:ring-[#004281] md:hidden"
+            className="rounded p-2 text-[#004281] focus:outline-none focus:ring-2 focus:ring-[#004281] lg:hidden"
             onClick={() => setIsMenuOpen((open) => !open)}
             aria-label={isMenuOpen ? "Close navigation menu" : "Open navigation menu"}
             aria-expanded={isMenuOpen}
@@ -99,8 +99,8 @@ export default function Navbar() {
           </button>
         </div>
 
-        <div className={`${isMenuOpen ? "block" : "hidden"} mt-3 md:mt-0 md:block md:w-full lg:flex lg:items-center lg:justify-center lg:gap-4`}>
-          <ul className="flex flex-col gap-2 md:flex-row md:flex-wrap md:items-center md:justify-center md:gap-x-5 md:gap-y-2 lg:gap-x-5 xl:flex-nowrap xl:gap-x-6">
+        <div className={`${isMenuOpen ? "block" : "hidden"} mt-3 lg:mt-0 lg:flex lg:w-full lg:items-center lg:justify-center`}>
+          <ul className="flex flex-col gap-2 lg:flex-row lg:flex-nowrap lg:items-center lg:justify-center lg:gap-x-2.5 xl:gap-x-4">
             {navigationLinks.map(({ label, href, external, dropdown }) => {
               if (dropdown) {
                 const isOpen = openDropdown === dropdown;
@@ -113,7 +113,7 @@ export default function Navbar() {
                       onClick={() => setOpenDropdown(isOpen ? null : dropdown)}
                       aria-expanded={isOpen}
                       aria-controls={`${dropdown}-submenu`}
-                      className="flex cursor-pointer items-center gap-1 py-1 text-sm font-bold text-[#004281] hover:text-[#DE466C] lg:text-base"
+                      className="flex cursor-pointer items-center gap-1 whitespace-nowrap py-1 text-sm font-bold text-[#004281] hover:text-[#DE466C] xl:text-base"
                     >
                       {label}
                       <svg className={`h-4 w-4 transition-transform ${isOpen ? "rotate-180" : ""}`} viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
@@ -121,7 +121,7 @@ export default function Navbar() {
                       </svg>
                     </button>
                     {isOpen && (
-                      <ul id={`${dropdown}-submenu`} className="mt-2 space-y-1 rounded-lg bg-white py-2 shadow-lg ring-1 ring-black/10 md:absolute md:left-0 md:top-full md:z-50 md:mt-1 md:w-80">
+                      <ul id={`${dropdown}-submenu`} className="mt-2 space-y-1 rounded-lg bg-white py-2 shadow-lg ring-1 ring-black/10 lg:absolute lg:left-0 lg:top-full lg:z-50 lg:mt-1 lg:w-80">
                         {items.map(({ label: itemLabel, id }) => (
                           <li key={id}>
                             <Link
@@ -147,7 +147,7 @@ export default function Navbar() {
                   <Link
                     href={href}
                     onClick={closeMenu}
-                    className="flex items-center py-1 text-sm font-bold text-[#004281] hover:text-[#DE466C] lg:text-base"
+                    className="flex items-center whitespace-nowrap py-1 text-sm font-bold text-[#004281] hover:text-[#DE466C] xl:text-base"
                     {...(external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
                   >
                     {label}
@@ -159,7 +159,7 @@ export default function Navbar() {
               <Link
                 href="https://forms.gle/ExCvt9jbBhp7tzg68"
                 onClick={closeMenu}
-                className="inline-flex rounded-full bg-[#004281] px-5 py-2 text-lg font-medium text-white transition duration-300 hover:bg-gradient-to-r hover:from-[#DE466C] hover:to-[#004281]"
+                className="inline-flex whitespace-nowrap rounded-full bg-[#004281] px-4 py-2 text-base font-medium text-white transition duration-300 hover:bg-gradient-to-r hover:from-[#DE466C] hover:to-[#004281] xl:px-5 xl:text-lg"
               >
                 Nominations
               </Link>

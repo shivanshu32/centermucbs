@@ -18,9 +18,6 @@ export default function Whychooseus() {
 
       <div className="mx-auto grid w-full max-w-7xl items-center gap-12 lg:grid-cols-[minmax(0,1fr)_300px] lg:gap-16">
         <div>
-          <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-sky-300/25 bg-sky-300/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.18em] text-sky-200">
-            Professional support for co-operative banks
-          </div>
           <h2 className="text-4xl font-extrabold tracking-tight sm:text-5xl">Why Choose Us</h2>
           <p className="mt-6 max-w-3xl text-base leading-8 text-slate-200 sm:text-lg">
             We help co-operative banks strengthen governance, sustain compliance and build the capabilities needed for responsible growth. Through practical training, management development and advisory support, we help teams improve everyday banking processes and meet customer expectations.
@@ -39,7 +36,7 @@ export default function Whychooseus() {
 
           <div className="mt-8 rounded-2xl border border-white/15 bg-white p-5 text-[#0b2f55] shadow-xl shadow-black/15 sm:p-6">
             <div className="mb-4">
-              <h3 className="text-xl font-bold">Talk to our team</h3>
+              <h3 className="text-xl font-bold">Get in Touch</h3>
               <p className="mt-1 text-sm leading-6 text-slate-600">Tell us what your bank needs, and we’ll get in touch.</p>
             </div>
             <ContactForm />
