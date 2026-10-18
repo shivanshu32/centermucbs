@@ -30,9 +30,15 @@ export default function Services() {
             <article
               key={id}
               id={id}
-              className={`scroll-mt-32 min-h-40 rounded-2xl border border-blue-100/80 bg-gradient-to-br ${cardBackgrounds[index % cardBackgrounds.length]} p-6 shadow-[0_8px_24px_rgba(15,66,112,0.08)] transition duration-300 hover:-translate-y-1 hover:border-blue-200 hover:shadow-[0_16px_32px_rgba(15,66,112,0.16)]`}
+              className={`group relative isolate flex min-h-44 scroll-mt-32 flex-col overflow-hidden rounded-2xl border border-white/90 bg-gradient-to-br ${cardBackgrounds[index % cardBackgrounds.length]} p-6 shadow-[0_8px_24px_rgba(15,66,112,0.09)] ring-1 ring-blue-900/[0.04] transition duration-300 hover:-translate-y-1 hover:border-blue-200 hover:shadow-[0_18px_36px_rgba(15,66,112,0.17)]`}
             >
-              <div className="mb-5 h-1.5 w-12 rounded-full bg-gradient-to-r from-[#07569b] to-[#54a9e8]" aria-hidden="true" />
+              <div aria-hidden="true" className="pointer-events-none absolute -right-8 -top-9 -z-10 h-28 w-28 rounded-full bg-sky-300/20 blur-2xl transition duration-300 group-hover:scale-150 group-hover:bg-sky-400/25" />
+              <div className="mb-6 flex items-center justify-between">
+                <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-white/85 text-sm font-extrabold tracking-wide text-[#07569b] shadow-sm ring-1 ring-blue-100">
+                  {String(index + 1).padStart(2, "0")}
+                </div>
+                <div className="h-1.5 w-12 rounded-full bg-gradient-to-r from-[#07569b] to-[#54a9e8]" aria-hidden="true" />
+              </div>
               <h3 className="text-xl font-bold leading-snug text-[#004281]">{title}</h3>
             </article>
           ))}

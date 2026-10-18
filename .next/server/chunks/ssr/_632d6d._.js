@@ -103,100 +103,25 @@ function About() {
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "text-gray-700",
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "grid gap-x-10 gap-y-4 text-justify text-sm leading-6 sm:grid-cols-2 md:text-base md:leading-7",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "space-y-3",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            children: "The Centre for Management of UCBs (CMUCBs), based in Noida, Uttar Pradesh, is a specialised management development, training and consultancy organisation focused on strengthening the institutional capabilities of the co-operative banking sector."
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/components/about.tsx",
-                                            lineNumber: 12,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            children: "We work with Co-operative Banks and other co-operative banking institutions to support professional management, effective governance, regulatory compliance, operational improvement and sustainable institutional development."
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/components/about.tsx",
-                                            lineNumber: 15,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            children: "Co-operative banks play an important role in promoting financial inclusion, meeting the credit needs of local communities, supporting small businesses and strengthening the co-operative movement. To fulfil this role effectively, these institutions must continuously enhance their governance practices, professional capabilities, risk management systems, regulatory preparedness and customer-service standards."
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/components/about.tsx",
-                                            lineNumber: 18,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            children: "CMUCBs seeks to contribute to this development by providing structured management development programmes, professional training, regulatory and policy advisory services, and practical management guidance tailored to the requirements of co-operative banks."
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/components/about.tsx",
-                                            lineNumber: 21,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/src/app/components/about.tsx",
-                                    lineNumber: 11,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "space-y-3",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            children: "Our programmes are designed for a broad range of stakeholders, including Chairpersons, Board members, Managing Directors, Chief Executive Officers, senior management personnel and bank employees. We focus on strengthening both strategic leadership and day-to-day operational capabilities."
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/components/about.tsx",
-                                            lineNumber: 26,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            children: "Our areas of engagement include corporate governance, Board effectiveness, regulatory compliance, policy formulation and review, credit administration, investment management, recovery and stressed asset management, risk management, internal controls, customer service and technology-related risk awareness."
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/components/about.tsx",
-                                            lineNumber: 29,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            children: "We recognise that every bank operates within its own business environment, organisational structure and resource constraints. Accordingly, our approach emphasises practical understanding, context-sensitive guidance and implementable solutions rather than merely theoretical knowledge."
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/components/about.tsx",
-                                            lineNumber: 32,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            children: "Through professional learning, knowledge sharing and management advisory support, CMUCBs aims to help co-operative banks develop stronger systems, make informed decisions, improve institutional effectiveness and respond confidently to an evolving banking environment."
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/components/about.tsx",
-                                            lineNumber: 35,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/src/app/components/about.tsx",
-                                    lineNumber: 25,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/src/app/components/about.tsx",
-                            lineNumber: 10,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "mt-5 border-l-4 border-[#DE466C] bg-blue-50 px-5 py-3 text-justify text-sm font-semibold leading-6 text-[#004281] md:text-base",
-                            children: "Our commitment is to support the development of well-governed, professionally managed, compliant and sustainable co-operative banking institutions."
-                        }, void 0, false, {
-                            fileName: "[project]/src/app/components/about.tsx",
-                            lineNumber: 40,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "text-justify text-sm leading-6 md:leading-7",
+                        children: [
+                            "The Centre for Management of UCBs (CMUCBs), based in Noida, Uttar Pradesh, is a specialised management development, training and consultancy organisation focused on strengthening the institutional capabilities of the co-operative banking sector. We work with Co-operative Banks and other co-operative banking institutions to support professional management, effective governance, regulatory compliance, operational improvement and sustainable institutional development. Co-operative banks play an important role in promoting financial inclusion, meeting the credit needs of local communities, supporting small businesses and strengthening the co-operative movement. To fulfil this role effectively, these institutions must continuously enhance their governance practices, professional capabilities, risk management systems, regulatory preparedness and customer-service standards. CMUCBs seeks to contribute to this development by providing structured management development programmes, professional training, regulatory and policy advisory services, and practical management guidance tailored to the requirements of co-operative banks. Our programmes are designed for a broad range of stakeholders, including Chairpersons, Board members, Managing Directors, Chief Executive Officers, senior management personnel and bank employees. We focus on strengthening both strategic leadership and day-to-day operational capabilities. Our areas of engagement include corporate governance, Board effectiveness, regulatory compliance, policy formulation and review, credit administration, investment management, recovery and stressed asset management, risk management, internal controls, customer service and technology-related risk awareness. We recognise that every bank operates within its own business environment, organisational structure and resource constraints. Accordingly, our approach emphasises practical understanding, context-sensitive guidance and implementable solutions rather than merely theoretical knowledge. Through professional learning, knowledge sharing and management advisory support, CMUCBs aims to help co-operative banks develop stronger systems, make informed decisions, improve institutional effectiveness and respond confidently to an evolving banking environment. ",
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                className: "font-semibold text-[#004281]",
+                                children: "Our commitment is to support the development of well-governed, professionally managed, compliant and sustainable co-operative banking institutions."
+                            }, void 0, false, {
+                                fileName: "[project]/src/app/components/about.tsx",
+                                lineNumber: 11,
+                                columnNumber: 2298
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/app/components/about.tsx",
+                        lineNumber: 10,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
                     fileName: "[project]/src/app/components/about.tsx",
                     lineNumber: 9,
                     columnNumber: 9
@@ -282,14 +207,39 @@ function Services() {
                         className: "mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4",
                         children: services.map(({ id, title }, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("article", {
                                 id: id,
-                                className: `scroll-mt-32 min-h-40 rounded-2xl border border-blue-100/80 bg-gradient-to-br ${cardBackgrounds[index % cardBackgrounds.length]} p-6 shadow-[0_8px_24px_rgba(15,66,112,0.08)] transition duration-300 hover:-translate-y-1 hover:border-blue-200 hover:shadow-[0_16px_32px_rgba(15,66,112,0.16)]`,
+                                className: `group relative isolate flex min-h-44 scroll-mt-32 flex-col overflow-hidden rounded-2xl border border-white/90 bg-gradient-to-br ${cardBackgrounds[index % cardBackgrounds.length]} p-6 shadow-[0_8px_24px_rgba(15,66,112,0.09)] ring-1 ring-blue-900/[0.04] transition duration-300 hover:-translate-y-1 hover:border-blue-200 hover:shadow-[0_18px_36px_rgba(15,66,112,0.17)]`,
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "mb-5 h-1.5 w-12 rounded-full bg-gradient-to-r from-[#07569b] to-[#54a9e8]",
-                                        "aria-hidden": "true"
+                                        "aria-hidden": "true",
+                                        className: "pointer-events-none absolute -right-8 -top-9 -z-10 h-28 w-28 rounded-full bg-sky-300/20 blur-2xl transition duration-300 group-hover:scale-150 group-hover:bg-sky-400/25"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/services.tsx",
                                         lineNumber: 35,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "mb-6 flex items-center justify-between",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "flex h-11 w-11 items-center justify-center rounded-xl bg-white/85 text-sm font-extrabold tracking-wide text-[#07569b] shadow-sm ring-1 ring-blue-100",
+                                                children: String(index + 1).padStart(2, "0")
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/app/components/services.tsx",
+                                                lineNumber: 37,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "h-1.5 w-12 rounded-full bg-gradient-to-r from-[#07569b] to-[#54a9e8]",
+                                                "aria-hidden": "true"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/app/components/services.tsx",
+                                                lineNumber: 40,
+                                                columnNumber: 17
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/app/components/services.tsx",
+                                        lineNumber: 36,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -297,7 +247,7 @@ function Services() {
                                         children: title
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/services.tsx",
-                                        lineNumber: 36,
+                                        lineNumber: 42,
                                         columnNumber: 15
                                     }, this)
                                 ]
@@ -326,12 +276,12 @@ function Services() {
                     alt: ""
                 }, void 0, false, {
                     fileName: "[project]/src/app/components/services.tsx",
-                    lineNumber: 42,
+                    lineNumber: 48,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/components/services.tsx",
-                lineNumber: 41,
+                lineNumber: 47,
                 columnNumber: 7
             }, this)
         ]
@@ -410,7 +360,7 @@ function Trainingprograms() {
         id: "trainingprogram",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                className: "bg-gradient-to-b from-[#eaf4ff] via-white to-[#f3f8fe] py-12 md:py-20",
+                className: "bg-gradient-to-br from-[#dcecff] via-[#edf6ff] to-[#d7eaff] py-12 md:py-20",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "container mx-auto px-4 md:px-6 2xl:px-20",
                     children: [
@@ -430,9 +380,9 @@ function Trainingprograms() {
                                     className: "scroll-mt-32 flex flex-col items-center",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "w-16 h-16 md:w-20 md:h-20 flex items-center justify-center rounded-full bg-white shadow mb-4",
+                                            className: "mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-[#0b65aa] to-[#004281] shadow-lg shadow-blue-900/20 ring-4 ring-white/70 md:h-20 md:w-20",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaGraduationCap"], {
-                                                className: "w-8 h-8 md:w-10 md:h-10 text-[#004281]"
+                                                className: "h-8 w-8 text-white md:h-10 md:w-10"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/components/trainingprograms.tsx",
                                                 lineNumber: 16,
@@ -479,9 +429,9 @@ function Trainingprograms() {
                                     className: "scroll-mt-32 flex flex-col items-center",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "w-16 h-16 md:w-20 md:h-20 flex items-center justify-center rounded-full bg-white shadow mb-4",
+                                            className: "mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-[#0b65aa] to-[#004281] shadow-lg shadow-blue-900/20 ring-4 ring-white/70 md:h-20 md:w-20",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaUsers"], {
-                                                className: "w-8 h-8 md:w-10 md:h-10 text-[#004281]"
+                                                className: "h-8 w-8 text-white md:h-10 md:w-10"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/components/trainingprograms.tsx",
                                                 lineNumber: 30,
@@ -859,7 +809,7 @@ function VisionMission() {
             className: "mx-auto max-w-6xl",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                    className: "mb-8 text-center text-3xl font-extrabold text-[#004281] md:mb-10 md:text-5xl",
+                    className: "mb-8 text-left text-3xl font-extrabold text-[#004281] md:mb-10 md:text-5xl",
                     children: "Our Vision and Mission"
                 }, void 0, false, {
                     fileName: "[project]/src/app/components/visionmission.tsx",

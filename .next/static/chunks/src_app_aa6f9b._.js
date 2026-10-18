@@ -42,7 +42,7 @@ const navigationLinks = [
         dropdown: "training"
     },
     {
-        label: "Regulatory Resource Centre",
+        label: "Regulatory Update",
         href: "/regulatory-resource-centre"
     },
     {

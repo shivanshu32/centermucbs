@@ -18,7 +18,7 @@ const navigationLinks: NavigationLink[] = [
   { label: "About Us", href: "/#aboutus" },
   { label: "Our Services", href: "/#services", dropdown: "services" },
   { label: "Training & Development", href: "/#trainingprogram", dropdown: "training" },
-  { label: "Regulatory Resource Centre", href: "/regulatory-resource-centre" },
+  { label: "Regulatory Update", href: "/regulatory-resource-centre" },
   { label: "Programme Gallery", href: "/archive" },
   { label: "Our Vision and Mission", href: "/vision-mission" },
   { label: "Contact Us", href: "/#contactus" },
