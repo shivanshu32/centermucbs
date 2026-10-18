@@ -1,35 +1,50 @@
-import React from 'react'
-
 export default function About() {
   return (
-    <div id="aboutus" className=" flex justify-center py-[5%] gap-5 flex-col items-center">
-        <div className="text-5xl leading-[60px] text-[#004281] tracking-[-0.04em]  font-[800] text-center mx-1 md:mx-0  ">
+    <section id="aboutus" className="scroll-mt-8 bg-white px-5 py-8 sm:px-8 md:py-10">
+      <div className="mx-auto max-w-6xl">
+        <h2 className="mb-5 text-center text-3xl font-extrabold text-[#004281] sm:text-4xl md:mb-6 md:text-5xl">
           About Us
-        </div>
-        <div className="text-xl font-medium leading-8 text-[#818487] text-justify  mt-[2%] mx-[8%]">
-        We are a management consulting firm for the Urban Co-Operative Banks, collaborating with visionary leaders to create adaptive strategies for strong governance, Compliance management and healthy work culture in UCBs. 
-        </div>
+        </h2>
 
-        <div className="text-xl font-medium leading-8 text-[#818487] text-justify   mx-[8%]">
-        We conduct Management Development Programmes for capacity building of Top Management in Urban Co-Operative Banks. Our objective is to provide technical and advisory services to UCBs through management consultancy.
+        <div className="text-gray-700">
+          <h3 className="mb-5 text-center text-xl font-bold leading-snug text-[#004281] sm:text-2xl md:mb-6">
+            Building Stronger Co-operative Banks Through Knowledge, Governance and Professional Excellence
+          </h3>
+          <div className="grid gap-x-10 gap-y-4 text-sm leading-6 sm:grid-cols-2 md:text-base md:leading-7">
+            <div className="space-y-3">
+              <p>
+                The Centre for Management of UCBs (CMUCBs), based in Noida, Uttar Pradesh, is a specialised management development, training and consultancy organisation focused on strengthening the institutional capabilities of the co-operative banking sector.
+              </p>
+              <p>
+                We work with Co-operative Banks and other co-operative banking institutions to support professional management, effective governance, regulatory compliance, operational improvement and sustainable institutional development.
+              </p>
+              <p>
+                Co-operative banks play an important role in promoting financial inclusion, meeting the credit needs of local communities, supporting small businesses and strengthening the co-operative movement. To fulfil this role effectively, these institutions must continuously enhance their governance practices, professional capabilities, risk management systems, regulatory preparedness and customer-service standards.
+              </p>
+              <p>
+                CMUCBs seeks to contribute to this development by providing structured management development programmes, professional training, regulatory and policy advisory services, and practical management guidance tailored to the requirements of co-operative banks.
+              </p>
+            </div>
+            <div className="space-y-3">
+              <p>
+                Our programmes are designed for a broad range of stakeholders, including Chairpersons, Board members, Managing Directors, Chief Executive Officers, senior management personnel and bank employees. We focus on strengthening both strategic leadership and day-to-day operational capabilities.
+              </p>
+              <p>
+                Our areas of engagement include corporate governance, Board effectiveness, regulatory compliance, policy formulation and review, credit administration, investment management, recovery and stressed asset management, risk management, internal controls, customer service and technology-related risk awareness.
+              </p>
+              <p>
+                We recognise that every bank operates within its own business environment, organisational structure and resource constraints. Accordingly, our approach emphasises practical understanding, context-sensitive guidance and implementable solutions rather than merely theoretical knowledge.
+              </p>
+              <p>
+                Through professional learning, knowledge sharing and management advisory support, CMUCBs aims to help co-operative banks develop stronger systems, make informed decisions, improve institutional effectiveness and respond confidently to an evolving banking environment.
+              </p>
+            </div>
+          </div>
+          <p className="mt-5 border-l-4 border-[#DE466C] bg-blue-50 px-5 py-3 text-sm font-semibold leading-6 text-[#004281] md:text-base">
+            Our commitment is to support the development of well-governed, professionally managed, compliant and sustainable co-operative banking institutions.
+          </p>
         </div>
-
-        <div className="text-xl font-medium leading-8 text-[#818487] text-justify   mx-[8%]">
-        Panel of experts are Industry leaders from the banking and co-operative sector. Our objective is to provide expert training to Staff, Management development programmes for top management and providing technical and advisory services to UCBs through management consultancy.
-        </div>
-
-        <div className="text-xl font-medium leading-8 text-[#818487] text-justify   mx-[8%]">
-        Our cost-effective training programmes are designed to improve operational efficiency of staff and help the top management to implement good governance in the organisation.
-        </div>
-       
-
-
       </div>
-  )
+    </section>
+  );
 }
-
-
-
-
- 
- 

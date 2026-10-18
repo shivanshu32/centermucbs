@@ -2,10 +2,10 @@ import Image from "next/image";
 
 const programmeGallery = [
   {
-    src: "/slider1.png",
-    width: 1426,
-    height: 1103,
-    alt: "Programme participants gathered after a training session",
+    src: "/slider3.png",
+    width: 1445,
+    height: 1088,
+    alt: "Co-operative banking professionals attending a training session",
   },
   {
     src: "/slider2.png",
@@ -14,10 +14,16 @@ const programmeGallery = [
     alt: "Participants receiving recognition at a programme",
   },
   {
-    src: "/slider3.png",
-    width: 1445,
-    height: 1088,
-    alt: "Co-operative banking professionals attending a training session",
+    src: "/slider1.png",
+    width: 1426,
+    height: 1103,
+    alt: "Programme participants gathered after a training session",
+  },
+  {
+    src: "/slider6.png",
+    width: 1844,
+    height: 853,
+    alt: "Participants receiving programme certificates",
   },
   {
     src: "/slider4.png",
@@ -30,12 +36,6 @@ const programmeGallery = [
     width: 1672,
     height: 941,
     alt: "Participants at a management development programme",
-  },
-  {
-    src: "/slider6.png",
-    width: 1844,
-    height: 853,
-    alt: "Participants receiving programme certificates",
   },
   {
     src: "/slider7.png",
@@ -60,13 +60,13 @@ export default function ProgrammeGalleryPage() {
         </p>
       </header>
 
-      <div className="mx-auto max-w-7xl columns-1 gap-5 sm:columns-2 lg:columns-3 lg:gap-6">
+      <div className="mx-auto grid max-w-7xl grid-cols-1 items-start gap-5 sm:grid-cols-2 lg:grid-cols-3 lg:gap-7">
         {programmeGallery.map((image, index) => (
           <figure
             key={image.src}
-            className="group mb-5 break-inside-avoid overflow-hidden rounded-2xl bg-white p-2 shadow-md ring-1 ring-blue-900/10 transition duration-300 hover:-translate-y-1 hover:shadow-xl lg:mb-6"
+            className="group overflow-hidden rounded-2xl bg-white p-2 shadow-md ring-1 ring-blue-900/10 transition duration-300 hover:-translate-y-1 hover:shadow-xl"
           >
-            <div className="overflow-hidden rounded-xl">
+            <div className="relative aspect-[4/3] overflow-hidden rounded-xl bg-[#edf2f8]">
               <Image
                 src={image.src}
                 alt={image.alt}
@@ -74,7 +74,7 @@ export default function ProgrammeGalleryPage() {
                 height={image.height}
                 priority={index < 3}
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                className="h-auto w-full transition duration-500 group-hover:scale-[1.03]"
+                className="h-full w-full object-contain transition duration-500 group-hover:scale-[1.02]"
               />
             </div>
           </figure>
