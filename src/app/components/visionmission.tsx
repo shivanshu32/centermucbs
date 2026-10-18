@@ -20,7 +20,7 @@ export default function VisionMission() {
   return (
     <section id="visionmission" className="scroll-mt-8 bg-white px-6 py-12 md:py-16">
       <div className="mx-auto max-w-6xl">
-        <h2 className="mb-8 text-center text-3xl font-extrabold text-[#004281] md:mb-10 md:text-5xl">
+        <h2 className="mb-8 text-left text-3xl font-extrabold text-[#004281] md:mb-10 md:text-5xl">
           Our Vision and Mission
         </h2>
 
