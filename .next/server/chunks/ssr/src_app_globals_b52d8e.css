@@ -607,10 +607,6 @@ img, video {
   height: 100%;
 }
 
-.h-px {
-  height: 1px;
-}
-
 .min-h-28 {
   min-height: 7rem;
 }
@@ -1060,10 +1056,6 @@ img, video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
-.bg-white\/35 {
-  background-color: #ffffff59;
-}
-
 .bg-white\/85 {
   background-color: #ffffffd9;
 }
@@ -1258,9 +1250,9 @@ img, video {
   padding: 1.5rem;
 }
 
-.px-2 {
-  padding-left: .5rem;
-  padding-right: .5rem;
+.px-1 {
+  padding-left: .25rem;
+  padding-right: .25rem;
 }
 
 .px-3 {
@@ -1338,11 +1330,6 @@ img, video {
   padding-bottom: 5%;
 }
 
-.px-1 {
-  padding-left: .25rem;
-  padding-right: .25rem;
-}
-
 .pb-16 {
   padding-bottom: 4rem;
 }
@@ -1353,10 +1340,6 @@ img, video {
 
 .pl-4 {
   padding-left: 1rem;
-}
-
-.pr-4 {
-  padding-right: 1rem;
 }
 
 .pt-12 {
@@ -1373,10 +1356,6 @@ img, video {
 
 .pt-6 {
   padding-top: 1.5rem;
-}
-
-.pt-7 {
-  padding-top: 1.75rem;
 }
 
 .text-left {
@@ -1940,21 +1919,12 @@ body {
     grid-column: span 2 / span 2;
   }
 
-  .sm\:mx-2 {
-    margin-left: .5rem;
-    margin-right: .5rem;
-  }
-
   .sm\:h-20 {
     height: 5rem;
   }
 
   .sm\:h-5 {
     height: 1.25rem;
-  }
-
-  .sm\:h-6 {
-    height: 1.5rem;
   }
 
   .sm\:min-h-\[128px\] {
@@ -1967,14 +1937,6 @@ body {
 
   .sm\:w-5 {
     width: 1.25rem;
-  }
-
-  .sm\:w-px {
-    width: 1px;
-  }
-
-  .sm\:flex-1 {
-    flex: 1;
   }
 
   .sm\:grid-cols-1 {
@@ -2456,11 +2418,6 @@ body {
   .xl\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
-  }
-
-  .xl\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
   }
 }
 

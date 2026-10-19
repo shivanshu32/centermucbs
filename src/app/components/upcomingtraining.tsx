@@ -6,7 +6,7 @@ export default function Upcomingtraining() {
       <div className="mx-auto max-w-6xl">
         <div className="overflow-hidden rounded-2xl bg-white p-2 shadow-xl ring-1 ring-blue-900/10 sm:p-3 md:rounded-3xl md:p-4">
           <Image
-            src="/calendar-2026.webp"
+            src="/Calendar (1).webp"
             alt="Calendar of programmes for October to December 2026"
             width={3511}
             height={2483}

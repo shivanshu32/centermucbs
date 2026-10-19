@@ -98,10 +98,8 @@ export default function Footer() {
                   className="box-border min-w-0 text-left text-white"
                 >
                   <p className="text-lg font-semibold underline decoration-white/70 underline-offset-4">Center for Management of UCBs</p>
-                  {/* <p className="text-base pt-7 pr-4">
-                    Plot 2/25, Block B, Sector 132 Noida, Uttar Pradesh 201304
-                  </p> */}
                   <div className="mt-4 space-y-3 text-base leading-7">
+                    <p>Plot no 21, Block 5, Sector -2, Rajendra Nagar, Ghaziabad -201005</p>
                     <p>Contact Number: +91 9870265838, 0120-3551050</p>
                     <p>Email: cmucbs@gmail.com</p>
                     <p>WhatsApp: <Link href="whatsapp://send?phone=+919870265838" className="hover:underline">+91 9870265838</Link></p>
