@@ -1,11 +1,53 @@
 import React from 'react'
+import Link from 'next/link'
 
 export default function Index() {
   return (
-    <div className=" flex justify-center py-[5%] gap-5 flex-col items-center">
-        <div className="text-5xl leading-[60px] text-[#004281] tracking-[-0.04em]  font-[800] text-center mx-1 md:mx-0  ">
-          Privacy Policy
+    <main className="min-h-screen bg-[#f5f8fc] pb-20">
+      <header className="relative overflow-hidden bg-[#004281] px-6 py-16 text-white sm:py-20 lg:py-24">
+        <div className="absolute -right-20 -top-28 h-80 w-80 rounded-full border border-white/10" />
+        <div className="absolute -right-4 -top-12 h-56 w-56 rounded-full border border-white/10" />
+        <div className="relative mx-auto max-w-6xl">
+          <p className="mb-5 text-sm font-semibold uppercase tracking-[0.22em] text-blue-200">Center for Management of UCBs</p>
+          <h1 className="max-w-3xl text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">Privacy Policy</h1>
+          <p className="mt-5 max-w-2xl text-base leading-7 text-blue-100 sm:text-lg">How we collect, use and protect information when you visit our website.</p>
+          <p className="mt-8 inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-sm text-white/90">
+            <span className="h-2 w-2 rounded-full bg-[#9ed8c1]" /> Last updated: January 25, 2025
+          </p>
         </div>
+      </header>
+
+      <div className="mx-auto grid max-w-7xl gap-8 px-5 pt-10 sm:px-8 lg:grid-cols-[340px_minmax(0,1fr)] lg:gap-12 lg:pt-14">
+        <aside className="h-fit rounded-2xl border border-slate-200 bg-white p-8 shadow-sm lg:sticky lg:top-8">
+          <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#004281]">On this page</p>
+          <nav aria-label="Privacy policy sections" className="mt-5 grid grid-cols-1 gap-2 text-base text-slate-600 sm:grid-cols-2 lg:grid-cols-1">
+            {[
+              ['interpretation', 'Interpretation & definitions'],
+              ['collection', 'Personal data'],
+              ['cookies', 'Cookies & tracking'],
+              ['use-sharing', 'Use & sharing'],
+              ['retention', 'Retention & transfers'],
+              ['your-data', 'Your data rights'],
+              ['disclosure', 'Disclosure & security'],
+              ['children', "Children’s privacy"],
+              ['third-party', 'Other websites'],
+              ['changes', 'Policy changes'],
+              ['contact', 'Contact us'],
+            ].map(([id, label]) => (
+              <a key={id} href={`#${id}`} className="rounded-lg px-4 py-3 transition hover:bg-blue-50 hover:text-[#004281]">{label}</a>
+            ))}
+          </nav>
+          <div className="mt-6 rounded-xl bg-[#f2f7fc] p-4">
+            <p className="text-sm font-semibold text-slate-800">Questions about your data?</p>
+            <Link href="mailto:cmucbs@gmail.com" className="mt-2 inline-block text-sm font-medium text-[#004281] underline decoration-blue-200 underline-offset-4 hover:decoration-[#004281]">Contact our team</Link>
+          </div>
+        </aside>
+
+        <article className="min-w-0 rounded-2xl border border-slate-200 bg-white px-6 py-8 shadow-sm sm:px-10 sm:py-10 lg:px-12">
+          <div className="privacy-content">
+<p>This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.</p>
+<p>We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy. This Privacy Policy has been created with the help of the <a href="https://www.termsfeed.com/privacy-policy-generator/" target="_blank" rel="noopener noreferrer">Privacy Policy Generator</a>.</p>
+<h2 id="interpretation">Interpretation and Definitions</h2>
        
 <p>Last updated: January 25, 2025</p>
 <p>This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.</p>
@@ -53,7 +95,7 @@ export default function Index() {
 <p><strong>You</strong> means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.</p>
 </li>
 </ul>
-<h2>Collecting and Using Your Personal Data</h2>
+<h2 id="collection">Collecting and Using Your Personal Data</h2>
 <h3>Types of Data Collected</h3>
 <h4>Personal Data</h4>
 <p>While using Our Service, We may ask You to provide Us with certain personally identifiable information that can be used to contact or identify You. Personally identifiable information may include, but is not limited to:</p>
@@ -76,7 +118,7 @@ export default function Index() {
 <p>Usage Data may include information such as Your Device&apos;s Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data.</p>
 <p>When You access the Service by or through a mobile device, We may collect certain information automatically, including, but not limited to, the type of mobile device You use, Your mobile device unique ID, the IP address of Your mobile device, Your mobile operating system, the type of mobile Internet browser You use, unique device identifiers and other diagnostic data.</p>
 <p>We may also collect information that Your browser sends whenever You visit our Service or when You access the Service by or through a mobile device.</p>
-<h4>Tracking Technologies and Cookies</h4>
+<h4 id="cookies">Tracking Technologies and Cookies</h4>
 <p>We use Cookies and similar tracking technologies to track the activity on Our Service and store certain information. Tracking technologies used are beacons, tags, and scripts to collect and track information and to improve and analyze Our Service. The technologies We use may include:</p>
 <ul>
 <li><strong>Cookies or Browser Cookies.</strong> A cookie is a small file placed on Your Device. You can instruct Your browser to refuse all Cookies or to indicate when a Cookie is being sent. However, if You do not accept Cookies, You may not be able to use some parts of our Service. Unless you have adjusted Your browser setting so that it will refuse Cookies, our Service may use Cookies.</li>
@@ -105,7 +147,7 @@ export default function Index() {
 </li>
 </ul>
 <p>For more information about the cookies we use and your choices regarding cookies, please visit our Cookies Policy or the Cookies section of our Privacy Policy.</p>
-<h3>Use of Your Personal Data</h3>
+<h3 id="use-sharing">Use of Your Personal Data</h3>
 <p>The Company may use Personal Data for the following purposes:</p>
 <ul>
 <li>
@@ -142,19 +184,19 @@ export default function Index() {
 <li><strong>With other users:</strong> when You share personal information or otherwise interact in the public areas with other users, such information may be viewed by all users and may be publicly distributed outside.</li>
 <li><strong>With Your consent</strong>: We may disclose Your personal information for any other purpose with Your consent.</li>
 </ul>
-<h3>Retention of Your Personal Data</h3>
+<h3 id="retention">Retention of Your Personal Data</h3>
 <p>The Company will retain Your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use Your Personal Data to the extent necessary to comply with our legal obligations (for example, if we are required to retain your data to comply with applicable laws), resolve disputes, and enforce our legal agreements and policies.</p>
 <p>The Company will also retain Usage Data for internal analysis purposes. Usage Data is generally retained for a shorter period of time, except when this data is used to strengthen the security or to improve the functionality of Our Service, or We are legally obligated to retain this data for longer time periods.</p>
 <h3>Transfer of Your Personal Data</h3>
 <p>Your information, including Personal Data, is processed at the Company&apos;s operating offices and in any other places where the parties involved in the processing are located. It means that this information may be transferred to — and maintained on — computers located outside of Your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from Your jurisdiction.</p>
 <p>Your consent to this Privacy Policy followed by Your submission of such information represents Your agreement to that transfer.</p>
 <p>The Company will take all steps reasonably necessary to ensure that Your data is treated securely and in accordance with this Privacy Policy and no transfer of Your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of Your data and other personal information.</p>
-<h3>Delete Your Personal Data</h3>
+<h3 id="your-data">Delete Your Personal Data</h3>
 <p>You have the right to delete or request that We assist in deleting the Personal Data that We have collected about You.</p>
 <p>Our Service may give You the ability to delete certain information about You from within the Service.</p>
 <p>You may update, amend, or delete Your information at any time by signing in to Your Account, if you have one, and visiting the account settings section that allows you to manage Your personal information. You may also contact Us to request access to, correct, or delete any personal information that You have provided to Us.</p>
 <p>Please note, however, that We may need to retain certain information when we have a legal obligation or lawful basis to do so.</p>
-<h3>Disclosure of Your Personal Data</h3>
+<h3 id="disclosure">Disclosure of Your Personal Data</h3>
 <h4>Business Transactions</h4>
 <p>If the Company is involved in a merger, acquisition or asset sale, Your Personal Data may be transferred. We will provide notice before Your Personal Data is transferred and becomes subject to a different Privacy Policy.</p>
 <h4>Law enforcement</h4>
@@ -170,24 +212,24 @@ export default function Index() {
 </ul>
 <h3>Security of Your Personal Data</h3>
 <p>The security of Your Personal Data is important to Us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While We strive to use commercially acceptable means to protect Your Personal Data, We cannot guarantee its absolute security.</p>
-<h2>Children&apos;s Privacy</h2>
+<h2 id="children">Children&apos;s Privacy</h2>
 <p>Our Service does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under the age of 13. If You are a parent or guardian and You are aware that Your child has provided Us with Personal Data, please contact Us. If We become aware that We have collected Personal Data from anyone under the age of 13 without verification of parental consent, We take steps to remove that information from Our servers.</p>
 <p>If We need to rely on consent as a legal basis for processing Your information and Your country requires consent from a parent, We may require Your parent&apos;s consent before We collect and use that information.</p>
-<h2>Links to Other Websites</h2>
+<h2 id="third-party">Links to Other Websites</h2>
 <p>Our Service may contain links to other websites that are not operated by Us. If You click on a third party link, You will be directed to that third party&apos;s site. We strongly advise You to review the Privacy Policy of every site You visit.</p>
 <p>We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.</p>
-<h2>Changes to this Privacy Policy</h2>
+<h2 id="changes">Changes to this Privacy Policy</h2>
 <p>We may update Our Privacy Policy from time to time. We will notify You of any changes by posting the new Privacy Policy on this page.</p>
 <p>We will let You know via email and/or a prominent notice on Our Service, prior to the change becoming effective and update the &quot;Last updated&quot; date at the top of this Privacy Policy.</p>
 <p>You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
-<h2>Contact Us</h2>
+<h2 id="contact">Contact Us</h2>
 <p>If you have any questions about this Privacy Policy, You can contact us:</p>
 <ul>
 <li>By email: cmucbs@gmail.com</li>
 </ul>
-       
-
-
+          </div>
+        </article>
       </div>
+    </main>
   )
 }
